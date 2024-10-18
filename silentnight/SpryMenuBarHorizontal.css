@@ -20,7 +20,7 @@ ul.MenuBarHorizontal
 	cursor: default;
 	width: 820px;
 }
-/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
+/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: https://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
 ul.MenuBarActive
 {
 	z-index: 1000;

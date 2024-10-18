@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
@@ -20,7 +20,7 @@
     <div id="contentwrapper">
     	<div id="content"><!-- TemplateBeginEditable name="body" -->
     	  <p>Click on the icons to see other Canadian Anglicans singing “Amazing Grace.”</p>
-    	  <p>For more options, <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=100185334466557966841.00044b8c541830b097944&amp;ll=63.860036,-100.898437&amp;spn=40.81325,112.5&amp;z=3&amp;source=embed">open this map in a new window</a>.</p>
+    	  <p>For more options, <a href="https://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=100185334466557966841.00044b8c541830b097944&amp;ll=63.860036,-100.898437&amp;spn=40.81325,112.5&amp;z=3&amp;source=embed">open this map in a new window</a>.</p>
     	  <h2>Amazing Grace updates</h2>
     	  <p><em>Coming soon:</em> check up on how other Canadian Anglicans are preparing for November 23.</p>
     	  <h2>Background Stories</h2>
@@ -32,7 +32,7 @@
     	<!-- TemplateEndEditable --></div>
 <div id="footer">
     	  <p><strong>The Amazing Grace Project</strong>, an initiative of the Anglican Church of Canada<br />
-   	      <a href="http://www.anglican.ca/help/contentpolicy/">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.anglican.ca/help/info">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.anglican.ca/help/webmanager/">technical standards &amp; support</a></p>
+   	      <a href="https://www.anglican.ca/help/contentpolicy/">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.anglican.ca/help/info">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.anglican.ca/help/webmanager/">technical standards &amp; support</a></p>
    	  <p>© 2008 The General Synod of the Anglican Church of Canada</p>
     	</div>
     </div>

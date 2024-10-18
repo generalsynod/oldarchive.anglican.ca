@@ -31,5 +31,5 @@ a{
 
 a[href $='.pdf'] {
 	padding: 3px 18px 1px 0px;
-	background: url(http://archive.anglican.ca/common_images/page_white_acrobat.gif) bottom right no-repeat;
+	background: url(https://archive.anglican.ca/common_images/page_white_acrobat.gif) bottom right no-repeat;
 }

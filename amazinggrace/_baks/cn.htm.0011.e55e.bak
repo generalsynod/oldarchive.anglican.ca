@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/ag-about.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/ag-about.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- InstanceBeginEditable name="doctitle" -->
@@ -39,7 +39,7 @@
    	        Toronto Ontario M4Y 3G2 </strong></p>
   	    </blockquote>
     	  <p>Tax receipts will be issued for donations over $10. </p>
-    	  <ul><li>To learn more about the Council of the North, <a href="http://www.anglican.ca/cn">visit their website</a></li>
+    	  <ul><li>To learn more about the Council of the North, <a href="https://www.anglican.ca/cn">visit their website</a></li>
     	    <li><a href="/amazinggrace/ashdown.htm">Watch a message</a> from Bishop David Ashdown, chair of the Council of the North<br />
    	         <br />
    	        </li>
@@ -47,13 +47,13 @@
     	<!-- InstanceEndEditable --></div>
 <div id="footer">
     	  <p><strong>The Amazing Grace Project</strong>, a project of the Anglican Church of Canada<br />
-   	      <a href="http://www2.anglican.ca/search/contentpolicy.htm">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www2.anglican.ca/contact/info.htm">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www2.anglican.ca/contact/webmanager.htm">technical standards &amp; support</a></p>
+   	      <a href="https://www2.anglican.ca/search/contentpolicy.htm">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www2.anglican.ca/contact/info.htm">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www2.anglican.ca/contact/webmanager.htm">technical standards &amp; support</a></p>
     	  <p>© 2008 The General Synod of the Anglican Church of Canada</p>
     	</div>
     </div>
 </div>
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">

@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>The Silent Night Project</title>
@@ -18,9 +18,9 @@
 	<div id="textBody">
   <h1>The Silent Night Project</h1>
   <script type="text/javascript">
-AC_AX_RunContent( 'width','819','height','553','src','http://vimeo.com/moogaloop.swf?clip_id=2496126&server=vimeo.com&show_title=0&show_byline=0&show_portrait=1&color=00adef&fullscreen=1','type','application/x-shockwave-flash','allowfullscreen','true','allowscriptaccess','always','movie','http://vimeo.com/moogaloop.swf?clip_id=2496126&server=vimeo.com&show_title=0&show_byline=0&show_portrait=1&color=00adef&fullscreen=1' ); //end AC code
+AC_AX_RunContent( 'width','819','height','553','src','https://vimeo.com/moogaloop.swf?clip_id=2496126&server=vimeo.com&show_title=0&show_byline=0&show_portrait=1&color=00adef&fullscreen=1','type','application/x-shockwave-flash','allowfullscreen','true','allowscriptaccess','always','movie','https://vimeo.com/moogaloop.swf?clip_id=2496126&server=vimeo.com&show_title=0&show_byline=0&show_portrait=1&color=00adef&fullscreen=1' ); //end AC code
 </script><noscript><object width="819" height="553">
-  <param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=2496126&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=2496126&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="819" height="553"></embed></object></noscript><p class="caption">A 10-minute compilation documentary of  "Amazing Grace" videos from across Canada. Over 500 videos were sent in, and this video includes segments from all received by Dec. 1, 2008. </p>
+  <param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="https://vimeo.com/moogaloop.swf?clip_id=2496126&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1" /><embed src="https://vimeo.com/moogaloop.swf?clip_id=2496126&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="819" height="553"></embed></object></noscript><p class="caption">A 10-minute compilation documentary of  "Amazing Grace" videos from across Canada. Over 500 videos were sent in, and this video includes segments from all received by Dec. 1, 2008. </p>
   <h2><em><strong>Out of Amazing Grace, a Silent Night</strong></em></h2>
   <p>Christmas came early as members of the 2010 General Synod raised their voices June 8 to sing the carol “Silent Night.” Their heartfelt performance launched the <strong>Silent Night Project: Anglicans promote peace in the spirit of Amazing Grace</strong>.</p>
   <p>Just like the 2008 <a href="/amazinggrace">Amazing Grace Project</a>, all are invited to record themselves singing “Silent Night” and send it to the Anglican Church of Canada national office by December 14. All videos will be included in a documentary, which will be posted online by Christmas 2010.</p>
@@ -41,12 +41,12 @@ AC_AX_RunContent( 'width','819','height','553','src','http://vimeo.com/moogaloop
 	.mc-field-group {overflow:visible;}
 </style>
 <![endif]-->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
-<script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.validate.js"></script>
-<script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="https://downloads.mailchimp.com/js/jquery.validate.js"></script>
+<script type="text/javascript" src="https://downloads.mailchimp.com/js/jquery.form.js"></script>
 
 <div id="mc_embed_signup">
-<form action="http://anglican.us1.list-manage.com/subscribe/post?u=470d9d9712d3db6351b6bc92e&amp;id=8cf8bf43b4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="font: normal 100% Arial, sans-serif;font-size: 10px;">
+<form action="https://anglican.us1.list-manage.com/subscribe/post?u=470d9d9712d3db6351b6bc92e&amp;id=8cf8bf43b4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="font: normal 100% Arial, sans-serif;font-size: 10px;">
 	<fieldset style="-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;border: 1px solid #ccc;padding-top: 1.5em;margin: .5em 0;background-color: #fff;color: #000;">
 	<legend style="text-transform: capitalize;font-weight: bold;color: #000;background: #fff;padding: .5em 1em;border: 1px solid #ccc;-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;font-size: 1.2em;">Join the Silent Night Project email announcement list</legend>
 <div class="indicate-required" style="text-align: right;font-style: italic;overflow: hidden;color: #000;margin: 0 9% 0 0;">* indicates required</div>
@@ -75,7 +75,7 @@ var mce_jQuery = jQuery.noConflict();
 mce_jQuery(document).ready( function($) {
   var options = { errorClass: 'mce_inline_error', errorElement: 'div', errorStyle: err_style, onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
   var mce_validator = mce_jQuery("#mc-embedded-subscribe-form").validate(options);
-  options = { url: 'http://anglican.us1.list-manage.com/subscribe/post-json?u=470d9d9712d3db6351b6bc92e&id=8cf8bf43b4&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+  options = { url: 'https://anglican.us1.list-manage.com/subscribe/post-json?u=470d9d9712d3db6351b6bc92e&id=8cf8bf43b4&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
                 beforeSubmit: function(){
                     mce_jQuery('#mce_tmp_error_msg').remove();
                     mce_jQuery('.datefield','#mc_embed_signup').each(

@@ -3,7 +3,7 @@
 #bottomFooter {
 	overflow: hidden;
 	padding: 15px 15px;
-	background-image: url(http://archive.anglican.ca/2010/images/footerbg.png);
+	background-image: url(https://archive.anglican.ca/2010/images/footerbg.png);
 	background-repeat: repeat-x;
 	background-color: #fff;
 }
@@ -13,7 +13,7 @@
 	padding: 0px;
 }
 .bottomFooterACC {
-	background-image: url(http://archive.anglican.ca/2010/bottomFooter/img/bottomFooterAngCommunion.gif);
+	background-image: url(https://archive.anglican.ca/2010/bottomFooter/img/bottomFooterAngCommunion.gif);
 	background-position: right;
 	background-repeat: no-repeat;
 }

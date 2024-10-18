@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
@@ -48,11 +48,11 @@ function selfURL() { $s = empty($_SERVER["HTTPS"]) ? '' : ($_SERVER["HTTPS"] == 
             	  
             	  <h1><!-- TemplateBeginEditable name="TITLE" -->Anglican delegation attends Prime Minister's apology to former residential school students, June 11, 2008<!-- TemplateEndEditable --></h1>
                   
-                  <!-- TemplateBeginEditable name="BODY" --><p><object width='585' height='585'><param name='movie' value='http://www.slideflickr.com/slide/T3Sy66hc'></param><param name='wmode' value='transparent'></param><embed src='http://www.slideflickr.com/slide/T3Sy66hc' type='application/x-shockwave-flash' wmode='transparent' width='585' height='585'></embed></object>
+                  <!-- TemplateBeginEditable name="BODY" --><p><object width='585' height='585'><param name='movie' value='https://www.slideflickr.com/slide/T3Sy66hc'></param><param name='wmode' value='transparent'></param><embed src='https://www.slideflickr.com/slide/T3Sy66hc' type='application/x-shockwave-flash' wmode='transparent' width='585' height='585'></embed></object>
                   </p>
 <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Links" --><h2>Links:</h2>
                   <ul>
-                    <li>Related story: <a href="http://www.anglican.ca/news/news.php?newsItem=2008-06-17_rs.news">Video captures Anglican responses to Prime Minister's apology</a>.</li>
+                    <li>Related story: <a href="https://www.anglican.ca/news/news.php?newsItem=2008-06-17_rs.news">Video captures Anglican responses to Prime Minister's apology</a>.</li>
                     <li>Video: <a href="/multimedia/2008-06-17_video.htm">Canadian Anglican delegation attends PM's residential schools apology</a>.</li>
                   </ul><!-- TemplateEndEditable -->
 </div>
@@ -78,7 +78,7 @@ function selfURL() { $s = empty($_SERVER["HTTPS"]) ? '' : ($_SERVER["HTTPS"] == 
 		  </div></div></div></div>
 <!-- GOOGLE ANALYTICS -->
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">

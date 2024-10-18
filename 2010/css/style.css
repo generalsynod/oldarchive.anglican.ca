@@ -1,9 +1,9 @@
 /* 
 Theme Name: Skeleton
-Theme URI: http://themehybrid.com/themes/skeleton
+Theme URI: https://themehybrid.com/themes/skeleton
 Description: A blank child of the Hybrid theme framework representing the visual hierarchy of Hybrid with designers in mind.
 Author: Justin Tadlock
-Author URI: http://justintadlock.com
+Author URI: https://justintadlock.com
 Version: 0.1.1
 Tags: Framework
 Template: hybrid
@@ -42,7 +42,7 @@ body {
 	font-size: 62.5%;
 	line-height: 2.4em;
 	background-color: #eee;
-	background-image: url(http://archive.anglican.ca/2010/images/bg-shadow.gif);
+	background-image: url(https://archive.anglican.ca/2010/images/bg-shadow.gif);
 	background-repeat: repeat-y;
 	background-position: center;
 }
@@ -325,7 +325,7 @@ img.wp-smiley {}
 #container {
 	position: relative;
 	overflow: hidden;
-	background: #fff url(http://archive.anglican.ca/2010/images/bg.gif) repeat-y center;
+	background: #fff url(https://archive.anglican.ca/2010/images/bg.gif) repeat-y center;
 }
 
 	/**

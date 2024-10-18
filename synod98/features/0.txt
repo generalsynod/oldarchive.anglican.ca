@@ -18,7 +18,7 @@ ____________________________________
 Welcome to your first issue of Perspectives, an interactive nightly newsletter companion to our full electronic coverage of the General Synod.
 It's my hope that Perspectives will add to our extensive news coverage by helping bring you the colour, fun, and emotion of the Synod and host diocese.
 
-A very important part of our coverage is the Synod98 Live! web site.  You can find it at http://www.anglican.ca/synod98/  The site will be updated several times throughout the day with news, live images from the Synod, and -- if we can pull it off -- a nightly radio show via RealAudio!  Be sure to drop by the site, bookmark it, and return each day.
+A very important part of our coverage is the Synod98 Live! web site.  You can find it at https://www.anglican.ca/synod98/  The site will be updated several times throughout the day with news, live images from the Synod, and -- if we can pull it off -- a nightly radio show via RealAudio!  Be sure to drop by the site, bookmark it, and return each day.
 
 As you are reading this, across the first Synod members are arriving in Montreal from across Canada.  That's why I'm starting with an "Issue 0" -- published one day before the General Synod actually starts.  This way, you can get familiar with the various sections of Perspectives before it officially gets underway Thursday.
 
@@ -52,7 +52,7 @@ So, now that you know how it works, let's get started shall we?  <grin>
 ____________________________________
         d i d    y o u    k n o w  ?
 
-With more than a half million subscribers, the Anglican Journal is Canada's second largest newspaper.  The only newspaper with a larger circulation base is the Globe and Mail.  The Journal is now available on the web at http://www.anglican.ca
+With more than a half million subscribers, the Anglican Journal is Canada's second largest newspaper.  The only newspaper with a larger circulation base is the Globe and Mail.  The Journal is now available on the web at https://www.anglican.ca
 
 
 ____________________________________
@@ -100,7 +100,7 @@ LEGAL STUFF: You are encouraged to distribute this text to people known to you, 
       electronic news coordinator
       general synod 1998 - may 21-29 montreal
       anglican church of canada
-      http://www.anglican.ca/synod98/
+      https://www.anglican.ca/synod98/
 
 
 

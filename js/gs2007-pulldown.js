@@ -1,6 +1,6 @@
 // JavaScript Document
 //SuckerTree Vertical Menu (Aug 4th, 06)
-//By Dynamic Drive: http://www.dynamicdrive.com/style/
+//By Dynamic Drive: https://www.dynamicdrive.com/style/
 
 var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
 

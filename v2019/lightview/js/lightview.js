@@ -1,11 +1,11 @@
 //  Lightview 2.4.0.4 - 21-12-2008
-//  Copyright (c) 2008 Nick Stakenburg (http://www.nickstakenburg.com)
+//  Copyright (c) 2008 Nick Stakenburg (https://www.nickstakenburg.com)
 //
 //  Licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 Unported License
-//  http://creativecommons.org/licenses/by-nc-nd/3.0/
+//  https://creativecommons.org/licenses/by-nc-nd/3.0/
 
 //  More information on this project:
-//  http://www.nickstakenburg.com/projects/lightview/
+//  https://www.nickstakenburg.com/projects/lightview/
 
 var Lightview = {
   Version: '2.4.0.4',
@@ -124,8 +124,8 @@ var Lightview = {
     flash: 'clsid:D27CDB6E-AE6D-11cf-96B8-444553540000'
   },
   codebases: {
-    quicktime: 'http://www.apple.com/qtactivex/qtplugin.cab#version=7,5,5,0',
-    flash: 'http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0'
+    quicktime: 'https://www.apple.com/qtactivex/qtplugin.cab#version=7,5,5,0',
+    flash: 'https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0'
   },
   errors: {
     requiresPlugin: "<div class='message'> The content your are attempting to view requires the <span class='type'>#{type}</span> plugin.</div><div class='pluginspage'><p>Please download and install the required plugin from:</p><a href='#{pluginspage}' target='_blank'>#{pluginspage}</a></div>"
@@ -135,8 +135,8 @@ var Lightview = {
     flash: 'application/x-shockwave-flash'
   },
   pluginspages: {
-    quicktime: 'http://www.apple.com/quicktime/download',
-    flash: 'http://www.adobe.com/go/getflashplayer'
+    quicktime: 'https://www.apple.com/quicktime/download',
+    flash: 'https://www.adobe.com/go/getflashplayer'
   },
   // used with auto detection
   typeExtensions: {

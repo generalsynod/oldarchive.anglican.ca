@@ -1,6 +1,6 @@
 /*******************************************
  * Kaosweaver Expert Breadcrumbs           *
- * by Paul Davis http://www.kaosweaver.com * 
+ * by Paul Davis https://www.kaosweaver.com * 
  * Copyright 2003 all rights reserved      *
  *******************************************/
 var KW_uTitle=document.title

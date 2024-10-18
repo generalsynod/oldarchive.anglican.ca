@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+<?xml version="1.0" encoding="UTF-8"?><rsd version="1.0" xmlns="https://archipelago.phrasewise.com/rsd">
   <service>
     <engineName>WordPress</engineName>
-    <engineLink>http://wordpress.org/</engineLink>
-    <homePageLink>http://www.anglican.ca/lent2014</homePageLink>
+    <engineLink>https://wordpress.org/</engineLink>
+    <homePageLink>https://www.anglican.ca/lent2014</homePageLink>
     <apis>
-      <api name="WordPress" blogID="1" preferred="true" apiLink="http://www.anglican.ca/lent2014/xmlrpc.php" />
-      <api name="Movable Type" blogID="1" preferred="false" apiLink="http://www.anglican.ca/lent2014/xmlrpc.php" />
-      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://www.anglican.ca/lent2014/xmlrpc.php" />
-      <api name="Blogger" blogID="1" preferred="false" apiLink="http://www.anglican.ca/lent2014/xmlrpc.php" />
+      <api name="WordPress" blogID="1" preferred="true" apiLink="https://www.anglican.ca/lent2014/xmlrpc.php" />
+      <api name="Movable Type" blogID="1" preferred="false" apiLink="https://www.anglican.ca/lent2014/xmlrpc.php" />
+      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://www.anglican.ca/lent2014/xmlrpc.php" />
+      <api name="Blogger" blogID="1" preferred="false" apiLink="https://www.anglican.ca/lent2014/xmlrpc.php" />
           </apis>
   </service>
 </rsd>

@@ -12,14 +12,14 @@
 //
 &homeText=<font color="#FFFFFF" size="14" FACE="Arial"><p>In this episode of +Andrew: Conversations with the Primate, Archbishop Andrew Hutchison discusses the pressing issue of HIV/AIDS, including the work of the Primate's World Relief and Development Fund's program "Partnership for Life: A World Without AIDS".</p>
 <ul>
-  <li><u><a href="http://www.partnershipforlife.ca/" target="_blank">PWRDF site: Partnership for Life: A World Without AIDS</a></u></li>
+  <li><u><a href="https://www.partnershipforlife.ca/" target="_blank">PWRDF site: Partnership for Life: A World Without AIDS</a></u></li>
 </ul></font>&
 //
 //
 &story1vText=<FONT FACE="Arial" SIZE="14"><p>Archbishop Hutchison discusses the impact of HIV/AIDS over the past quarter century, the response of governments around the world to the pandemic, and the church's role in fundraising and advocacy.</p>
 <p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
 <ul>
-  <li><u><a href="http://www.partnershipforlife.ca/" target="_blank">PWRDF site: Partnership for Life: A World Without AIDS</a></u></li>
+  <li><u><a href="https://www.partnershipforlife.ca/" target="_blank">PWRDF site: Partnership for Life: A World Without AIDS</a></u></li>
 </ul></font>&
 //
 //
@@ -29,10 +29,10 @@
 &story3vText=<FONT FACE="Arial" SIZE="14"><p>Archbishop Hutchison introduces an audio/visual display produced by PWRDF and Anglican Video <em>Facing AIDS, Facing Reality</em> launched this summer at the International AIDS conference in Toronto.  The display will travel across the country before coming to next year's General Synod in arriving in Winnipeg Man</p>
 <p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
 <ul>
-  <li><u><a href="http://www.aids2006.org/start.aspx" target="_blank">International AIDS Conference 2006</a></u></li>
-  <li><u><a href="http://www.e-alliance.ch/iac06_preconf.jsp" target="_blank">Ecumenical pre-conference</a></u></li>
-    <li><u><a href="http://www.anglican.ca/news/news.php?newsItem=2006-08-17_a.fyi" target="_blank">PWRDF / Anglican Journal coverage of the International AIDS Conference</a></u></li>
-	  <li><u><a href="http://www.partnershipforlife.ca/act/education/photo-exhibit/" target="_blank">Facing AIDS, Facing Reality display information - PWRDF</a></u></li>
+  <li><u><a href="https://www.aids2006.org/start.aspx" target="_blank">International AIDS Conference 2006</a></u></li>
+  <li><u><a href="https://www.e-alliance.ch/iac06_preconf.jsp" target="_blank">Ecumenical pre-conference</a></u></li>
+    <li><u><a href="https://www.anglican.ca/news/news.php?newsItem=2006-08-17_a.fyi" target="_blank">PWRDF / Anglican Journal coverage of the International AIDS Conference</a></u></li>
+	  <li><u><a href="https://www.partnershipforlife.ca/act/education/photo-exhibit/" target="_blank">Facing AIDS, Facing Reality display information - PWRDF</a></u></li>
 </ul></font>&
 //
 //

@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/ag-about.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/ag-about.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- InstanceBeginEditable name="doctitle" -->
@@ -21,9 +21,9 @@
     	<div id="content"><!-- InstanceBeginEditable name="body" -->
     	  <h1 align="left">Amazing Together</h1>
     	  <p>Watch the 10-minute compilation documentary of  &quot;Amazing Grace&quot; videos from across Canada. Over 500 videos were sent in, and this video includes segments from all received by Dec. 1, 2008.    	  </p>
-    	  <p><object width="640" height="432"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=2496126&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=2496126&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="640" height="432"></embed></object>
+    	  <p><object width="640" height="432"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="https://vimeo.com/moogaloop.swf?clip_id=2496126&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1" /><embed src="https://vimeo.com/moogaloop.swf?clip_id=2496126&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="640" height="432"></embed></object>
     	  </p>
-   	    <p>Watch this video on <a href="http://www.youtube.com/watch?v=gW4bZvawVQc">YouTube</a>, <a href="http://www.vimeo.com/2496126">Vimeo</a>, or Facebook. <a href="http://www.vimeo.com/download/video:86643220?e=1229357940&amp;h=effc68ddfb1cfe1019481ba58a1134f6&amp;uh=fa532c2d498e01f8b6e89f38e3b90cc6">Download this video from Vimeo</a> (DIVX format).</p>
+   	    <p>Watch this video on <a href="https://www.youtube.com/watch?v=gW4bZvawVQc">YouTube</a>, <a href="https://www.vimeo.com/2496126">Vimeo</a>, or Facebook. <a href="https://www.vimeo.com/download/video:86643220?e=1229357940&amp;h=effc68ddfb1cfe1019481ba58a1134f6&amp;uh=fa532c2d498e01f8b6e89f38e3b90cc6">Download this video from Vimeo</a> (DIVX format).</p>
    	    <h2><strong><a name="story" id="story"></a>From panic to inspiration: the story behind the video</strong></h2>
         <p><strong>Lisa Barry<br />
         Senior Producer, Anglican Video</strong></p>
@@ -45,18 +45,18 @@ var idcomments_post_id;
 var idcomments_post_url;
 </script>
 <span id="IDCommentsPostTitle" style="display:none"></span>
-<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script></p>
-<p><strong>Disclaimer:</strong> Comments are powered by IntenseDebate, a third party service. Here is their <a href="http://automattic.com/privacy/">privacy policy</a>. Have feedback on this commenting system or want to suggest a better way to do this? <a href="http://www.anglican.ca/contact/webmanager.htm">Let us know</a>.</p>
+<script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script></p>
+<p><strong>Disclaimer:</strong> Comments are powered by IntenseDebate, a third party service. Here is their <a href="https://automattic.com/privacy/">privacy policy</a>. Have feedback on this commenting system or want to suggest a better way to do this? <a href="https://www.anglican.ca/contact/webmanager.htm">Let us know</a>.</p>
     	<!-- InstanceEndEditable --></div>
 <div id="footer">
     	  <p><strong>The Amazing Grace Project</strong>, a project of the Anglican Church of Canada<br />
-   	      <a href="http://www2.anglican.ca/search/contentpolicy.htm">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www2.anglican.ca/contact/info.htm">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www2.anglican.ca/contact/webmanager.htm">technical standards &amp; support</a></p>
+   	      <a href="https://www2.anglican.ca/search/contentpolicy.htm">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www2.anglican.ca/contact/info.htm">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www2.anglican.ca/contact/webmanager.htm">technical standards &amp; support</a></p>
     	  <p>© 2008 The General Synod of the Anglican Church of Canada</p>
     	</div>
     </div>
 </div>
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">

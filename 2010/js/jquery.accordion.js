@@ -3,11 +3,11 @@
  * 
  * Copyright (c) 2007 Jörn Zaefferer
  *
- * http://docs.jquery.com/UI/Accordion
+ * https://docs.jquery.com/UI/Accordion
  *
  * Dual licensed under the MIT and GPL licenses:
- *   http://www.opensource.org/licenses/mit-license.php
- *   http://www.gnu.org/licenses/gpl.html
+ *   https://www.opensource.org/licenses/mit-license.php
+ *   https://www.gnu.org/licenses/gpl.html
  *
  * Revision: $Id: jquery.accordion.js 4876 2008-03-08 11:49:04Z joern.zaefferer $
  *

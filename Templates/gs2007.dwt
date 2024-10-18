@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <!-- TemplateBeginEditable name="doctitle" -->
@@ -76,7 +76,7 @@ function MM_CheckFlashVersion(reqVerStr,msg){
   
       if (flashVer < reqVer){
         if (confirm(msg))
-          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+          window.location = "https://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
       }
     }
   } 
@@ -100,11 +100,11 @@ function MM_CheckFlashVersion(reqVerStr,msg){
   <p>General Synod 2007 will be held in Winnipeg Manitoba from June 19th to the 25, 2007.</p>
   <p>Information on General Synod will be placed on this website as it becomes available.</p>
   <p>For more information, contact General Synod planning:</p>
-  <p><strong>Ven. Michael Pollesel</strong>, ext. 280, <a href="http://generalsynod.anglican.ca/ministries/departments/staff_email.php?id=172">e-mail</a><br />
+  <p><strong>Ven. Michael Pollesel</strong>, ext. 280, <a href="https://generalsynod.anglican.ca/ministries/departments/staff_email.php?id=172">e-mail</a><br />
     General Secretary</p>
-  <p><strong>Ms. Margaret Shawyer</strong>, ext. 214, <a href="http://generalsynod.anglican.ca/ministries/departments/staff_email.php?id=36">e-mail</a><br />
+  <p><strong>Ms. Margaret Shawyer</strong>, ext. 214, <a href="https://generalsynod.anglican.ca/ministries/departments/staff_email.php?id=36">e-mail</a><br />
     Co-ordinator General Synod Planning</p>
-  <p><strong>Ms. Dianne Izzard</strong>, ext. 275, <a href="http://generalsynod.anglican.ca/ministries/departments/staff_email.php?id=34">e-mail</a><br />
+  <p><strong>Ms. Dianne Izzard</strong>, ext. 275, <a href="https://generalsynod.anglican.ca/ministries/departments/staff_email.php?id=34">e-mail</a><br />
     Assistant to the Coordinator, General Synod Planning</p>
   <!-- TemplateEndEditable -->
   <p>&nbsp;</p>
@@ -115,7 +115,7 @@ function MM_CheckFlashVersion(reqVerStr,msg){
   <!-- TemplateEndEditable --><br />
     &copy; 1998-2006 the General Synod of the Anglican Church of Canada<br />
   <span class="printonly">The content on this website is for informational purposes only. In case of a discrepancy between the content of this website and printed material produced by General Synod, the printed version is to be considered correct.</span>
-  <span class="noprint"><a href="http://www.anglican.ca/search/contentpolicy.htm">website content policy</a> | <a href="http://www.anglican.ca/search/contact-info.htm">information desk</a> | <a href="http://www.anglican.ca/search/contact-wm.htm">technical support</a></span></p>
+  <span class="noprint"><a href="https://www.anglican.ca/search/contentpolicy.htm">website content policy</a> | <a href="https://www.anglican.ca/search/contact-info.htm">information desk</a> | <a href="https://www.anglican.ca/search/contact-wm.htm">technical support</a></span></p>
   <p class="footerblack"><strong>The Anglican Church of Canada</strong><br />
     80 Hayden Street<br />
     Toronto, Ontario M4Y 3G2<br />

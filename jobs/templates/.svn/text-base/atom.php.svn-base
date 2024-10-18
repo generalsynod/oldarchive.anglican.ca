@@ -2,15 +2,15 @@
 header("Content-type: text/xml");
 echo '<?xml version="1.0" encoding="UTF-8" ?>';
 ?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 	<title><?= FEED_TITLE ?></title>
 	<subtitle><?= FEED_DESCRIPTION ?></subtitle>
-	<link href="http://<?= $_SERVER['SERVER_NAME'] ?>"/>
+	<link href="https://<?= $_SERVER['SERVER_NAME'] ?>"/>
 	<updated><?= str_replace("00~", ":00", date("Y-m-d\TH:i:sO~")) ?></updated>
  	<author>
    		<name><?= $_SERVER['SERVER_NAME'] ?></name>
    		<email><?= ADMIN_EMAIL ?></email>
  	</author>
- 	<id>http://<?= $_SERVER['SERVER_NAME'] ?></id>
+ 	<id>https://<?= $_SERVER['SERVER_NAME'] ?></id>
 	<?= $theView ?>
 </feed>

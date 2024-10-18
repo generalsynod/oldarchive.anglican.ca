@@ -17,20 +17,20 @@
 //
 //
 &story2vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><P ALIGN="LEFT">Archbishop Hutchison makes a special request during each diocean visit to have at least one event with young people.  In this segment, he describes a visit to Split Lake, Man., during which he asked the Bishop of Keewatin met with more than 170 young people.</p><p>Links:</P><ul>
-  <li><u><a href="http://www.anglican.ca/about/committees/CN/index.htm" target="_blank">Council of the North</a></u></li>
+  <li><u><a href="https://www.anglican.ca/about/committees/CN/index.htm" target="_blank">Council of the North</a></u></li>
 </ul></font>&
 //
 //
-&story3vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><P ALIGN="LEFT">Over the last year, Archbishop Hutchison worked at developing a Primate's Youth Network across the country. Using some money raised at a Primate's dinner last year, an online website for young Anglicans -- <u><a href="http://generation.anglican.ca" target="_blank">generation.anglican.ca</a></u> -- and a youth coordinator staff position have been created.</p><p>In the first part of this episode, Archbishop Hutchison describes the development of the  website, and introduces a blog he is contributing to the site.</p><p>In the second part, Brian Bukowski, web manager of the Anglican Church of Canada describes in more detail some of the features of <u><a href="http://generation.anglican.ca" target="_blank">generation.anglican.ca</a></u>.</p>
+&story3vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><P ALIGN="LEFT">Over the last year, Archbishop Hutchison worked at developing a Primate's Youth Network across the country. Using some money raised at a Primate's dinner last year, an online website for young Anglicans -- <u><a href="https://generation.anglican.ca" target="_blank">generation.anglican.ca</a></u> -- and a youth coordinator staff position have been created.</p><p>In the first part of this episode, Archbishop Hutchison describes the development of the  website, and introduces a blog he is contributing to the site.</p><p>In the second part, Brian Bukowski, web manager of the Anglican Church of Canada describes in more detail some of the features of <u><a href="https://generation.anglican.ca" target="_blank">generation.anglican.ca</a></u>.</p>
 <p>Links:</P><ul>
-  <li><u><a href="http://generation.anglican.ca" target="_blank">generation.anglican.ca</a></u></li>
-  <li><u><a href="http://www.anglican.ca/primate/writing/index.htm" target="_blank">Archbishop Hutchison's blogs on generation.anglican.ca</a></u></li>
+  <li><u><a href="https://generation.anglican.ca" target="_blank">generation.anglican.ca</a></u></li>
+  <li><u><a href="https://www.anglican.ca/primate/writing/index.htm" target="_blank">Archbishop Hutchison's blogs on generation.anglican.ca</a></u></li>
   <li><u><A HREF="/primate/hutchison/communications/youth/judy.htm" target="_blank">Audio blog from Judy Steers on the development of generation.anglican.ca</A>
 </ul></font>&
 //
 //
 &story4vText=<FONT FACE="Arial" SIZE="12" COLOR="#000000"><FONT FACE="Arial" SIZE="14" COLOR="#000000"><P ALIGN="LEFT">In this segment, Archbishop Hutchison describes the work of the Ask and Imagine youth program, and how funding for ministry with young people came from the Primate's dinner </p><p>Links:</P><ul>
-  <li><u><a href="http://www.askandimagine.org/" target="_blank">Ask and Imagine</a></li>
+  <li><u><a href="https://www.askandimagine.org/" target="_blank">Ask and Imagine</a></li>
 </ul></font>&
 //
 //

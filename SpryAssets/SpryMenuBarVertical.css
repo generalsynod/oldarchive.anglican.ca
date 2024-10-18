@@ -19,7 +19,7 @@ ul.MenuBarVertical
 	font-size: 100%;
 	cursor: default;
 }
-/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
+/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: https://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
 ul.MenuBarActive
 {
 	z-index: 1000;
@@ -114,7 +114,7 @@ ul.MenuBarVertical a.MenuBarItemHover, ul.MenuBarVertical a.MenuBarItemSubmenuHo
 /* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
 ul.MenuBarVertical a.MenuBarItemSubmenu
 {
-	background-image: url(http://archive.anglican.ca/SpryAssets/SpryMenuBarRight.gif);
+	background-image: url(https://archive.anglican.ca/SpryAssets/SpryMenuBarRight.gif);
 	background-repeat: no-repeat;
 	background-position: 95% 50%;
 	width: 139px;
@@ -123,7 +123,7 @@ ul.MenuBarVertical a.MenuBarItemSubmenu
 /* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
 ul.MenuBarVertical a.MenuBarItemSubmenuHover
 {
-	background-image: url(http://archive.anglican.ca/SpryAssets/SpryMenuBarRightHover.gif);
+	background-image: url(https://archive.anglican.ca/SpryAssets/SpryMenuBarRightHover.gif);
 	background-repeat: no-repeat;
 	background-position: 95% 50%;
 }

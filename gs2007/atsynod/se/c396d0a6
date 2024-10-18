@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/gs2007.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/gs2007.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <!-- InstanceBeginEditable name="doctitle" -->
@@ -15,7 +15,7 @@
 <script type="text/javascript">
 <!--
 //SuckerTree Vertical Menu (Aug 4th, 06)
-//By Dynamic Drive: http://www.dynamicdrive.com/style/
+//By Dynamic Drive: https://www.dynamicdrive.com/style/
 
 var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
 
@@ -55,7 +55,7 @@ MM_reloadPage(true);
 </head>
 
 <body>
-<div id="Layer1"> <a href="http://www.anglican.ca/search/contactus.htm">our address / staff directory</a> | <a href="http://www.anglican.ca/search/sitemap.htm">site map</a> | <a href="http://www.anglican.ca/search/index.htm">search</a></div>
+<div id="Layer1"> <a href="https://www.anglican.ca/search/contactus.htm">our address / staff directory</a> | <a href="https://www.anglican.ca/search/sitemap.htm">site map</a> | <a href="https://www.anglican.ca/search/index.htm">search</a></div>
 <div id="Layer2">
   <div id="suckerdiv">
   <ul id="suckertree1">
@@ -128,16 +128,16 @@ MM_reloadPage(true);
   <!-- InstanceEndEditable --><br />
     &copy; 1998-2006 the General Synod of the Anglican Church of Canada<br />
   <span class="printonly">The content on this website is for informational purposes only. In case of a discrepancy between the content of this website and printed material produced by General Synod, the printed version is to be considered correct.</span>
-  <span class="noprint"><a href="http://www.anglican.ca/search/contentpolicy.htm">website content policy</a> | <a href="xghttp://www.anglican.ca/search/contact-info.htm">information desk</a> | <a href="xhttp://www.anglican.ca/search/contact-wm.htm">technical support</a></span></p>
+  <span class="noprint"><a href="https://www.anglican.ca/search/contentpolicy.htm">website content policy</a> | <a href="xghttps://www.anglican.ca/search/contact-info.htm">information desk</a> | <a href="xhttps://www.anglican.ca/search/contact-wm.htm">technical support</a></span></p>
   <p class="footerblack"><strong>The Anglican Church of Canada</strong><br />
     80 Hayden Street<br />
     Toronto, Ontario M4Y 3G2<br />
   Main switchboard: 416-924-9192</p>
 </div>
 <div id="logotop"><a href="/gs2007/index.htm"><img src="/gs2007/images/logo.gif" alt="General Synod 2007" width="230" height="75" border="0" /></a></div>
-<div id="topbar"><a href="http://www.anglican.ca/"><img src="/gs2007/images/acc130.gif" alt="Anglican Church of Canada" width="230" height="15" border="0" /></a></div>
+<div id="topbar"><a href="https://www.anglican.ca/"><img src="/gs2007/images/acc130.gif" alt="Anglican Church of Canada" width="230" height="15" border="0" /></a></div>
  
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript">
 </script>
 <script type="text/javascript">
 _uacct = "UA-191686-3";

@@ -19,15 +19,15 @@
 &story2vText=<FONT FACE="Arial" SIZE="14"><p>In this segment Archbishop Hutchison reflects on a recent trip to the Diocese of Yukon and his visit to Pelly Crossing and its parish priest the Rev. Walter Majula.</p>
 <p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
 <ul>
-  <li><u><a href="http://yukon.anglican.ca" target="_blank">Diocese of the Yukon</a></u></li></ul></font>&
+  <li><u><a href="https://yukon.anglican.ca" target="_blank">Diocese of the Yukon</a></u></li></ul></font>&
 //
 //
 &story3vText=<FONT FACE="Arial" SIZE="14"><p>In Fort Smith in the diocese of the Arctic, the Canadian Primate met local parish members and the diocesan executive committee.  This parish and many other congregations in the dioceses are expanding, working with the Council of the North and the Anglican Foundation to improve and enhance ministry in the North.</p>
 <p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
 <ul>
-  <li><u><a href="http://arctic.anglican.ca" target="_blank">Diocese of The Arctic</a></u></li>
-  <li><u><a href="http://www.anglican.ca/about/committees/CN/index.htm" target="_blank">Council of the North</a></u></li>
-  <li><u><a href="http://www.anglicanfoundation.org" target="_blank">Anglican Foundation</a></u></li>
+  <li><u><a href="https://arctic.anglican.ca" target="_blank">Diocese of The Arctic</a></u></li>
+  <li><u><a href="https://www.anglican.ca/about/committees/CN/index.htm" target="_blank">Council of the North</a></u></li>
+  <li><u><a href="https://www.anglicanfoundation.org" target="_blank">Anglican Foundation</a></u></li>
   </ul></font>&
 //
 //
@@ -37,6 +37,6 @@
 &story5vText=<FONT FACE="Arial" SIZE="14"><p>"The care, the love, the power of God, is made known to those with AIDS."</p>
 <p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
 <ul>
-  <li><u><a href="http://www.anglican.ca/about/committees/CN/index.htm" target="_blank">Council of the North</a></u></li></ul></font>&
+  <li><u><a href="https://www.anglican.ca/about/committees/CN/index.htm" target="_blank">Council of the North</a></u></li></ul></font>&
 //
 //

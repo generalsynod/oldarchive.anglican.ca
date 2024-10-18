@@ -15,9 +15,9 @@
 /*! 
 * FitVids 1.0
 *
-* Copyright 2011, Chris Coyier - http://css-tricks.com + Dave Rupert - http://daverupert.com
-* Credit to Thierry Koblentz - http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
-* Released under the WTFPL license - http://sam.zoy.org/wtfpl/
+* Copyright 2011, Chris Coyier - https://css-tricks.com + Dave Rupert - https://daverupert.com
+* Credit to Thierry Koblentz - https://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
+* Released under the WTFPL license - https://sam.zoy.org/wtfpl/
 *
 * Date: Thu Sept 01 18:00:00 2011 -0500
 */
@@ -59,9 +59,9 @@
     
     return this.each(function(){
       var selectors = [
-        "iframe[src^='http://player.vimeo.com']", 
-        "iframe[src^='http://www.youtube.com']", 
-        "iframe[src^='http://www.kickstarter.com']", 
+        "iframe[src^='https://player.vimeo.com']", 
+        "iframe[src^='https://www.youtube.com']", 
+        "iframe[src^='https://www.kickstarter.com']", 
         "object", 
         "embed"
       ];
@@ -88,5 +88,5 @@
 /*-----------------------------------------------------------------------------------*/
 /* HTML5.JS - Adds support for HTML5 elements to IE */
 /*-----------------------------------------------------------------------------------*/
-// For discussion and comments, see: http://remysharp.com/2009/01/07/html5-enabling-script/
+// For discussion and comments, see: https://remysharp.com/2009/01/07/html5-enabling-script/
 (function(){if(!/*@cc_on!@*/0)return;var e = "abbr,article,aside,audio,bb,canvas,datagrid,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(',');for(var i=0;i<e.length;i++){document.createElement(e[i])}})()

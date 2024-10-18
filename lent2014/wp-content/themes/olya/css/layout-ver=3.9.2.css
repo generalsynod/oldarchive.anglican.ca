@@ -5,7 +5,7 @@ CALCULATING DIMENSIONS:
 ----------------------
 The layout is fluid. The sote wrapper (.col-full) has a fixed pixel max-width.
 All subsequent dimensions are calculated based on that fixed pixel width, using the formula: target / context = result
-Credit - http://www.alistapart.com/articles/fluidgrids/
+Credit - https://www.alistapart.com/articles/fluidgrids/
 
 -----
 INDEX
@@ -301,7 +301,7 @@ INDEX
     padding-left: 2.3%;
   }
   .single-portfolio #sidebar-portfolio {
-    background: url("http://www.anglican.ca/lent2014/wp-content/themes/olya/css/images/sidebar-bg.jpg");
+    background: url("https://www.anglican.ca/lent2014/wp-content/themes/olya/css/images/sidebar-bg.jpg");
     margin-top: 0;
     width: 27.2%;
     min-height: 815px;

@@ -10,6 +10,6 @@ A new job has been posted to anglican.ca:
 
 Job Title: <?= $job->jobTitle . "\n" ?>
 Category: <?= $job->type . "\n" ?>
-Link: http://<?= $_SERVER['SERVER_NAME'] . dirname($_SERVER['PHP_SELF']) ?>/index.php?action=JobPosting&id=<?= $job->id . "\n" ?>
+Link: https://<?= $_SERVER['SERVER_NAME'] . dirname($_SERVER['PHP_SELF']) ?>/index.php?action=JobPosting&id=<?= $job->id . "\n" ?>
 Expiry Date: <?= date("M d, Y", $job->expiryDate) . "\n" ?>
 Job Posting: <?= $job->jobPosting . "\n" ?>

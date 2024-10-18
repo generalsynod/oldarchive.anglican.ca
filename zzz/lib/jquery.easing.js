@@ -1,12 +1,12 @@
 /*
- * jQuery Easing v1.1.1 - http://gsgd.co.uk/sandbox/jquery.easing.php
+ * jQuery Easing v1.1.1 - https://gsgd.co.uk/sandbox/jquery.easing.php
  *
  * Uses the built in easing capabilities added in jQuery 1.1
  * to offer multiple easing options
  *
  * Copyright (c) 2007 George Smith
  * Licensed under the MIT License:
- *   http://www.opensource.org/licenses/mit-license.php
+ *   https://www.opensource.org/licenses/mit-license.php
  */
 
 jQuery.extend(jQuery.easing, {

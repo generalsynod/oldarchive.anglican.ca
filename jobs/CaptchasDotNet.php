@@ -2,7 +2,7 @@
 //
 // PHP module for easy utilization of the free captchas.net CAPTCHA service
 //
-// For documentation look at http://captchas.net/sample/php/
+// For documentation look at https://captchas.net/sample/php/
 //
 // Written by
 //   Sebastian Wilhelmi <seppi@seppi.de> and
@@ -154,7 +154,7 @@ class CaptchasDotNet
   //
   // Generates image-URL Parameters are only atached if different from default
   //
-  function image_url ($random = False, $base = 'http://image.captchas.net/')
+  function image_url ($random = False, $base = 'https://image.captchas.net/')
   {
     if (!$random)
     {
@@ -173,7 +173,7 @@ class CaptchasDotNet
   //
   // Same as image_url but without width and height
   //
-  function audio_url ($random = False, $base = 'http://audio.captchas.net/')
+  function audio_url ($random = False, $base = 'https://audio.captchas.net/')
   {
     if (!$random)
     {
@@ -194,7 +194,7 @@ class CaptchasDotNet
   function image ($random = False, $id = 'captchas.net')
   {
     $image = <<<EOT
-        <a href="http://captchas.net"><img
+        <a href="https://captchas.net"><img
             style="border: none; vertical-align: bottom"
             id="@ID@" src="@URL@" width="@WIDTH@" height="@HEIGHT@"
             alt="The Captcha image" /></a>
@@ -204,7 +204,7 @@ class CaptchasDotNet
           {
             if (!image.timeout) return true;
             image.src = image.src.replace (/^http:\/\/image\.captchas\.net/,
-                                           'http://image.backup.captchas.net');
+                                           'https://image.backup.captchas.net');
             return captchas_image_loaded (image);
           }
 

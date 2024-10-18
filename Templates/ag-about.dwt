@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
@@ -35,7 +35,7 @@
     	<!-- TemplateEndEditable --></div>
 <div id="footer">
     	  <p><strong>The Amazing Grace Project</strong>, an initiative of the Anglican Church of Canada<br />
-   	      <a href="http://www.anglican.ca/help/contentpolicy/">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.anglican.ca/help/info">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.anglican.ca/help/webmanager/">technical standards &amp; support</a></p>
+   	      <a href="https://www.anglican.ca/help/contentpolicy/">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.anglican.ca/help/info">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.anglican.ca/help/webmanager/">technical standards &amp; support</a></p>
    	  <p>© 2008 The General Synod of the Anglican Church of Canada</p>
     	</div>
     </div>
