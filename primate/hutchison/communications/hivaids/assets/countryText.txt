@@ -1,0 +1,44 @@
+&story1vBtnText=The impact of HIV/AIDS&
+&story2vBtnText=Stephen Lewis&
+&story3vBtnText=Facing AIDS Facing Reality&
+&story4vBtnText=Three million&
+&story5vBtnText=Join the conversation&
+&story6BtnText=This is all about Cuba6.&
+&story7BtnText=This is all about Cuba7.&
+&story8BtnText=This is all about Cuba8.&
+&story9BtnText=This is all about Cuba9.&
+
+//
+//
+&homeText=<font color="#FFFFFF" size="14" FACE="Arial"><p>In this episode of +Andrew: Conversations with the Primate, Archbishop Andrew Hutchison discusses the pressing issue of HIV/AIDS, including the work of the Primate's World Relief and Development Fund's program "Partnership for Life: A World Without AIDS".</p>
+<ul>
+  <li><u><a href="http://www.partnershipforlife.ca/" target="_blank">PWRDF site: Partnership for Life: A World Without AIDS</a></u></li>
+</ul></font>&
+//
+//
+&story1vText=<FONT FACE="Arial" SIZE="14"><p>Archbishop Hutchison discusses the impact of HIV/AIDS over the past quarter century, the response of governments around the world to the pandemic, and the church's role in fundraising and advocacy.</p>
+<p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
+<ul>
+  <li><u><a href="http://www.partnershipforlife.ca/" target="_blank">PWRDF site: Partnership for Life: A World Without AIDS</a></u></li>
+</ul></font>&
+//
+//
+&story2vText=<FONT FACE="Arial" SIZE="14"><p>At the 2005 General Synod in St. Catharines Ont., Stephen Lewis, the Secretary General of the United Nations' special envoy for HIV/AIDS in Africa stressed the urgent need to confront the issue in Africa.</p></font>&
+//
+//
+&story3vText=<FONT FACE="Arial" SIZE="14"><p>Archbishop Hutchison introduces an audio/visual display produced by PWRDF and Anglican Video <em>Facing AIDS, Facing Reality</em> launched this summer at the International AIDS conference in Toronto.  The display will travel across the country before coming to next year's General Synod in arriving in Winnipeg Man</p>
+<p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
+<ul>
+  <li><u><a href="http://www.aids2006.org/start.aspx" target="_blank">International AIDS Conference 2006</a></u></li>
+  <li><u><a href="http://www.e-alliance.ch/iac06_preconf.jsp" target="_blank">Ecumenical pre-conference</a></u></li>
+    <li><u><a href="http://www.anglican.ca/news/news.php?newsItem=2006-08-17_a.fyi" target="_blank">PWRDF / Anglican Journal coverage of the International AIDS Conference</a></u></li>
+	  <li><u><a href="http://www.partnershipforlife.ca/act/education/photo-exhibit/" target="_blank">Facing AIDS, Facing Reality display information - PWRDF</a></u></li>
+</ul></font>&
+//
+//
+&story4vText=<FONT FACE="Arial" SIZE="14"><p>Gordon A. Youngman spoke at the opening of <em>Facing AIDS, Facing Reality in Toronto</em> last summer. Mr. Youngman, a public health consultant, has worked for more than two decades on with gay and bisexual men's health issues in the United States and Europe.  He is a member of St. Paul's Anglican Church in Nanaimo, BC.</p></font>&
+//
+//
+&story5vText=<FONT FACE="Arial" SIZE="14"><p>"The care, the love, the power of God, is made known to those with AIDS."</p></font>&
+//
+//

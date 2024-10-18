@@ -1,0 +1,271 @@
+@charset "UTF-8";
+body {
+	background-color: #f5ecc1;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 10px;
+	border-top-style: solid;
+	border-top-color: #bbc066;
+	width: 760px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #bbc066;
+	border-bottom-color: #bbc066;
+	border-left-color: #bbc066;
+	text-align: left;
+}
+#buttoncolorPurple {
+	background-color: #a964da;
+	margin: 0px;
+	height: 40px;
+	width: 700px;
+	padding-top: 0px;
+	padding-right: 60px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#contentwrapper {
+	background-color: #e0d7b2;
+	background-image: url(/amazinggrace/images/bg-vert.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+	width: 760px;
+}
+#content {
+	font-family: Candara, Verdana, Georgia, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #333333;
+	margin: 0px;
+	width: 640px;
+	padding-top: 10px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+	padding-left: 60px;
+	text-align: justify;
+}
+#footer {
+	font-family: Candara, Verdana, Georgia, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #9ca057;
+	margin: 0px;
+	width: 640px;
+	padding-top: 12px;
+	padding-right: 60px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #bbc066;
+}
+#footer p {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 12px;
+	padding-left: 0px;
+}
+#footer a {
+	color: #9ca057;
+	text-decoration: underline;
+}
+#buttoncolorRed {
+	background-color: #e94c4c;
+	margin: 0px;
+	height: 40px;
+	width: 700px;
+	padding-top: 0px;
+	padding-right: 60px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#buttoncolorBlue {
+	background-color: #768fdc;
+	margin: 0px;
+	height: 40px;
+	width: 700px;
+	padding-top: 0px;
+	padding-right: 60px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#content table {
+	font-family: Candara, Verdana, Georgia, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	text-align: left;
+}
+#content table p {
+	margin: 0px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.smaller {
+	font-size: 10px;
+}
+a:link {
+	color: #768FDC;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: none;
+}
+.photoright {float: right; padding:2px 0px 8px 10px; margin: 0; font-size:90%; color: #7F8E29; font-style:italic; width: 200px;}
+#content p {
+	margin: 0px;
+	padding-top: 12px;
+}
+#rednav {
+	font-family: Candara, Verdana, Georgia, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	float: left;
+	width: 230px;
+	margin: 0px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+#rednav ul {
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+}
+#rednav li {
+	list-style-image: url(/amazinggrace/images/red.png);
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 2px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+#rednav p {
+	font-family: Candara, Verdana, Georgia, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #E94C4C;
+	margin: 0px;
+	padding: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #E94C4C;
+}
+#bluenav {
+	font-family: Candara, Verdana, Georgia, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	float: left;
+	width: 230px;
+	margin: 0px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+#bluenav ul {
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+}
+#bluenav li {
+	list-style-image: url(/amazinggrace/images/blue.png);
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 2px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+#bluenav p {
+	font-family: Candara, Verdana, Georgia, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #768FDC;
+	margin: 0px;
+	padding: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #768FDC;
+}
+#content h1 {
+	font-family: Constantia, Georgia, "Times New Roman", Times, serif;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-size: 32px;
+	font-weight: lighter;
+	color: #333333;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#content h2 {
+	font-size: 24px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+.pin {
+	height:19px;
+	background-image: url(/amazinggrace/images/green-point.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 25px;
+}
+.youtubebox {
+	font-size: 13px;
+	background-color: #F5EECC;
+	width: 413px;
+	border: 1px solid #C7C77E;
+	text-align: left;
+	left: auto;
+	right: auto;
+	position: relative;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}

@@ -1,0 +1,42 @@
+&story1vBtnText=Lessons&
+&story2vBtnText=Diocese of the Yukon&
+&story3vBtnText=Fort Smith&
+&story4vBtnText=For the North...&
+&story5vBtnText=Join the conversation&
+&story6BtnText=This is all about Cuba6.&
+&story7BtnText=This is all about Cuba7.&
+&story8BtnText=This is all about Cuba8.&
+&story9BtnText=This is all about Cuba9.&
+
+//
+//
+&homeText=<font color="#FFFFFF" size="14" FACE="Arial"><p>In this segment of <i>+Andrew: Conversations with the Primate</i>, the Archbishop Andrew Hutchison discusses the special needs and challenges of ministry in rural Canada, especially in the North.</p></font>&
+//
+//
+&story1vText=<FONT FACE="Arial" SIZE="14"><p>Archbishop Hutchison reflects on his travels as Primate in the past three years.  He highlights the time he has spent in smaller rural parishes across Canada and talks about things he learned when he himself started in parish ministry in rural Ontario.</p></font>&
+//
+//
+&story2vText=<FONT FACE="Arial" SIZE="14"><p>In this segment Archbishop Hutchison reflects on a recent trip to the Diocese of Yukon and his visit to Pelly Crossing and its parish priest the Rev. Walter Majula.</p>
+<p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
+<ul>
+  <li><u><a href="http://yukon.anglican.ca" target="_blank">Diocese of the Yukon</a></u></li></ul></font>&
+//
+//
+&story3vText=<FONT FACE="Arial" SIZE="14"><p>In Fort Smith in the diocese of the Arctic, the Canadian Primate met local parish members and the diocesan executive committee.  This parish and many other congregations in the dioceses are expanding, working with the Council of the North and the Anglican Foundation to improve and enhance ministry in the North.</p>
+<p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
+<ul>
+  <li><u><a href="http://arctic.anglican.ca" target="_blank">Diocese of The Arctic</a></u></li>
+  <li><u><a href="http://www.anglican.ca/about/committees/CN/index.htm" target="_blank">Council of the North</a></u></li>
+  <li><u><a href="http://www.anglicanfoundation.org" target="_blank">Anglican Foundation</a></u></li>
+  </ul></font>&
+//
+//
+&story4vText=<FONT FACE="Arial" SIZE="14"><p>In this segment, Archbishop Hutchison talks of the immense challenges facing successful ministry in small rural parishes in the North, and asks for prayers in support of this important work.</p></font>&
+//
+//
+&story5vText=<FONT FACE="Arial" SIZE="14"><p>"The care, the love, the power of God, is made known to those with AIDS."</p>
+<p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
+<ul>
+  <li><u><a href="http://www.anglican.ca/about/committees/CN/index.htm" target="_blank">Council of the North</a></u></li></ul></font>&
+//
+//

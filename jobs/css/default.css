@@ -1,0 +1,134 @@
+#current-jobs div.job-posting {
+	border-bottom: 1px solid #708aa2;
+	margin: 0 0 1.0em 0;
+	padding: 0 0 1.0em 0;
+	
+}
+
+div.job-posting span.type {
+	color: #708aa2;
+	display: block;
+	font-style: normal;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div.job-posting span.title {
+	display: block;
+		font-size: 1.8em;
+	color: #565656;
+}
+div.job-navigation {
+	font-size: 1.6em;
+	color: #565656;
+	text-transform: lowercase;
+	
+}
+
+div.job-posting span.date {
+	display: block;
+	font-size: 1.6em;
+	color: #565656;
+}
+div.job-posting span.poster-name {
+	display: block;
+		font-size: 1.6em;
+	color: #565656;
+
+}
+
+
+	
+div.more-info {
+	display: block;
+	font-size: 1.6em;
+	color: #565656;
+}
+
+div.job-posting.is-published {
+	background: #cceecc;
+}
+
+div.job-posting.is-not-published {
+	background: #eecccc;
+}
+
+div.job-posting div.details {
+	margin: 1.0em 0;
+	font-size: 1.6em;
+	color: #565656;
+}
+
+div.job-posting span.contact-information {
+	background: #E3ECF5;
+	border: 1px solid #708aa2;
+	display: block;
+	margin: 0 0 1.0em 0;
+	padding: 0.25em;
+	font-size: 1.6em;
+	color: #565656;
+}
+
+menu-bar {
+	background: #E3ECF5;
+	border: 1px solid #708aa2;
+	margin: 0px 0px 1.1em;
+	padding: 5px;
+	font-size: 1.2em;
+}
+
+#content div.menu-bar div.menu-bar-section {
+	display: inline;
+	margin: 0 2.0em 0 0;
+}
+
+#content div.menu-bar div.menu-bar-section a {
+	margin: 0 0.5em 0 0;
+}
+
+#new-job-posting {
+	display: block;
+}
+
+#new-job-posting input.error, #new-job-posting textarea.error {
+	background: #eeaaaa;
+}
+
+#new-job-posting label.error {
+	color: #eeaaaa;
+}
+
+div.errors {
+	background-color: #FFFF66;
+	border: 1px solid #000;
+	margin: 0 0 1.0em 0;
+	padding: 0.25em;
+}
+#new-job-posting fieldset {
+	margin: 0 0 1.0em 0;
+}
+
+#new-job-posting input.text-field {
+	width: 300px;
+}
+
+#new-job-posting input.submit-button {
+	margin-left: 250px;	
+}
+#new-job-posting textarea {
+	margin-left: 250px;
+}
+
+#new-job-posting label {
+	font-size: 11px;
+}
+
+#new-job-posting label.field-label {
+	float: left;
+	width: 250px;
+}
+
+#new-job-posting label.section-label {
+	display: block;
+}

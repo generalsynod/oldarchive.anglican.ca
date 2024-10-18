@@ -1,0 +1,355 @@
+/*
+The styles in this stylesheet only apply to resolutions 768px and up
+
+CALCULATING DIMENSIONS:
+----------------------
+The layout is fluid. The sote wrapper (.col-full) has a fixed pixel max-width.
+All subsequent dimensions are calculated based on that fixed pixel width, using the formula: target / context = result
+Credit - http://www.alistapart.com/articles/fluidgrids/
+
+-----
+INDEX
+-----
+
+1. Top Navigation
+2. Main navigation dropdown menus
+3. Containers & Columns
+4. Footer widgets
+
+*/
+/*----------------------*/
+/*----------------------*/
+@media only screen and (min-width: 768px) {
+  /* 1. TOP NAVIGATION */
+  #top {
+    background: #000;
+    margin: 0 -20px;
+  }
+  #top #top-nav {
+    display: block;
+  }
+  #top .nav a {
+    color: #ddd;
+    padding: 8px 10px;
+    line-height: 1.4;
+    text-decoration: none;
+    text-shadow: none;
+  }
+  #top .nav a:hover {
+    background: #222;
+  }
+  #top .nav a.sf-with-ul {
+    padding-right: 20px;
+  }
+  #top .nav li {
+    position: relative;
+  }
+  #top .nav li.current_page_item a,
+  #top .nav li.current_page_parent a,
+  #top .nav li.current-menu-ancestor a,
+  #top .nav li.current-cat a,
+  #top .nav li.li.current-menu-item a,
+  #top .nav li.sfHover a {
+    background: #222;
+  }
+  #top .nav li ul {
+    background: #222;
+    margin: 0;
+    padding: 0px;
+    width: 180px;
+    border: none;
+    z-index: 999;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: absolute;
+  }
+  #top .nav li ul:last-child a {
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  #top .nav li ul li a {
+    padding: 8px 10px;
+    width: 160px;
+    color: #ddd;
+    background: none;
+    font-size: 0.9em;
+  }
+  #top .nav li ul li a:hover {
+    background: black;
+  }
+  #top .nav li ul li a.sf-with-ul {
+    padding-right: 10px;
+  }
+  #top .nav li ul li ul {
+    margin: -29px 0 0 170px;
+  }
+  /* 2. MAIN NAVIGATION DROPDOWN MENUS */
+  #navigation .nav li a {
+    margin: 0 10px;
+  }
+  #navigation .nav li:first-child a {
+    border-left: none;
+  }
+  #navigation .nav li ul {
+    background: #141414;
+    margin: 0 0 0 -1px;
+    padding: 0;
+    position: absolute;
+    width: 180px;
+    border: 1px solid #2d2e31;
+    z-index: 999;
+  }
+  #navigation .nav li ul .sf-sub-indicator {
+    background: url("../images/arrow-superfish-right.png") no-repeat;
+    top: 38%;
+  }
+  #navigation .nav li ul li a {
+    padding: 6px 10px;
+    margin: 0;
+    width: 160px;
+    color: #5e5f66;
+    background: none;
+    font-size: 0.9em;
+    border-bottom: 1px solid #2d2e31;
+  }
+  #navigation .nav li ul li a:hover {
+    background: #2d2e31;
+  }
+  #navigation .nav li ul li:last-child a {
+    border-bottom: 0;
+  }
+  #navigation .nav li ul li.current_page_item a,
+  #navigation .nav li ul li.current_page_parent a,
+  #navigation .nav li ul li.current-menu-ancestor a,
+  #navigation .nav li ul li.current-cat a,
+  #navigation .nav li ul li.li.current-menu-item a,
+  #navigation .nav li ul li.sfHover a {
+    background: none;
+  }
+  #navigation .nav li ul ul {
+    margin: -30px 0 0 180px;
+  }
+  /* 3. CONTAINERS & COLUMNS */
+  .col-full {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+  #header {
+    padding: 2em 0;
+  }
+  #main {
+    width: 64.12%;
+    /* 630 / 960 = 0.6562 */
+    padding-right: 2.5%;
+    border-right: 1px solid #f2f2f2;
+  }
+  #main.fullwidth,
+  .layout-full #main {
+    width: auto;
+    padding: 0;
+  }
+  #main-wrapper {
+    margin: 0;
+  }
+  #breadcrumbs {
+    margin: 0 auto;
+  }
+  #featured {
+    margin: 0 auto;
+  }
+  #featured .slides {
+    padding: 2em 0 0;
+  }
+  #content {
+    margin: 0 auto;
+  }
+  #sidebar {
+    margin-top: 0;
+    width: 31.25%;
+    /* 300 / 960 = 0.3125 */
+  }
+  .entry img {
+    max-width: 100%;
+  }
+  .layout-full .entry img {
+    max-width: 100%;
+  }
+  .layout-right-content #main {
+    float: right;
+  }
+  .layout-right-content #sidebar {
+    float: left;
+  }
+  .layout-full #main {
+    width: 100%;
+  }
+  .col-left {
+    float: left;
+  }
+  .col-right {
+    float: right;
+  }
+  #footer {
+    margin: 0 auto 2em auto;
+  }
+  /* 4. FOOTER WIDGETS */
+  #footer-widgets .block {
+    margin-right: 2.08%;
+    /* 20 / 960 = 0.0208 */
+    float: left;
+  }
+  #footer-widgets.col-1 .block {
+    width: 100%;
+    float: none;
+  }
+  #footer-widgets.col-1 .footer-widget-1 {
+    margin-right: 0;
+  }
+  #footer-widgets.col-2 .block {
+    width: 48.96%;
+    /* 470 / 960 = 0.4896 */
+  }
+  #footer-widgets.col-2 .footer-widget-2 {
+    margin-right: 0;
+  }
+  #footer-widgets.col-3 .block {
+    width: 31.86%;
+    /* 306 / 960 = 0.3186 */
+  }
+  #footer-widgets.col-3 .footer-widget-3 {
+    margin-right: 0;
+  }
+  #footer-widgets.col-4 .block {
+    width: 23.44%;
+    /* 225 / 960 = 0.2344 */
+  }
+  #footer-widgets.col-4 .footer-widget-4 {
+    margin-right: 0;
+  }
+  #portfolio-home {
+    margin: 3em auto 1em auto;
+    padding: 10px 20px;
+  }
+  #portfolio-home .post {
+    width: 22.65%;
+    margin: 0 3.05% 0 0;
+  }
+  #portfolio-home .post:nth-child(2n + 3) {
+    margin-right: 3.297%;
+  }
+  #mini-features .block {
+    width: 22.65%;
+    margin: 0 3.136% 0 0;
+  }
+  .page-template-template-portfolio-php #main,
+  .tax-portfolio-gallery #main,
+  .post-type-archive-portfolio #main {
+    width: 100%;
+    padding-right: 0;
+    border: 0;
+  }
+  .page-template-template-portfolio-php #portfolio .post,
+  .tax-portfolio-gallery #portfolio .post,
+  .post-type-archive-portfolio #portfolio .post {
+    padding: 1em;
+    padding-left: 0;
+  }
+  .page-template-template-portfolio-php #portfolio a.thumb,
+  .tax-portfolio-gallery #portfolio a.thumb,
+  .post-type-archive-portfolio #portfolio a.thumb {
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .page-template-template-portfolio-php #portfolio .portfolio-items .portfolio-item,
+  .tax-portfolio-gallery #portfolio .portfolio-items .portfolio-item,
+  .post-type-archive-portfolio #portfolio .portfolio-items .portfolio-item {
+    margin: 0 1.1% 2.6%;
+  }
+  .page-template-template-portfolio-php #portfolio .portfolio-items .portfolio-item h3,
+  .tax-portfolio-gallery #portfolio .portfolio-items .portfolio-item h3,
+  .post-type-archive-portfolio #portfolio .portfolio-items .portfolio-item h3 {
+    margin: 1.3em 0 0 0;
+  }
+  .page-template-template-portfolio-php #portfolio .group.portfolio-img a.thumb,
+  .tax-portfolio-gallery #portfolio .group.portfolio-img a.thumb,
+  .post-type-archive-portfolio #portfolio .group.portfolio-img a.thumb {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  .page-template-template-portfolio-php #portfolio .group.portfolio-img img,
+  .tax-portfolio-gallery #portfolio .group.portfolio-img img,
+  .post-type-archive-portfolio #portfolio .group.portfolio-img img {
+    border: 0;
+  }
+  .single-portfolio #main {
+    width: 70.42%;
+    border: 0;
+    padding-right: 0;
+    padding-left: 2.3%;
+  }
+  .single-portfolio #sidebar-portfolio {
+    background: url("http://www.anglican.ca/lent2014/wp-content/themes/olya/css/images/sidebar-bg.jpg");
+    margin-top: 0;
+    width: 27.2%;
+    min-height: 815px;
+  }
+  .single-portfolio #sidebar-portfolio h3 {
+    margin-bottom: 0.8em;
+  }
+  .single-portfolio #sidebar-portfolio ul {
+    display: block;
+    margin-right: 1px;
+  }
+  .single-portfolio #sidebar-portfolio ul li a {
+    display: block;
+    position: relative;
+    padding: 7px 15px 8px 0;
+    color: #5e5f66;
+    border-bottom: 1px solid #E5E5E6;
+    border-top: 1px solid #FFFFFF;
+  }
+  .single-portfolio #sidebar-portfolio ul li a:hover,
+  .single-portfolio #sidebar-portfolio ul li a.current {
+    width: 239px;
+    left: -10px;
+    padding-left: 10px;
+    background: #db213b;
+    text-decoration: none;
+    color: #fff;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .single-portfolio #sidebar-portfolio ul li a span.arrow {
+    width: 15px;
+    height: 33px;
+    position: absolute;
+    left: 264px;
+    top: 0;
+    display: none;
+    background: url("../images/portfolio-sidebar-hover.png") no-repeat top left;
+  }
+  .single-portfolio #sidebar-portfolio ul li a:hover span.arrow,
+  .single-portfolio #sidebar-portfolio ul li a.current span.arrow {
+    display: block;
+  }
+  .page-template-template-contact-php #office-location {
+    width: 100%;
+  }
+}

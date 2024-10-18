@@ -1,0 +1,148 @@
+body {
+	margin: 0px;
+	background-image: url(/Financial-Ministries/stepbystep/common/bg.jpg);
+	text-align: justify;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	word-spacing: .3em;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	word-spacing: .2em;
+	margin-right: 0px;
+	margin-left: 65px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.text {
+	text-align: justify;
+	text-indent: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	margin-right: 0px;
+	margin-left: 65px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.text li {
+	text-indent: 70px;
+	margin: 0;
+}
+.firsttext {
+	text-align: justify;
+	text-indent: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	margin-right: 0px;
+	margin-left: 65px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.firsttextcaps {
+	text-transform: uppercase;
+}
+.moneytable {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #C6C3DE;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.topbar {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.topbar a:link {
+	text-decoration: none;
+}
+.topbar a:visited {
+	text-decoration: none;
+}
+.topbar a:hover {
+	text-decoration: underline;
+}
+.topbar a:active {
+	text-decoration: none;
+}
+.url {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+.url a {
+	text-decoration: none;
+}
+.footer {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0;
+}
+.bottombg {
+	background-image: url(/Financial-Ministries/stepbystep/part1/bottom.jpg);
+}
+.button {
+	padding: 10px;
+}
+.storytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: justify;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12px;
+	text-indent: 0px;
+	margin-right: 0px;
+	margin-left: 65px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.bottombg2 {
+	background-image: url(/Financial-Ministries/stepbystep/part2/bottom.jpg);
+}
+.x301-title {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	background-color: #9E96D8;
+}
+.bottombg3 {
+	background-image: url(/Financial-Ministries/stepbystep/part3/bottom.jpg);
+}
+.x301-CLEAR {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+}
+.x301-COLOUR {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	background-color: #D9D3FF;
+}
+.bottombgintro {
+	background-image: url(/Financial-Ministries/stepbystep/common/bottom.jpg);
+}

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* General */
+.story-type {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #6C889F;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #6C889F;
+	padding: 4px;
+	background-color: #ECECEC;
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+/* News story specific */
+
+
+#story h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	padding-bottom: 1px;
+}
+
+#story h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: lighter;
+	color: #000000;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	padding-bottom: 1px;
+}
+
+
+.author {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666;
+}
+
+.dateline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666;
+}	
+
+/* List screen */
+
+/* Prev and next */
+
+.stories-list-pager {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #6C889F;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.disabled {
+	display: none;
+}
+
+.current {
+	font-weight: bold;
+	color: #000;
+}
+.story-headline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+.story-intro {
+	font-size: 15px;
+	padding-bottom: 15px;
+	padding-left: 3px;
+}
+
+.read-full-story {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+/* photos */
+
+.captioned-photo {
+	float: right;
+	width: 350px;
+	margin: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	border-top-width: 1px;
+	border-bottom-width: 3px;
+	border-top-style: solid;
+	border-bottom-style: double;
+	border-top-color: #ECECEC;
+	border-bottom-color: #ECECEC;
+	padding-top: 5px;
+}
+p.captioned-photo {
+	margin: 0px;
+	padding: 0px;
+}
+
+.credit {
+	font-size: 10px;
+	font-weight: lighter;
+	color: #CCC;
+	margin: 0px;
+	padding: 0px;
+}
+
+.story-photo {
+	border: 1px solid #6C889F;
+}

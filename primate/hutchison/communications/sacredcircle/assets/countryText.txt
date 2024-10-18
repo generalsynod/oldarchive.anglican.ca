@@ -1,0 +1,48 @@
+&story1vBtnText=History of the Circle&
+&story2vBtnText=Sacred Circle 2005&
+&story3vBtnText=A Joyous Moment&
+&story4vBtnText=An Indigenous Bishop&
+&story5vBtnText=Join the conversation&
+&story6BtnText=This is all about Cuba6.&
+&story7BtnText=This is all about Cuba7.&
+&story8BtnText=This is all about Cuba8.&
+&story9BtnText=This is all about Cuba9.&
+
+//
+//
+&homeText=<font color="#FFFFFF" size="14" FACE="Arial"><p>Archbishop Andrew Hutchison, Primate of the Anglican Church of Canada, joined indigenous Anglicans from across Canada at the Fifth Anglican Indigenous Sacred Circle, held last year at Pinawa, Man.</p>
+<p>In this webcast, Archbishop Hutchison takes a closer look at the history of the Sacred Circle, and describes the highlights of the most recent one.</p>
+<p>More information on the Fifth Anglican Indigenous Sacred Circle is <u><a href="http://www.anglican.ca/about/committees/acip/sc2005/index.htm" target="_blank">available online</a></u>. (opens in a new window)</p></font>&
+//
+//
+&story1vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><p>The Sacred Circle is a gathering of Anglican Indigenous people from across Canada. The first was held in Fort Qu'Appelle, Sask in 1988.</p>
+<p>Earlier circles have brought to light the legacy of relationships between the Anglican Church of Canada and its indigenous members, with special focus on the legacy of Indian Residential Schools.</p>
+<p><strong><em>Information pages: </em></strong>(opens in a new window)</p>
+<ul>
+  <li><u><a href="http://www.anglican.ca/Residental-Schools/" target="_blank">Residential Schools -- <em>Legacy and Response</em></a></u></li>
+  <li><u><a href="http://www.anglican.ca/about/committees/acip/apology.htm" target="_blank">The Apology</a></u></li>
+  <li><u><a href="http://www.anglican.ca/about/committees/acip/" target="_blank">Anglican Council of Indigenous Peoples</a></u></li>
+  <li><u><a href="http://www.anglican.ca/about/committees/acip/sc2000/index.htm" target="_blank">Sacred Circle 2000</a></u></li>
+</ul></font>&
+//
+//
+&story2vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><p>This circle was the first one Archbishop Hutchison attended as Primate.</p>
+<p>The major discussion at this circle was a proposal for a National Indigenous Bishop. This proposal was brought to the circle, where members of the circle including youth members approved it unanimously. Bishops in attendance then expressed their support.</p>
+<p>More information about the National Indigenous Bishop can be found <u><a href="http://www.anglican.ca/about/committees/acip/documents/acip-nib.pdf" target="_blank">here</a></u>. (link opens in a new window)</p></font>&
+//
+//
+&story3vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><p>During the final Eucharist at the circle, an eagle flew overhead. Archbishop  Hutchison comments on the importance of this symbol at the conclusion of a very significant moment in the history of the Anglican Church in Canada.</p></font>&
+//
+//
+&story4vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><p>Archbishop Hutchison describes the process for the creation of a National Indigenous Bishop in this segment. General Synod Communications and the Anglican Council of Indigenous Peoples have produced the first of a number of resources on the background of this initiative and the process to bring it to reality.</p>
+<p><strong><em>Resources:</em></strong></p>
+<ul>
+  <li><u><a href="http://www.anglican.ca/about/committees/acip/documents/acip-nib.pdf" target="_blank">Q and A on National Indigenous Bishop</a></u> (opens in a new window)</li>
+</ul></font>&
+//
+//
+//
+//
+&story5vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><p>Archbishop Hutchison invites you to join this conversation in prayer.</p><p>Please <u><a href="mailto:andrew@national.anglican.ca">Email him</a></u> with your comments and questions on this conversation.</font>&
+//
+//

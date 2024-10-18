@@ -1,0 +1,18 @@
+/*
+	This stylesheet is a) identical to the main stylesheet except for the three declarations following the @import rules, and b) called only when the user selects the 'larger' option in the stylesheet switcher. 
+*/
+
+
+/* Basic styles for html elements and various classes: */
+@import url(common.css);
+
+
+
+#bodyContent {
+	font-size:120% !important;
+}
+
+#bodyContent p {
+	margin-top: 10px;
+	margin-bottom: 14px;
+	}

@@ -1,0 +1,30 @@
+&story1vBtnText=Overseas travel&
+&story2vBtnText=Domestic travel&
+&story3vBtnText=Indigenous Ministries&
+&story4vBtnText=National Indigenous Bishop&
+&story5vBtnText=Final reflections&
+&story6BtnText=This is all about Cuba6.&
+&story7BtnText=This is all about Cuba7.&
+&story8BtnText=This is all about Cuba8.&
+&story9BtnText=This is all about Cuba9.&
+
+//
+//
+&homeText=<font color="#FFFFFF" size="14" FACE="Arial"><p>In this final webcast of his primacy, Andrew reviews some of the priorities he set at the outset of his primacy including communications and youth.</p></font>&
+//
+//
+&story1vText=<FONT FACE="Arial" SIZE="14"><p>Overseas travel to places like China, Cuba and Armenia brought many memorable moments.</p></font>&
+//
+//
+&story2vText=<FONT FACE="Arial" SIZE="14"><p>The Primate visited all 30 Canadian dioceses and learned surprising things about local priorities.</p></font>&
+//
+//
+&story3vText=<FONT FACE="Arial" SIZE="14"><p>Significant developments in indigenous ministry in the past three years ultimately resulted in the appointment of a National Indigenous Bishop.</p></font>&
+//
+//
+&story4vText=<FONT FACE="Arial" SIZE="14"><p>A new Residential Schools Agreement was negotiated during Andrew's primacy and the focus now turns towards truth and reconciliation.</p></font>&
+//
+//
+&story5vText=<FONT FACE="Arial" SIZE="14"><p>Andrew concludes his final webcast with reflections on the Bishop Ordinary, the Anglican Foundation and the Primate's World Relief and Development Fund.</p></font>&
+//
+//

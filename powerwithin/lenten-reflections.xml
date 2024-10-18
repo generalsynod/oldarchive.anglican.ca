@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>The Power Within: Healing through Prayer -  Lenten reflections</title>
+    <link>http://www.anglican.ca/powerwithin/</link>
+    <description>A series of daily reflections available for download during Lent.</description>
+    <generator>Feeder 1.4.3 http://reinventedsoftware.com/feeder/</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en-ca</language>
+    <pubDate>Thu, 29 Mar 2007 10:01:19 -0400</pubDate>
+    <lastBuildDate>Thu, 29 Mar 2007 10:01:19 -0400</lastBuildDate>
+    <image>
+      <url>http://www.anglican.ca/acclogo144.gif</url>
+      <title>The Power Within: Healing through Prayer Lenten reflections</title>
+      <link>http://www.anglican.ca/powerwithin/</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:author>General Synod of the Anglican Church of Canada</itunes:author>
+    <itunes:summary>The Anglican Church of Canada has created a series of reflections available for download during Lent, February 21st through April 8th, 2007. These meditations give you a chance to consider questions you might otherwise not think about: Are you taking care of yourself? Are you being truly open and caring with your loved ones? What is important to you? Are you finding meaning in your day to day life?
+
+All the reflections have been created by Philip Wadham, an Anglican priest in Victoria BC. Philip has been ministering to Canadians and others overseas for more than 25years. He has worked as a  regional mission coordinator for the General Synod of the Anglican Church of Canada.</itunes:summary>
+    <itunes:keywords>Lent, Anglican, Canada, Prayer, Faith</itunes:keywords>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:image href="http://www.anglican.ca/powerwithin/acclogo300.jpg"/>
+    <itunes:owner>
+      <itunes:name>Brian Bukowski, Web Manager</itunes:name>
+      <itunes:email>bbukowski@national.anglican.ca</itunes:email>
+    </itunes:owner>
+    <itunes:block>no</itunes:block>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Holy Saturday, April 7</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Saturday April 7 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 29 Mar 2007 09:57:40 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/04-07.mp3" length="1928028" type="audio/mpeg"/>
+      <guid isPermaLink="false">holy-saturday-april-7</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Saturday April 7 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:17</itunes:duration>
+    </item>
+    <item>
+      <title>Maundy Thursday, April 5</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Thursday April 5 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 29 Mar 2007 09:54:35 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/04-05.mp3" length="1759916" type="audio/mpeg"/>
+      <guid isPermaLink="false">maundy-thursday-april-5</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Thursday April 5 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>4:49</itunes:duration>
+    </item>
+    <item>
+      <title>Tuesday of Holy Week, April 3</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Tuesday April 3 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 29 Mar 2007 09:53:59 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/04-03.mp3" length="1916992" type="audio/mpeg"/>
+      <guid isPermaLink="false">tuesday-april-3</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Tuesday April 3 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:15</itunes:duration>
+    </item>
+    <item>
+      <title>Sunday, April 1</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Sunday April 1 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 29 Mar 2007 09:46:39 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/04-01.mp3" length="2024734" type="audio/mpeg"/>
+      <guid isPermaLink="false">sunday-april-1</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Sunday April 1 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:34</itunes:duration>
+    </item>
+    <item>
+      <title>Friday, March 30</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Friday March 30 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 22 Mar 2007 09:17:51 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-30.mp3" length="1841878" type="audio/mpeg"/>
+      <guid isPermaLink="false">friday-march-30</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Friday March 30 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:03</itunes:duration>
+    </item>
+    <item>
+      <title>Wednesday, March 28</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Wednesday March 28 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 22 Mar 2007 09:10:49 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-28.mp3" length="1803794" type="audio/mpeg"/>
+      <guid isPermaLink="false">wednesday-march-28</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Wednesday March 28 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>4:57</itunes:duration>
+    </item>
+    <item>
+      <title>Monday, March 26</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Monday March 26 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 22 Mar 2007 09:03:56 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-26.mp3" length="1847130" type="audio/mpeg"/>
+      <guid isPermaLink="false">monday-march-26</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Monday March 26 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:04</itunes:duration>
+    </item>
+    <item>
+      <title>Saturday, March 24</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Saturday March 24 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 15 Mar 2007 11:01:21 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-24.mp3" length="1713598" type="audio/mpeg"/>
+      <guid isPermaLink="false">saturday-march-24</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Saturday March 24 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>4:42</itunes:duration>
+    </item>
+    <item>
+      <title>Thursday, March 22</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Thursday March 22 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 15 Mar 2007 10:53:33 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/3-22.mp3" length="2248522" type="audio/mpeg"/>
+      <guid isPermaLink="false">thursday-march-22</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Thursday March 22 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>6:11</itunes:duration>
+    </item>
+    <item>
+      <title>Tuesday, March 20</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Tuesday March 20 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 15 Mar 2007 10:48:39 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/3-20.mp3" length="1737750" type="audio/mpeg"/>
+      <guid isPermaLink="false">tuesday-march-20</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Tuesday March 20 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>4:46</itunes:duration>
+    </item>
+    <item>
+      <title>Sunday, March 18</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Sunday March 18 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Thu, 15 Mar 2007 10:28:14 -0400</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/3-18.mp3" length="1252057" type="audio/mpeg"/>
+      <guid isPermaLink="false">sunday-march-18</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Sunday March 18 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:06</itunes:duration>
+    </item>
+    <item>
+      <title>Friday, March 16</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Friday March 16 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Wed, 07 Mar 2007 11:14:14 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/3-16.mp3" length="1779660" type="audio/mpeg"/>
+      <guid isPermaLink="false">friday-march-16</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Friday March 16 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>4:53</itunes:duration>
+    </item>
+    <item>
+      <title>Wednesday, March 14</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Wednesday March 14 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Wed, 07 Mar 2007 10:58:43 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-14.mp3" length="1964578" type="audio/mpeg"/>
+      <guid isPermaLink="false">wednesday-march-14</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Wednesday March 14 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:23</itunes:duration>
+    </item>
+    <item>
+      <title>Monday, March 12</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm:</link>
+      <description><![CDATA[Monday March 12 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Wed, 07 Mar 2007 10:54:51 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-12.mp3" length="1844998" type="audio/mpeg"/>
+      <guid isPermaLink="false">monday-march-12</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Monday March 12 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:04</itunes:duration>
+    </item>
+    <item>
+      <title>Saturday, March 10</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Saturday March 10 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Wed, 28 Feb 2007 16:57:34 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-10.mp3" length="1842428" type="audio/mpeg"/>
+      <guid isPermaLink="false">saturday-march-10</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:03</itunes:duration>
+    </item>
+    <item>
+      <title>Thursday, March 8</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Thursday March 8 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Wed, 28 Feb 2007 16:47:32 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-08.mp3" length="1849888" type="audio/mpeg"/>
+      <guid isPermaLink="false">thursday-march-8</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Thursday March 8 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:05</itunes:duration>
+    </item>
+    <item>
+      <title>Tuesday, March 6</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Tuesday March 6 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Wed, 28 Feb 2007 16:36:37 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-06.mp3" length="1788838" type="audio/mpeg"/>
+      <guid isPermaLink="false">tuesday-march-6</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Tuesday March 6 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>4:54</itunes:duration>
+    </item>
+    <item>
+      <title>Sunday, March 4</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Lent 1, Sunday March 4 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Fri, 23 Feb 2007 09:43:00 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-04.mp3" length="1935112" type="audio/mpeg"/>
+      <guid isPermaLink="false">sunday-march-4</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Lent 1, Sunday March 4 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:19</itunes:duration>
+    </item>
+    <item>
+      <title>Friday, March 2</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Friday, March 2 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Fri, 23 Feb 2007 09:36:05 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/03-02.mp3" length="1842266" type="audio/mpeg"/>
+      <guid isPermaLink="false">friday-march-2</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Friday, March 2 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:03</itunes:duration>
+    </item>
+    <item>
+      <title>Wednesday, February 28</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Wednesday, February 28 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Fri, 23 Feb 2007 09:28:42 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/02-28.mp3" length="1684486" type="audio/mpeg"/>
+      <guid isPermaLink="false">wednesday-february-28</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Wednesday, February 28 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>4:37</itunes:duration>
+    </item>
+    <item>
+      <title>Monday, February 26</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Monday, February 26 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Fri, 23 Feb 2007 09:19:29 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/02-26.mp3" length="1445358" type="audio/mpeg"/>
+      <guid isPermaLink="false">monday-february-26</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Monday, February 26 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3:57</itunes:duration>
+    </item>
+    <item>
+      <title>Saturday, February 24</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Saturday, February 24 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Wed, 21 Feb 2007 13:21:48 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/02-24.mp3" length="2299020" type="audio/mpeg"/>
+      <guid isPermaLink="false">saturday-february-24</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Saturday, February 24 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>4:44</itunes:duration>
+    </item>
+    <item>
+      <title>Thursday, February 22</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Thursday, February 22 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Wed, 21 Feb 2007 13:20:43 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/02-22.mp3" length="2281580" type="audio/mpeg"/>
+      <guid isPermaLink="false">thursday-february-22</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Thursday, February 22 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>4:42</itunes:duration>
+    </item>
+    <item>
+      <title>Ash Wednesday, February 21</title>
+      <link>http://www.anglican.ca/powerwithin/podcast.htm</link>
+      <description><![CDATA[Ash Wednesday, February 21 reflection by Canon Philip Wadham.]]></description>
+      <pubDate>Wed, 21 Feb 2007 13:19:58 -0500</pubDate>
+      <enclosure url="http://www.anglican.ca/powerwithin/02-21.mp3" length="1246149" type="audio/mpeg"/>
+      <guid isPermaLink="false">ash-wednesday-february-21</guid>
+      <itunes:author>Anglican Church of Canada</itunes:author>
+      <itunes:summary>Ash Wednesday, February 21 reflection by Canon Philip Wadham.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5:05</itunes:duration>
+    </item>
+  </channel>
+</rss>

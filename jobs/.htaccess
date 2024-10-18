@@ -1,0 +1,6 @@
+<Files admin.php>
+     AuthType Basic
+     AuthName "admin"
+     AuthUserFile "/home/accnews/.htpasswds/public_html/www2/jobs/admin/passwd"
+     Require valid-user
+</Files>

@@ -1,0 +1,180 @@
+/* CSS Document */
+body {
+	margin: 0px;
+	background-color: #F5F5F5;
+}
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+
+#suckertree1 { z-index:11; }
+#suckerdiv { z-index:12; }
+#suckerdiv ul { margin: 0; padding: 0; list-style-type: none; }
+#suckerdiv ul li { position: relative; float:left; display:block; width:115px; background:#ffffff; height:28px}
+#suckerdiv ul li ul { position: absolute; width: 115px; padding-top:1px; display: none; height:29px}
+#suckerdiv ul li ul li ul{ left: 100px; top:0; padding-top:0; padding-left:1px; }
+#suckerdiv ul li a { display: block; color: white; text-decoration: none; background: #00afeb; padding: 1px 5px 0px; margin-right:1px; height:28px; margin-top:1px; }
+#suckerdiv ul li ul li a { margin-bottom:0px; }
+#suckerdiv ul li a:visited { color: #ffffff; }
+#suckerdiv ul li a:hover { background-color: #0389b7; }
+#suckerdiv .subfolderstyle { background-color:#00afeb; }
+#suckerdiv {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #FFFFFF;
+}
+	
+/* Holly Hack for IE \*/ 
+/* * html .suckerdiv ul li { float: left; height: 1%; } */
+/* * html .suckerdiv ul li a { height: 1%; } */
+#commonNav {
+	position:absolute;
+	top:0px;
+	height: 30px;
+	width: 100%;
+	z-index:2;
+}
+#blanktop {
+	height: 16px;
+	width: 780px;
+	top: 0px;
+	right: 0px;
+	color: #FFFFFF;
+}
+
+#topbar-links {
+	position:absolute;
+	left:400px;
+	top:90px;
+	width:377px;
+	height:15px;
+	z-index:1;
+}
+#logotop {
+	position:absolute;
+	top:30px;
+	background-color: #79c68a;
+	height: 75px;
+	width: 760px;
+	left: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #00afeb;
+	z-index: 1 
+}
+#Layer1 {
+	position:absolute;
+	left:350px;
+	top:0px;
+	width:427px;
+	height:15px;
+	z-index:3;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	text-align: right;
+	vertical-align: middle;
+}
+#Layer2 {
+	position:absolute;
+	left:0px;
+	top:106px;
+	width:760px;
+	height:30px;
+	z-index:4;
+	background-color: #00AFEB;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #0389b7;
+	border-bottom-width: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.content {
+	clear:left;
+	padding-top: 140px;
+	padding-left:63px;
+	margin-right:10px;
+	width:696px;
+	background-color: #ffffff;
+	padding-bottom:10px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #DBDBDB;
+	border-bottom-color: #DBDBDB;
+}
+
+#Layer3  {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	background-position: center center;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 10px;
+}
+.content hr {
+	background-color: #0389B7;
+	color: #0389B7;
+	height: 1px;
+}
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	text-align: right;
+	margin-right:10px;
+}
+.footerblack {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: right;
+	margin-right:10px;
+}
+
+
+.printonly {display:none}
+
+.secondline {
+	font-size: 13px;
+}
+#Layer4 {
+	position:absolute;
+	left:389px;
+	top:34px;
+	width:377px;
+	height:45px;
+	z-index:5;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	text-align: right;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+}
+
+#header {display:none}

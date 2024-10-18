@@ -1,0 +1,41 @@
+<ul id="MenuBar1" class="MenuBarVertical">
+		<li><a href="/faith/index.htm"><strong>Faith and Worship</strong></a></li>	
+   <li><a href="/faith/identity/index.htm">Anglican Identity</a></li>
+      <li><a href="/faith/cd/index.htm" class="MenuBarItemSubmenu">Healthy Parishes</a>
+      <ul>
+          <li><a href="/faith/cd/index.htm">Introduction</a></li>
+          <li><a href="/faith/cd/current.htm">Current programs </a></li>
+          <li><a href="/faith/cd/orgs.htm">Organizations &amp; consultants </a></li>
+          <li><a href="/faith/cd/faithdev.htm">Programs for faith development</a></li>
+          <li><a href="/faith/cd/ora.htm">Other resource areas</a></li>
+      </ul>  
+  </li>
+      <li><a href="/faith/relationships/index.htm">Ecumenical &amp; Interfaith
+        Relationships</a></li>
+      <li><a href="/faith/ethics/index.htm">Ethics</a></li>
+      <li><a href="/faith/hs/index.htm">Human Sexuality</a></li>
+      <li><a href="/faith/ministry/index.htm" class="MenuBarItemSubmenu">Ministry</a>
+      <ul>
+<li><a href="/faith/ministry/baptised/index.htm">Ministry
+          of all the Baptised</a></li>
+      <li><a href="/faith/ministry/communities.htm">Canadian
+          Anglican Religious Communities</a></li>
+      <li><a href="/faith/ministry/wellness/index.htm">Wellness
+          in Ministry</a></li>
+      <li><a href="/faith/ministry/om/index.htm">Ordered Ministries</a></li>
+      <li><a href="/faith/ministry/other.htm">Other areas of Ministry</a></li>
+      </ul>
+      </li>
+      <li><a href="/faith/education/index.htm">Theological Education</a></li>
+      <li><a href="/faith/ngte/">National Gathering on Theological Education</a></li>
+      <li><a href="/faith/worship/index.htm">Worship</a></li>
+      <li><em><a href="/about/departments/FWM/index.htm"><img src="../stock-images/out-to.gif" alt="[jump to]" width="12" height="9" border="0"> Faith,
+            Worship, &amp; Ministry Department </a></em></li>
+      <li><em><a href="/about/committees/FWMC/index.htm"><img src="../stock-images/out-to.gif" alt="[jump to]" width="12" height="9" border="0"> Faith,
+      Worship, &amp; Ministry Committee </a></em></li>
+</ul>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"/SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>

@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+#primateBannerImage {
+	margin: 0px;
+	padding: 0px;
+	width: 756px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #708aa2;
+	border-left-color: #708aa2;
+	height: 100px;
+	z-index: 9;
+	position: relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image:url(../../multimedia/images/primateBanner.gif)
+}
+#primatebodyText {
+	font-family: Constantia, Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#primatebodyText p {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: Constantia, Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+#primatebodyText h1 {
+	font-family: Zapfino, Constantia, Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+}
+#primatebodyContainer {
+	margin: 0px;
+	width: 756px;
+	text-align: left;
+	border: 1px solid #708aa2;
+	background-repeat: repeat-y;
+	background-color: #FFFFFF;
+}
+#primateBannerImage-easter2008 {
+	margin: 0px;
+	padding: 0px;
+	width: 756px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #708aa2;
+	border-left-color: #708aa2;
+	height: 529px;
+	z-index: 9;
+	position: relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image:url(../../primate/communications/easter2008/easter.jpg)
+}
+
+/* Localized */

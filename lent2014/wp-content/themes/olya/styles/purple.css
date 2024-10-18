@@ -1,0 +1,57 @@
+/* Imports */
+/* Style: purple */
+body {
+  color: #5e5f66;
+}
+a {
+  color: #936ab6;
+}
+a:hover {
+  color: #714894;
+}
+#navigation ul.rss li a {
+  color: #5e5f66;
+}
+#navigation ul.rss li a:hover {
+  border-bottom: 3px solid #936ab6;
+}
+#navigation ul.rss li.sub-email {
+  color: #5e5f66;
+}
+.nav a {
+  color: #525359;
+}
+.nav a:hover {
+  border-bottom: 3px solid #936ab6;
+}
+.nav li.current_page_item a,
+.nav li.current_page_parent a,
+.nav li.current-menu-ancestor a,
+.nav li.current-cat a,
+.nav li.li.current-menu-item a {
+  border-bottom: 3px solid #936ab6;
+}
+#featured-wrapper .slide-container {
+  background: url("purple/featured-bg.png") no-repeat bottom center;
+}
+.single-portfolio #main #post-gallery .pagination {
+  border-bottom: 1px solid #f2f2f2;
+}
+.single-portfolio #main #post-gallery .pagination ul.jcarousel-list li a:hover {
+  background: url("purple/ico-pag-hover.png") no-repeat top left;
+}
+.single-portfolio #main #post-gallery .pagination ul.jcarousel-list li.current a {
+  background: url("purple/ico-pag-hover.png") no-repeat top left;
+}
+.single-portfolio #sidebar-portfolio ul {
+  margin-right: 1px;
+}
+.single-portfolio #sidebar-portfolio ul li a {
+  color: #5e5f66;
+}
+.single-portfolio #sidebar-portfolio ul li a:hover {
+  background: #936ab6;
+}
+.single-portfolio #sidebar-portfolio ul li a span.arrow {
+  background: url("purple/portfolio-sidebar-hover.png") no-repeat top left;
+}

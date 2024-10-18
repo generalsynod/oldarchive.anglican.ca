@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.menu-bar {
+	border: 1px solid #708aa2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px 10px 0px 0px;
+	padding: 5px;
+	width: 97%;
+	background-color: #E3ECF5;
+	}

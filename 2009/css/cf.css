@@ -1,0 +1,24 @@
+#cf_container {
+	float: left;
+	width: 948px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#cf_left {
+	float: left;
+}
+#cf_right {
+	float: right;
+}
+#cf_container p {
+	margin: 0px;
+	padding: 0px;
+	font-family: Calibri, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.3em;
+	color: #435A7A;
+	line-height: 1.3em;
+}
+#cf_container a {
+	color: #0067fc;
+	text-decoration: none;
+}

@@ -1,0 +1,70 @@
+<TABLE WIDTH="125">
+	<TR>
+		<TD>
+    			<a href="<? echo $baseURL ?>/">
+    				<IMG SRC="<? echo $baseURL ?>/synod98/acc_home.gif" WIDTH="100" HEIGHT="24" BORDER="0">
+			</a>
+			<P>
+			<div align="right">
+			    <font face="Trebuchet MS, Arial, Helvetica" size="2">
+			    		<strong>
+						<a href="<? echo $baseURL ?>/synod98/archive.html">
+							News
+						</a>
+					</strong>
+				</font>
+				<br>
+				<font face="Trebuchet MS, Arial, Helvetica" size="1">
+					Archived news and links to official press releases
+				</font>
+				<p>
+			    <font face="Trebuchet MS, Arial, Helvetica" size="2">
+			    		<strong>
+						<a href="<? echo $baseURL ?>/synod98/features/">
+							<I>Reports</I>
+						</a>
+					</strong>
+				</font>
+				<br>
+				<font face="Trebuchet MS, Arial, Helvetica" size="1">
+					Back issues of daily report on General Synod and of <I>Perspectives</I>, the e-mail newsletter
+				</font>
+				<p>
+				<font face="Trebuchet MS, Arial, Helvetica" size="2">
+						<strong>
+							Convening<BR>Circular
+						</strong>
+					</a>
+				</font>
+				<br>
+				<font face="Trebuchet MS, Arial, Helvetica" size="1">
+					Complete text of all 
+					<a href="<? echo $baseURL ?>/synod98/resolutions/index.html">
+						resolutions
+					</a>
+					and 
+					<a href="<? echo $baseURL ?>/synod98/reports/index.html">
+						reports 
+					</a>
+					to synod
+				</font>
+				<p>
+				<font face="Trebuchet MS, Arial, Helvetica" size="2">
+					<a href="<? echo $baseURL ?>/synod98/members/index.html">
+						<strong>
+							Members
+						</strong>
+					</a>
+				</font>
+				<br>
+				<font face="Trebuchet MS, Arial, Helvetica" size="1">
+					Full list of all members and back issues of <em>General Synod Times</em>.
+				</font>
+				<p>
+				<font face="MS Sans Serif,Arial,Helvetica" size="2">
+					<a href="<? echo $baseURL ?>/synod98/credits.html">Credits</a>
+				</font>
+			</div>
+		</td>
+	</tr>
+</table>

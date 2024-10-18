@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>A very basic Superfish menu example</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="/2010/css/superfish.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="/2010/css/superfish-navbar.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="/2010/css/anglicanTopNav.css" media="screen" />
+        <link href="/2010/css/baseAll.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/2010/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="/2010/js/superfish.js"></script>
+<script type="text/javascript"> 
+ 
+    $(document).ready(function() { 
+        $('ul.sf-menu').superfish({ 
+            delay:       1000,                            // one second delay on mouseout 
+            animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation 
+            speed:       'fast',                          // faster animation speed 
+            autoArrows:  true,                           // disable generation of arrow mark-up 
+            dropShadows: false                            // disable drop shadows 
+        }); 
+    }); 
+ 
+</script>
+</head>
+
+<body>
+<div id="anglicanTopNav">
+<ul class="sf-menu sf-navbar">
+  <li><a href="http://www.anglican.ca/">Home</a> </li>
+  <li><a href="http://www.anglican.ca/about/">About</a>
+<ul>
+      <li><a href="http://www.anglican.ca/about/mission-statement.htm">Mission Statement</a></li>
+      <li><a href="http://www.anglican.ca/about/diocese.htm">Dioceses</a></li>
+      <li><a href="http://www.anglican.ca/gs2010/">General Synod 2010</a></li>
+      <li><a href="http://www.anglican.ca/about/departments/index.htm">Departments</a></li>
+      <li><a href="http://www.anglican.ca/about/"><em>more...</em></a></li>
+    </ul>
+  </li>
+  <li><a href="http://news.anglican.ca/news/stories">News</a>
+<ul>
+      <li><a href="http://news.anglican.ca/news/stories?story_type_id=3">Press Releases</a></li>
+      <li><a href="http://news.anglican.ca/news/stories">News Stories</a></li>
+      <li><a href="http://www.anglican.ca/news/backgrounders/index.htm">Backgrounders</a></li>
+      <li><a href="http://www.anglican.ca/news/accjamaica/index.htm">Blogs</a></li>
+      <li><a href="http://news.anglican.ca/news/stories">more...</a></li>
+    </ul>
+  </li>
+  <li><a href="http://www.anglican.ca/faith/">Faith &amp; Worship</a>
+<ul>
+      <li><a href="http://www.anglican.ca/faith/identity/">Identity</a></li>
+      <li><a href="http://www.anglican.ca/faith/relationships/">Relationships</a></li>
+      <li><a href="http://www.anglican.ca/faith/ethics/">Ethics</a></li>
+      <li><a href="http://www.anglican.ca/faith/ministry/">Ministry</a></li>
+      <li><a href="http://www.anglican.ca/faith/">more...</a></li>
+    </ul>
+  </li>
+   <li><a href="http://www.anglican.ca/im/">Indigenous Ministries</a>
+<ul>
+      <li><a href="http://www.anglican.ca/im/background.htm">History</a></li>
+      <li><a href="http://www.anglican.ca/im/facts.htm">Facts</a></li>
+      <li><a href="http://www.anglican.ca/im/newagape/">A New Agape</a></li>
+      <li><a href="http://www.anglican.ca/im/covenant.htm">A Covenant</a></li>
+      <li><a href="http://www.anglican.ca/im/index.htm">more...</a></li>
+    </ul>
+  </li>
+  <li><a href="http://www.anglican.ca/mission/">Mission &amp; Justice</a>
+<ul>
+      <li><a href="http://www.anglican.ca/mission/about/">About</a></li>
+      <li><a href="http://www.anglican.ca/mission/programs/">Programs</a></li>
+      <li><a href="http://www.anglican.ca/mission/resources/">Resources</a></li>
+      <li><a href="http://www.anglican.ca/mission/action/">Areas of Action</a></li>
+    </ul>
+  </li>
+  <li><a href="http://www.anglican.ca/resources/">Resources</a></li>
+</ul>
+&nbsp;
+</div>
+</body>
+</html>

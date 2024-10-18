@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#anglicanTopNav {
+	width: 960px;
+	font-size: 13px;
+	background-color: #195738;
+	background-image: url(http://archive.anglican.ca/2010/images/anglicanTopNavBGFullShadow.gif);
+	background-repeat: repeat-x;
+	height: 74px;
+	top: 145px;
+	position: absolute;
+	font-family:Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#anglicanTopNav a {
+	font-family:Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+#anglicanTopNav em {font-family:Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;}

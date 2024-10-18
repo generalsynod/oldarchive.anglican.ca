@@ -1,0 +1,7 @@
+  <div id="globalNavBar"><table width="756" height="20" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><img src="/anglican/common_images/pixel.gif" alt=" " width="7" height="10" /><a href="http://www.anglican.ca/">Home</a>&nbsp;|&nbsp;<a href="http://www.anglican.ca/about/">About us</a>&nbsp;|&nbsp;<a href="news.anglican.ca/news/stories">News</a>&nbsp;|&nbsp;<a href="http://www.anglican.ca/faith/">Faith, Worship, and Ministry</a>&nbsp;|&nbsp;<a href="http://www.anglican.ca/im/">Indigenous Ministries</a>&nbsp;|&nbsp;<a href="http://www.anglican.ca/relationships/">Relationships</a>&nbsp;|&nbsp;<a href="http://www.anglican.ca/resources/">Resources</a></td>
+    <td align="right"><a href="javascript:print()"><img src="/anglican/common_images/print-me.gif" alt="Print page" width="19" height="20" border="0" /></a><a title="Send a link of this page to a friend." href="#"  onClick="usrActionReg(this,19);return false"><img src="/anglican/common_images/mail-me.gif" alt="Mail Page" width="30" height="20" border="0" /></a></td>
+  </tr>
+</table>
+		</div>

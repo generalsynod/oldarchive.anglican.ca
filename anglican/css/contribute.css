@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.photoright  {
+	margin: 0px;
+	float: right;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	width: 300px;
+	font-family: Calibri, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.photoright p {
+	font-family: Calibri, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	width: 300px;
+}
+.photoright img {
+	border: 1px solid #6C889F;
+	margin: 0px;
+	padding: 0px;
+}
+.photoleft  {
+	margin: 0px;
+	float: left;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	width: 300px;
+	font-family: Calibri, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.photoleft p {
+	font-family: Calibri, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	width: 300px;
+}
+.photoleft img {
+	border: 1px solid #6C889F;
+	margin: 0px;
+	padding: 0px;
+}
+.photocentre  {
+	font-family: Calibri, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	margin: 0px;
+	width: 585px;
+}
+.photocentre p {
+	font-family: Calibri, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	width: 585px;
+}
+.photocentre img {
+	border: 1px solid #6C889F;
+	margin: 0px;
+}
+	
+

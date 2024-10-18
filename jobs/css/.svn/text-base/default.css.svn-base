@@ -1,0 +1,99 @@
+#current-jobs div.job-posting {
+	border-bottom: 1px solid #000;
+	margin: 0 0 1.0em 0;
+	padding: 0 0 1.0em 0;
+}
+
+div.job-posting span.type {
+	color: #007777;
+	display: block;
+	font-style: italic;
+}
+
+div.job-posting span.title {
+	display: block;
+	font-size: 1.1em;
+}
+
+div.job-posting.is-published {
+	background: #cceecc;
+}
+
+div.job-posting.is-not-published {
+	background: #eecccc;
+}
+
+div.job-posting div.details {
+	margin: 1.0em 0;
+}
+
+div.job-posting span.contact-information {
+	background: #efefef;
+	border: 1px solid #000;
+	display: block;
+	margin: 0 0 1.0em 0;
+	padding: 0.25em;
+}
+
+#content div.menu-bar {
+	background: #efefef;
+	border: 1px solid #000;
+	margin: 0 0 1.0em 0;
+	padding: 0.25em;
+}
+
+#content div.menu-bar div.menu-bar-section {
+	display: inline;
+	margin: 0 2.0em 0 0;
+}
+
+#content div.menu-bar div.menu-bar-section a {
+	margin: 0 0.5em 0 0;
+}
+
+#new-job-posting {
+	display: block;
+	min-width: 700px;
+}
+
+#new-job-posting input.error, #new-job-posting textarea.error {
+	background: #eeaaaa;
+}
+
+#new-job-posting label.error {
+	color: #eeaaaa;
+}
+
+#new-job-posting div.errors {
+	background-color: #f5f500;
+	border: 1px solid #000;
+	margin: 0 0 1.0em 0;
+	padding: 0.25em;
+}
+#new-job-posting fieldset {
+	margin: 0 0 1.0em 0;
+}
+
+#new-job-posting input.text-field {
+	width: 300px;
+}
+
+#new-job-posting input.submit-button {
+	margin-left: 310px;	
+}
+#new-job-posting textarea {
+	margin-left: 300px;
+}
+
+#new-job-posting label {
+	font-weight: bold;
+}
+
+#new-job-posting label.field-label {
+	float: left;
+	width: 300px;
+}
+
+#new-job-posting label.section-label {
+	display: block;
+}

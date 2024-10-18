@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* main.css */
+/* Copyright 2009 The Anglican Church of Canada */
+
+
+
+/* font downloads */
+
+body {
+	font-size: 62.5%;
+	font-family: Cambria, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	line-height: 2.4em;
+	background-color: #EEEEEE;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* container */
+#container {
+	width: 965px;
+	text-align: left;
+	background-color: #FFF;
+	padding: 0px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+/* head */
+#headcontentcontainer {
+	width: 943px;
+	height: 275px;
+	margin-right: 11px;
+	margin-left: 11px;
+}
+
+
+#leftnavcontainer {
+	width: 307px;
+	float: left;
+	margin-left: 11px;
+	margin-top: 11px;
+}
+
+#bodycontainer {
+	width: 619px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 11px;
+	margin-left: 11px;
+	padding-top: 0px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+	padding-left: 3px;
+}
+
+#bodycontainer h1 {
+    font-size: 2.8em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: .857142em;
+	font-family: "Anivers Regular";
+}
+#bodycontainer h2 {
+  font-size: 1.8em;
+  margin-bottom: 1.333333em;
+  font-family: "Anivers Regular";
+}
+
+#bodycontainer h3 {
+  font-size: 1.6em;
+  margin-bottom: -1.5em;
+}
+
+#bodycontainer ul, ol {
+	font-size: 1.6em;
+	margin-top: 1.5em;
+	margin-right: 0;
+	margin-bottom: 1.5em;
+	margin-left: 3em;
+}
+#bodycontainer ul ul, ol ol {
+	font-size: 1.0em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+#bodycontainer li {
+	font-size: 1.0em;
+}
+#bodycontainer p {
+  font-size: 1.6em;
+  margin: 1.5em 0;
+  padding: 0px;
+}
+
+#bodycontainer blockquote {
+font-weight: bold;
+padding: 0 10em;
+}
+
+#bodycontainer blockquote p {
+margin: 0;
+}
+
+#bodycontainer cite {
+text-align: right;
+display: block;
+}
+.clearall {
+    clear: both;
+    display: block;
+    height: 1px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#footercontainer {
+	width: 943px;
+	margin-right: 11px;
+	margin-left: 11px;	
+}

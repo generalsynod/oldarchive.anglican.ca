@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>General Synod 2007</title>
+<link type="text/css" media="screen" rel="stylesheet" href="css/screen.css" />
+<link type="text/css" media="print" rel="stylesheet" href="css/print.css" />
+
+
+
+
+<script type="text/javascript">
+
+//SuckerTree Vertical Menu (Aug 4th, 06)
+//By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+function buildsubmenus(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.display="none"
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+window.attachEvent("onload", buildsubmenus)
+
+</script>
+<script type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+
+</head>
+
+<body>
+<div id="Layer1"> <a href="http://www.anglican.ca/search/contactus.htm">our address / staff directory</a> | <a href="http://www.anglican.ca/search/sitemap.htm">site map</a> | <a href="http://www.anglican.ca/search/index.htm">search</a></div>
+<div id="Layer2">
+  <div id="suckerdiv">
+
+</div></div>
+<div id="Layer4">
+  <p>Draw The Circle Wide. Draw It Wider Still!<br />
+    <span class="secondline">Winnipeg Manitoba, June 19-25, 2007</span> </p>
+</div>
+<div class="content">
+  <h1>General Synod 2007 </h1>
+  <p>General Synod 2007 will be held in Winnipeg Manitoba from June 19th to the 25, 2007.</p>
+  <p>Information on General Synod will be placed on this website as it becomes available.</p>
+  <p>For more information, contact General Synod planning:</p>
+  <p><strong>Ven. Michael Pollesel</strong>, ext. 280, <a href="http://generalsynod.anglican.ca/ministries/departments/staff_email.php?id=172">e-mail</a><br />
+  General Secretary</p>
+  <p><strong>Ms. Margaret Shawyer</strong>, ext. 214, <a href="http://generalsynod.anglican.ca/ministries/departments/staff_email.php?id=36">e-mail</a><br />
+Co-ordinator General Synod Planning</p>
+  <p><strong>Ms. Dianne Izzard</strong>, ext. 275, <a href="http://generalsynod.anglican.ca/ministries/departments/staff_email.php?id=34">e-mail</a><br />
+    Assistant to the Coordinator, General Synod Planning</p>
+  <hr />
+  <p class="footer">&copy; 1998-2006 the General Synod of the Anglican Church of Canada<br />
+  <span class="printonly">While this is the official site of the Anglican Church of Canada, the material published here does not necessarily reflect official positions of the General Synod or any other body of the church. In cases where an official position is represented, that is indicated on the page or in the text in question.</span>
+    <span class="noprint"><a href="http://www.anglican.ca/search/contentpolicy.htm">website content policy</a> | <a href="xghttp://www.anglican.ca/search/contact-info.htm">information desk</a> | <a href="xhttp://www.anglican.ca/search/contact-wm.htm">technical support</a></span></p>
+  <p class="footerblack"><strong>The Anglican Church of Canada</strong><br />
+    80 Hayden Street<br />
+    Toronto, Ontario M4Y 3G2<br />
+  Main switchboard: 416-924-9192</p>
+</div>
+<div id="logotop"><img src="/gs2007/images/logo.gif" alt="General Synod 2007" width="230" height="75" /></div>
+<div id="topbar"><a href="http://www.anglican.ca/"><img src="/gs2007/images/acc130.gif" alt="Anglican Church of Canada" width="230" height="15" border="0" /></a></div>
+ 
+
+
+</body>
+</html>

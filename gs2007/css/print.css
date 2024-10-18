@@ -1,0 +1,77 @@
+/* CSS Document */
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16pt;
+	font-weight: bold;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+#suckertree1 { display: none }
+#suckerdiv { display: none }
+
+	
+/* Holly Hack for IE \*/ 
+/* * html .suckerdiv ul li { float: left; height: 1%; } */
+/* * html .suckerdiv ul li a { height: 1%; } */
+#commonNav { display: none }
+#blanktop { display: none }
+
+#topbar-links { display: none }
+
+#logotop { display: none }
+
+#Layer1 { display: none }
+
+#Layer2 {display: none }
+
+
+
+#Layer3 { display: none }
+
+.noprint { display: none }
+
+.content {clear:left;}
+
+.printonly {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+}
+
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	}
+.footerblack {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+#header {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.secondline { display:none }
+
+#Layer4 { display:none }
+
+.frompage { display:none }
+
+#logotop { display:none }
+
+/* End */
+</style>

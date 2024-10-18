@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/acip.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Walking a New Vision</title>
+<!-- InstanceEndEditable -->
+<link href="/anglican/css/main.css" rel="stylesheet" type="text/css" title="Base stylesheet"  media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/anglican/css/largerFonts.css" title="Larger fonts stylesheet" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/anglican/css/largestFonts.css" title="Largest fonts stylesheet" media="screen" />
+<link rel="stylesheet" type="text/css" href="/anglican/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/default.css" rel="stylesheet" />
+    <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="css/default-ie7.css" media="all" />
+    <![endif]-->
+    <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="css/default-ie6.css" media="all" />
+    <![endif]-->
+  
+
+<script src="/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="/SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+
+<script src="/js/print1.js" type="application/javascript"></script>
+<?php
+function selfURL() { $s = empty($_SERVER["HTTPS"]) ? '' : ($_SERVER["HTTPS"] == "on") ? "s" : ""; $protocol = strleft(strtolower($_SERVER["SERVER_PROTOCOL"]), "/").$s; $port = ($_SERVER["SERVER_PORT"] == "80") ? "" : (":".$_SERVER["SERVER_PORT"]); return $protocol."://".$_SERVER['SERVER_NAME'].$port.$_SERVER['REQUEST_URI']; } function strleft($s1, $s2) { return substr($s1, 0, strpos($s1, $s2)); }
+?>
+<script src="/kaosjs/kw_breadcrumbs.js" type="text/javascript"></script>
+<script type="text/javascript" src="/anglican/js/styleswitcher.js"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+
+</head>
+
+<body>
+
+<div class="printonly"><img src="/anglican/common_images/acc-logo-print.gif" alt=" " width="263" height="50" /><br /><hr size="1" noshade="noshade" /></div>
+<div align="center">
+	<div id="background"><div id="header"><table width="757" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left"><a name="top" id="top"></a><a href="/index.htm"><img src="/anglican/common_images/acc-top-logo.gif" alt="Anglican Church of Canada home page" width="261" height="52" border="0" /></a></td>
+    <td align="right">
+	<table border="0" cellpadding="0" cellspacing="0" class="searchText">
+	<form id="searchbox_013851542568505659426:0nv6hnlr5pa" action="http://www2.anglican.ca/search/results.htm">
+	<input type="hidden" name="cx" value="013851542568505659426:0nv6hnlr5pa" />
+  	<input type="hidden" name="cof" value="FORID:11" />
+		<tr>
+			<td><a href="/search/contactus.htm">STAFF DIRECTORY</a> | <a href="/search/sitemap.htm">SITE MAP</a> | <a href="/search/sites.htm">SITES</a><img src="/anglican/common_images/pixel.gif" alt=" " width="5" height="5" /></td>
+	        <td align="right"><input name="q" type="text" class="searchBox" value="" size="20"></td>
+			<td align="right" valign="middle"><img src="/anglican/common_images/pixel.gif" alt=" " width="5" height="10" /></td>
+			<td align="right" valign="middle"><input name="sa" type="submit" class="searchBox" value="Go!" src="/anglican/common_images/search.gif" align="right"></td>
+			<td align="right" valign="middle"><img src="/anglican/common_images/pixel.gif" alt=" " width="10" height="10" /></td>
+  </tr>
+  </form>
+  </table>  </td>
+  </tr>
+</table>
+</div>
+<div id="bannerImage"><table class="noprint" width="100%" height="200" cellpadding="7" cellspacing="0">
+  <tr>
+    <td valign="bottom">&nbsp;</td>
+  </tr></table>
+</div>
+  <div id="apDiv1"><!-- InstanceBeginEditable name="page title" -->Anglican Council of Indigenous Peoples <!-- InstanceEndEditable --></div>
+
+  <div id="globalNavBar"><table width="756" height="20" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><img src="/anglican/common_images/pixel.gif" alt=" " width="7" height="10" /><a href="/index.htm">Home</a>&nbsp;|&nbsp;<a href="/about/index.htm">About us</a>&nbsp;|&nbsp;<a href="/news/index.htm">News</a>&nbsp;|&nbsp;<a href="/faith/index.htm">Faith &amp; Worship</a>&nbsp;|&nbsp;<a href="/im/index.htm">Indigenous Ministries</a>&nbsp;|&nbsp;<a href="/partnerships/index.htm">Partnerships</a>&nbsp;|&nbsp;<a href="/resources/index.htm">Resources</a></td>
+    <td align="right"><a href="javascript:print()"><img src="/anglican/common_images/print-me.gif" alt="Print page" width="19" height="20" border="0" /></a><a title="Send a link of this page to a friend." href="#"  onClick="usrActionReg(this,19);return false"><img src="/anglican/common_images/mail-me.gif" alt="Mail Page" width="30" height="20" border="0" /></a></td>
+  </tr>
+</table>
+		</div>
+		<div id="bodyContainer">
+		<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="151" valign="top" class="noprint"><ul id="MenuBar1" class="MenuBarVertical">
+    <img src="/about/committees/acip/acip-side-bar.gif" alt=" " border="0" />
+  <li><a href="/about/welcome.htm">A New Agape</a></li>
+  <li><a href="/about/committees/acip/history.htm">Our recent history</a></li>
+  <li><a href="/about/committees/acip/apology.htm">The apology</a></li>
+  <li><a href="/about/committees/acip/covenant.htm">A Covenant</a></li>
+  <li><a href="/about/committees/acip/facts.htm">Some facts</a></li>
+  <li><a href="/about/committees/acip/logo.htm">About our logo</a></li>
+  <li><a class="MenuBarItemSubmenu" href="#">Programs and resources</a>
+  	<ul>
+  		<li><a href="/about/committees/acip/ACC_PrayerCalendar2002_v8.pdf">Indigenous Sacred Circle prayer calendar (PDF)</a></li>
+  		<li><a href="/Residental-Schools/healing/index.htm">Anglican Healing Fund</a></li>
+  		<li><a href="/faith/worship/nadp2007.htm">National Aboriginal Day of Prayer</a></li>
+  		<li><a href="/about/committees/acip/pastoral-letter.htm">Pastoral letter - October 10, 2003</a></li>
+  		<li><a href="/about/committees/acip/sc2000/index.htm">Sacred Circle 2000</a></li>
+  		<li><a href="/about/committees/acip/sc2005/index.htm">Sacred Circle 2005</a></li>
+  		<li><a href="/about/committees/acip/trc.htm">Terms of reference and membership</a></li>
+  		<li><a href="/about/committees/acip/resources.htm">Further resources</a></li>
+  	</ul>
+  </li>
+  <li><a  href="/about/index.htm"><em>About the Anglican Church of Canada</em></a></li>
+
+    <li><a href="/about/committees/index.htm"><em>Committes and Councils of General Synod</em></a></li>
+    </ul></td>
+    <td valign="top"><div id="bodyContent">
+			<!--<div id="area"></div>-->
+            <div class="bcText" id="bcText">
+			  <p>You are here: <script type="text/javascript">KW_breadcrumbs("Home",">",0,1,"index.htm",3,4)</script></p></div>
+            	<div id="content">            	  
+            	  
+            	  <h1><!-- InstanceBeginEditable name="TITLE" --><center>Anglican Indigenous Sacred Circle 2000<br />
+   	Walking a New Vision
+   	</center>
+   	<!-- InstanceEndEditable --></h1>
+                  <!-- InstanceBeginEditable name="BODY" --><p>&nbsp;
+      </p><h3 align="center">Daily Reflections</h3>
+      <div align="center"><em>August 21, 2000 -- Issue 3</em></div>
+      <h3>God Is A Person</h3>
+      In a moving address Bishop Andrew Atugutaluk reminded those at the Sacred Circle that God is a Person, a God of all time. </p><p>
+Bishop Andrew began his homily with a stirring act of praise extolling the majesty and greatness of God. </p><p>
+Commenting on the role of the past in healing the future. Atugutaluk told how the Apostles Stephen and Peter were guided by the Holy Spirit to retell the history of Israel. Atugutaluk believes that the recounting of history affirms: God's presence throughout history, God's purpose for his people, the healing power of story and God's personhood. </p><p>
+Bishop Andrew pointed out that we often fail to see God as a person and instead see God and religion as an organization, an institution. We so easily become institutionalized and stop caring for people's needs. </p><p>
+Atugutaluk infers that Saul succumbed to this state and in effect says in Galatians 1:13, 14: ?I was so institutionalized that I became inhuman?. He was so caught up in the institution he belonged to that he thought his intentions were right. </p><p>
+Depersonalized institutions do not bring healing. God heals by taking us back to our history to bring about our healing for the future.
+</p><p>&nbsp;
+</p><h4>Healing Service Powerful</h4>
+For many today's Healing Service was the highlight of the week. <br />
+<blockquote>?And then that Healing Service, that was really the highlight of my day. It's so beautiful. We have healing services like that back home every third Sunday. And every time we have [them] we have the hugging. So it's so beautiful. But like tonight the Holy spirit [is] so strong here. You could just feel the Holy Spirit is strong. And when they were praying over me, I don?t know his name, that Reverend [Mervin Wolf leg] there, the one that did the homily. As he was praying over me I seen like, I don?t know if it is grass, it was like a tent and it was smoking and the smoke was going up into the air. I could see it clear. I could just feel the Holy Spirit come over me. Burning. I could see that vision. It's beautiful.?</blockquote>
+<blockquote>?For me the healing service really stands out just because I?ve never been to anything like that. I never experienced that before. And to have this opportunity; just to see how people get involved; and they go up; and the support afterwards. I mean, people were coming back and if they were, you know, upset or crying, or you know joyous crying, there was somebody ... right there to comfort them and stuff and give them a big hug. Also the other thing I noticed too was the end. When I walked out, I went out and gave everybody a hug. Or like, you know what, at my church, you shake hands. But here, it's like you?re grabbing people and giving these big, like bear hugs, really tight hugs; and you know from going to a congregation where it's: Good-bye! It's getting late! Leave! Big hug. That was really impressive!?</blockquote>
+<p>&nbsp;
+</p><h3>It's Time To Tell Our Own History</h3>
+Retelling history is a recurring theme. ?A couple of the people that I?ve met, particularly in my group, really value their history. A desire to have more conveyed to them through their people rather than the European--- this is the way it was done and this is what matters. But they want to know their own; and the de-sire to know their own is so strong for some people in our group.? </p><p>
+?It's really important to have the real history of the church and not just the European view of history in Canada. The partners had a thing up on the wall with that time line. And on it were written different things that had happened in Canada. We talked at one point that if, at a gathering like this, everybody could write in the bits that they knew, you might actually begin to have the history of the Indigenous people in the Anglican Church in Canada that we could do something with. Cause if everybody puts in the bits that they know from their own community you?d cover the whole country pretty quick. So having the real history and being able to tell it seems to be really important to a lot of people in our group because it keeps coming up.
+</p><p>&nbsp;
+</p><h4>Priest Prays for Boys</h4>
+This is his first time at a Sacred Circle. The northern priest talks about the need for healing in his community. 'so the things that we talked about in the circle was [what] I mentioned ? the problem that we have in our reserve ...the abuse that one of our priests did ... He did a lot of abuse to young teenage boys. ...We didn?t even notice it. All the time that we were attending services with him. I feel sorry for those young boys that were abused. Most of them are married now. As I continue working for the Lord, I usually go visit them. I know that the Holy Spirit is directing my life to talk to those boys that were abused at my reserve. I usually go pray for them. ...My heart, every time I see those teenagers I have tears in my eyes, ?cause I feel sorry for them. I keep on praying for them in my daily times. As I live for the Lord I hope the Holy Spirit will direct their lives too as they grow up. Most of the time, some of them, they don?t want to come to church. I?m very happy that I came to this circle. This is my first time here. I want the prayers of every Anglican priest/ bishop at this moment as we struggle [with] our lives in this reserve. Thank you.?
+<p>&nbsp;
+</p><h4>Apology Important</h4>
+In his homily Bishop Atugutaluk stressed the importance of the Primate's apology. He said that when former residential school survivors gave voice to their pain they were not heard?because they cried to an institution. </p><p>
+When the Primate apologized, he put a face on the Church. We are now speaking to a person.. </p><p>
+Members in the Sharing Circles affirmed Atugutaluk's statement saying that good things started to happen when the Primate apologized. ? He [the Primate] did not just apologize and disappear.?<br />
+</p><h4>Keepers of the Memory</h4>
+<ul>
+  <li>Joey Bluecoat, Keewatin
+      </li><li>Richard Bruyere, Keewatin
+      </li><li>Sue Moxely, Nova Scotia
+      </li><li>Jennifer Snowden, Algoma
+    </li></ul>
+  <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Links" -->
+
+    <!-- InstanceEndEditable --></div>
+		  </div></td></tr></table> <div id="footerContent">
+			    <table border="0" align="right" cellpadding="6" cellspacing="0">
+                  <tr>
+                    <td align="right" valign="top">
+                      <a href="#top">jump to  top of page</a></td>
+                  </tr>
+                </table>
+			    <p class="noprint"><strong>&copy; 1998-<?php echo date("Y") ?> the General Synod of the Anglican Church of Canada</strong><br />
+		          <a href="/search/contentpolicy.htm">website content policies</a> | <a href="/contact/info.htm">information desk</a> | <a href="/contact/webmanager.htm">technical standards &amp; support</a> | <a href="/search/aboutphotos.htm">banner photos</a> </p>
+				<div class="printonly"><p><hr size="1" noshade="noshade" /><strong>&copy; 1998-<?php echo date("Y") ?> the General Synod of the Anglican Church of Canada</strong><br />While this is the official site of the Anglican Church of Canada, the material published here does not necessarily reflect official positions of the General Synod or any other body of the church. In cases where an official position is represented, that is indicated on the page or in the text in question.</p></div>
+			    <p>last modified: 
+                  <!-- InstanceBeginEditable name="pub-date" -->
+	  <!-- #BeginDate format:Am1 -->October 16, 2007<!-- #EndDate -->
+	  <!-- InstanceEndEditable -->                  <br />
+			      managed by: <!-- InstanceBeginEditable name="page-author" -->General Synod Communications <!-- InstanceEndEditable --> <br />
+			      contact: <!-- InstanceBeginEditable name="contact" --><a href="http://www.anglican.ca/contact/acip.htm">ACIP</a> <!-- InstanceEndEditable --></p>
+<p><strong>The Anglican Church of Canada</strong><br />
+			      80 Hayden Street<br />
+		        Toronto, Ontario M4Y 3G2</p>
+		  </div></div></div></div>
+<!-- GOOGLE ANALYTICS -->
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"/SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-191686-3";
+urchinTracker();
+</script>
+</body>
+<!-- InstanceEnd --></html>

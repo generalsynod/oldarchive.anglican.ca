@@ -1,0 +1,81 @@
+#box960 {
+	width: 940px;
+	overflow:hidden;
+	background-image: url(/2010/footerBox/footerBoxBG.gif);
+	background-repeat: repeat-x;
+	padding: 10px;
+	font-family:Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#box960 h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	font-family:Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+		line-height: 1.1em;
+	margin-bottom: .2em;
+
+}
+#box960 h4 {
+	font-size: 12px;
+	font-weight: bold;
+		color: #FFF;
+	padding-right: 5px;
+	padding-left: 0px;
+	font-family:Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height: 1.15em;
+	margin-bottom: 0.2em;
+}
+
+#box960 ul li {
+	font-size: 12px;
+	color: #FFF;
+	padding-right: 5px;
+	padding-left: 0px;
+	font-family:Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height: 1.15em;
+	margin-bottom: 0.2em;
+	list-style: none;
+}
+#box960 li li {
+	padding-left: 5px;
+	margin-left: 10px;
+}
+#box960 a {
+	color: #FFF;
+	text-decoration: none;
+	font-family:Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#box960 a:hover {
+	color: #CCC;
+	text-decoration: underline;
+}
+#boxOnetoThree {
+	float: left;
+	width: 550px;
+
+}
+#boxOne  {
+	float: left;
+	width: 185px;
+}
+#boxTwo  {
+	float: left;
+	width: 185px;
+}
+#boxThree  {
+	float: left;
+	width: 180px;
+}
+
+#boxFour  {
+	float: left;
+	width: 191px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+	padding-left: 8px;
+}
+#boxFive  {
+	float: left;
+	width: 188px;
+}

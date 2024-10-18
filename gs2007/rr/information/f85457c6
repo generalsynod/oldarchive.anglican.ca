@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/gs2007.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>General Synod 2007: Partners and Visitors at General Synod</title>
+<!-- InstanceEndEditable -->
+<link type="text/css" media="screen" rel="stylesheet" href="../../css/screen.css" />
+<link type="text/css" media="print" rel="stylesheet" href="../../css/print.css" />
+<link href="/topbar/topbar.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script src="/js/gs2007-pulldown.js" type="text/javascript" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/gs2007/gs2007whats_new.xml" />
+
+<script type="text/javascript">
+<!--
+//SuckerTree Vertical Menu (Aug 4th, 06)
+//By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+function buildsubmenus(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.display="none"
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+window.attachEvent("onload", buildsubmenus)
+-->
+</script>
+<script type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body  onload="MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
+<div id="header"><p><img src="/gs2007/images/gslogoprint.gif" width="289" height="92" alt=" " /></p></div>
+<div id="commonNav"><div class="noprint"><?php include("topbar-new.shtm");?></div></div>
+<div id="logotop"><a href="/gs2007/index.htm"><img src="/gs2007/images/logo.gif" alt="General Synod 2007" width="230" height="75" border="0" /></a><img src="/gs2007/images/gstitle.gif" alt=" " width="530" height="75" /></div>
+<div id="Layer2">
+  <div id="suckerdiv">
+<?php include("gs2007nav.seg");?>
+</div></div>
+<div class="content">
+  <h1><!-- InstanceBeginEditable name="Title" -->Partners and Visitors at General Synod<!-- InstanceEndEditable --></h1>
+  <!-- InstanceBeginEditable name="Content" -->
+  <p><em><a href="/gs2007/rr/index.htm">up to Convening Circular<br />
+  </a></em><em><a href="/gs2007/rr/information/index.htm">^-- up to Information</a></em></p>
+  <h1>Indigenous Partners</h1>
+  <p>General Synod is pleased to welcome partners who come as members of some of the 225 Indigenous Anglican Church communities in Canada.&nbsp; </p>
+  <table border="0" align="center" cellpadding="3" cellspacing="0">
+    <tr>
+      <td>Ethel Ahenakew</td>
+      <td></td>
+      <td>Freda Lepine</td>
+    </tr>
+    <tr>
+      <td>Hannah Alexie</td>
+      <td></td>
+      <td>Mark MacDonald</td>
+    </tr>
+    <tr>
+      <td>Arthur Anderson</td>
+      <td></td>
+      <td>Willard Martin</td>
+    </tr>
+    <tr>
+      <td>Angeline Ayoungman</td>
+      <td></td>
+      <td>Gloria Moses</td>
+    </tr>
+    <tr>
+      <td>Sidney Black</td>
+      <td></td>
+      <td>Malcolm Naea Chun</td>
+    </tr>
+    <tr>
+      <td>Charles Bobbish</td>
+      <td></td>
+      <td>Ruby Sandy-Robinson</td>
+    </tr>
+    <tr>
+      <td>Marcie French</td>
+      <td></td>
+      <td>Angus Sewap</td>
+    </tr>
+    <tr>
+      <td>Maria Jane Highway</td>
+      <td></td>
+      <td>Lorraine Still</td>
+    </tr>
+  </table>
+  
+  <h1>Ecumenical Partners</h1>
+  
+  <p><strong>Canadian Council of Churches</strong></p>
+  <p>The Rev. Dr. Karen A. Hamilton, General Secretary, The Canadian Council of Churches</p>
+  <p><strong>Canadian Conference of Catholic Bishops</strong> - TBA</p>
+  <p><strong>Evangelical Lutheran Church in Canada</strong></p>
+  <p>The Rev. Sonja Free has been a partner to the Council of General Synod since November 2003. </p>
+  <p><strong>The United Church of Canada</strong></p>
+  <p>Dr. Gail Allen, Ecumenical Officer and Program Coordinator, Inter-Church and Inter Faith. </p>
+  <p><strong>The Episcopal Church</strong></p>
+  <p>The Rev. Petero Sabune,&nbsp; Episcopal Church partner to the Council of General Synod.  </p>
+  
+  <h1>Overseas Partners</h1>
+  <p>The Rt. Rev. Pie Ntukamazina, Bishop of the Diocese of Bujumbura, the Province of the Anglican Church of Burundi. Active in social issues,&nbsp; he represents a new non governmental organization known as &ldquo;peace Center&rdquo;, initiated by the Diocese of Bujumbura.&nbsp; Bishop Ntukamazina is a member of the General Committee of the All Africa Conference of Churches, and is Chair of the Planning Committee for the General Assembly taking place in Maputo, Mozambique in December 2008.</p>
+  <p>Mrs. Hellen Wangusa, Anglican Observer to the United Nations. From 1997-2004, the new UN Observer worked as Co-ordinator of African Women&rsquo;s Economic Policy Network (AWEPON)</p>
+  <p>The Rt. Rev. Patrick Mwachiko, Diocese of Masasi, Anglican Church of Tanzania, where has been Bishop of Masasi, the southernmost diocese in the Province of Tanzania since 1996.&nbsp; The diocese covers a large area of Southern Tanzania and many of the parishes have up to ten outstations and sometimes more.&nbsp; In January of this year Bishop Mwachiko began a year of study leave at the college of Emmanuel and St. Chad in Saskatoon where he is working on a Diploma in Anglican Studies.&nbsp; His studies have been funded in part by PWRDF and Partnerships divisions of General Synod. </p>
+  
+  <h1>Visitors</h1>
+  <p>The Most Rev. and Rt. Hon. Dr. John Sentamu, Archbishop of York&nbsp; and Primate of England</p>
+  <p>The Rev. Canon Kenneth Kearon, Secretary General of the Anglican Communion</p>
+  <p>The Most Rev. Katharine Jefferts Schori, Presiding Bishop of the Episcopal will attend the installation of the new Primate on Monday, June 25. </p>
+  <p>The Rev. Dr. Gregory Straub, General Secretary of the Episcopal Church.</p>
+  <p>Ms. Bonnie Anderson, Chair of the House of Deputies, Episcopal Church.</p>
+  <p>Mr. Malcolm Naea Chun, Honolulu, Hawaii, Secretary General of the Anglican Indigenous Network.&nbsp; </p>
+  <p>Robert J. Suderman, General Secretary, Mennonite Church Canada</p>
+  <p>The Rev. Canon Phil Groves, Facilitator for the Listening Process for the Anglican Communion.</p>
+  <!-- InstanceEndEditable -->
+  <p>&nbsp;</p>
+  <div class="frompage"> <!-- InstanceBeginEditable name="frompage" -->
+    <ul>
+      <li><a href="/gs2007/rr/information/inf-07-18.pdf">This document in PDF format</a></li>
+    </ul>
+    <!-- InstanceEndEditable --></div>
+  <hr />
+  <p class="footer">Last updated: <!-- InstanceBeginEditable name="Date" -->
+    <!-- #BeginDate format:acAm1 -->Tue, May 15, 2007<!-- #EndDate -->
+  <!-- InstanceEndEditable --><br />
+    &copy; 1998-2006 the General Synod of the Anglican Church of Canada<br />
+  <span class="printonly">The content on this website is for informational purposes only. In case of a discrepancy between the content of this website and printed material produced by General Synod, the printed version is to be considered correct.</span>
+  <span class="noprint"><a href="http://www.anglican.ca/search/contentpolicy.htm">website content policy</a> | <a href="xghttp://www.anglican.ca/search/contact-info.htm">information desk</a> | <a href="xhttp://www.anglican.ca/search/contact-wm.htm">technical support</a></span></p>
+  <p class="footerblack"><strong>The Anglican Church of Canada</strong><br />
+    80 Hayden Street<br />
+    Toronto, Ontario M4Y 3G2<br />
+  Main switchboard: 416-924-9192</p>
+</div>
+ 
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-191686-3";
+urchinTracker();
+</script>
+
+</body>
+<!-- InstanceEnd --></html>

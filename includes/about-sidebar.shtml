@@ -1,0 +1,12 @@
+
+    
+  <li><a href="http://www.anglican.ca/about/">About the Anglican Church of Canada</a></li>
+  <li><a href="http://www.anglican.ca/about/beliefs/">Our beliefs</a></li>
+  <li><a href="http://www.anglican.ca/about/history/">A brief history</a></li>
+  <li><a href="http://www.anglican.ca/about/toexpect/">What to expect when you visit an Anglican church</a></li>
+  <li><a href="http://www.anglican.ca/about/organization/">How we are organized</a></li>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"/SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+  </script>

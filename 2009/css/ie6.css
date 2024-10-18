@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* body hacks */
+
+#leftnavcontainer {
+	width: 306px;
+	margin-left: 6px;
+}
+
+#bodycontainer {
+	width: 619px;
+	margin-right: 7px;
+}
+
+/* fnav hacks */
+#fnav_container ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0.5em;
+}
+#fnav_container {
+	background-image: url(/2009/images/fnav_line_ie6.gif);
+}

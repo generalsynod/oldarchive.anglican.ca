@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<!--
+#C_footer {
+	background-color: #435a7a;
+	padding: 10px;
+	width: 926px;
+	float: none;
+	height: 245px;
+	text-align: left;
+}
+#C_footer h2 {
+	font-family: Calibri, "Lucida Sans Unicode", "Lucida Grande", Arial, Helevetica, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #FFF;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#C_footer ul {
+	font-family: Calibri, "Lucida Sans Unicode", "Lucida Grande", Arial, Helevetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	list-style-type: none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	white-space: normal;
+	display: list-item;
+	line-height: 16px;
+}
+#C_footer h4 {
+	font-family: Calibri, "Lucida Sans Unicode", "Lucida Grande", Arial, Helevetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+#C_footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+#C_footer a:hover {
+	text-decoration: underline;
+}
+#C_box13 {
+	width: 551px;
+	float: left;
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+}
+#C_box1 {
+	float: left;
+	width: 184px;
+	margin: 0px;
+	padding: 0px;
+}
+#C_box2 {
+	float: left;
+	width: 183px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+#C_box3 {
+	float: left;
+	width: 183px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+#C_footerEndNote {
+	font-family: Calibri, "Lucida Sans Unicode", "Lucida Grande", Arial, Helevetica, sans-serif;
+	font-size: 12px;
+	color: #5D6D8B;
+	margin: 0px;
+	width: 935px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	background-color: #FFF;
+}
+#C_box4 {
+	float: left;
+	width: 171px;
+	height: 220px;
+	margin: 0px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #CCC;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#C_box5 {
+	float: left;
+	width: 176px;
+	height: 220px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #CCC;
+}
+#C_footerClear {
+	clear: both;
+}
+#C_footerEndNote p {
+	margin: 0px;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#C_footerEndNote td {
+	background-color: #FFF;	
+}
+
+#C_footerEndNote table {
+	padding: 0px;
+	margin: 0px;
+}

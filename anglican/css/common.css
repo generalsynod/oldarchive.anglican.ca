@@ -1,0 +1,506 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+#area {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align:right;
+	background-color: #8DAFCE;
+	border: 1px solid #708AA2;
+	width: 578px;
+	margin-top: 5px;
+	margin-right: 7px;
+	margin-bottom: 4px;
+	margin-left: 0px;
+	padding: 3px;
+}
+body {
+	background-color: #ececec;
+	margin: 0px;
+}
+#background {
+	background-image: url(../common_images/background.gif);
+	background-repeat: repeat-y;
+	background-position: center;
+	position: relative;
+}
+#globalNavBar {
+	background-color: #8dafce;
+	margin: 0px;
+	height: 20px;
+	width: 756px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #708aa2;
+	border-left-color: #708aa2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	vertical-align: middle;
+	font-weight: lighter;
+}
+#globalNavBar a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#globalNavBar a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#globalNavBar a:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#bannerImage {
+	margin: 0px;
+	padding: 0px;
+	width: 756px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #708aa2;
+	border-bottom-color: #708aa2;
+	border-left-color: #708aa2;
+	height: 200px;
+	z-index: 9;
+	position: relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image:url(../../banner-images/rotate.php);
+	clear: both;
+}
+#bodyContainer {
+	margin: 0px;
+	width: 756px;
+	text-align: left;
+	border: 1px solid #708aa2;
+	background-image: url(../common_images/insideContainerbg.gif);
+	background-repeat: repeat-y;
+}
+.searchText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #708aa2;
+}
+.searchBox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #ececec;
+	border: 1px solid #708aa2;
+}
+#bodyContent h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #708AA2;
+	padding-bottom: 1px;
+}
+#bodyContent h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+#bodyContent h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+#footerContent {
+	background-color: #E3ECF5;
+	padding: 0px 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #708AA2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #708AA2;
+}
+#footerContent p {
+	padding-top: 8px;
+	padding-bottom: 3px;
+	margin: 0px;
+}
+
+.searchText a:link{
+	color: #708aa2;
+	text-decoration: none;
+}
+.searchText a:visited{
+	color: #708aa2;
+	text-decoration: none;
+}
+.searchText a:hover{
+	color: #708aa2;
+	text-decoration: underline;
+}
+#bodyContent {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 100%;
+	text-align: left;
+	margin: 0px;
+	width: 585px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: 7;
+	visibility: visible;
+	overflow: visible;
+	padding: 5px 10px 10px;
+	height: 100%;
+	line-height: 127%;
+}
+#bodyContent p {
+	margin-top: 6px;
+	margin-bottom: 10px;
+	}
+#header {
+	background-color: #FFFFFF;
+	width: 756px;
+	border-right: 1px solid #708aa2;
+	border-bottom: 1px solid #708aa2;
+	border-left: 1px solid #708aa2;
+	height: 52px;
+	z-index: 2;
+	position: relative;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+/* SIDE NAV */
+
+#sighttools {
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #ECECEC;
+	margin-bottom: 10px;
+	border: 1px solid #708AA2;
+}
+
+/* END SIDE NAV */
+
+#bcText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-transform: lowercase;
+	color: #708aa2;
+	margin: 0px;
+	padding: 0px;
+}
+#bcText p {
+	margin: 0px;
+	padding: 0px;
+}
+
+#bcText a:link{
+	color: #0f63b7;
+	text-decoration: none;
+}
+#bcText a:visited{
+	color: #0f63b7;
+	text-decoration: none;
+}
+#bcText a:hover{
+	color: #0f63b7;
+	text-decoration: underline;
+}
+a:link {
+	color: #0f63b7;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.printonly { display:none; }
+
+#navBar{
+	margin: 0 0 0 0;
+	padding: 0px;
+	background-color: #8dafce;
+	border-bottom: 1px solid #ccc;
+}
+
+
+/*********** #navBar link styles ***********/
+
+#navBar ul a:link, #navBar ul a:visited {display: block;}
+#navBar ul {list-style: none; margin: 0; padding: 0;}
+
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#navBar li {border-bottom: 1px solid #EEE;}
+
+/* fix for browsers that don't need the hack */
+html>body #navBar li {border-bottom: none;}
+
+
+/*********** #sectionLinks styles ***********/
+
+#sectionLinks{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #708aa2;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+}
+
+#sectionLinks h3{
+	margin: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #708aa2;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 7px;
+
+}
+
+#sectionLinks a:link{
+	color:#FFFFFF;
+	padding: 2px 2px 3px 7px;
+	border-top: 1px solid #708aa2;
+	width: auto;
+  voice-family: "\"}\""; 
+  voice-family:inherit;
+	width: auto;
+}
+
+#sectionLinks a:visited{
+    color:#FFFFFF;
+	border-top: 1px solid #708aa2;
+		padding: 2px 2px 3px 7px;
+}
+
+#sectionLinks a:hover{
+    color:#FFFFFF;
+	border-top: 1px solid #708aa2;
+	padding: 2px 2px 3px 7px;
+}
+
+/* JOBS SPECIFIC CSS */
+
+#current-jobs div.job-posting {
+	border-bottom: 1px solid #708aa2;
+	margin: 0 0 1.0em 0;
+	padding: 0 0 1.0em 0;
+	
+}
+
+div.job-posting span.type {
+	color: #708aa2;
+	display: block;
+	font-style: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div.job-posting span.title {
+	display: block;
+	font-size: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+div.job-navigation {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: lowercase;
+	
+}
+
+div.job-posting span.date {
+	display: block;
+	font-size: 12px;
+}
+div.job-posting span.poster-name {
+	display: block;
+	font-size: 12px;
+}
+
+
+	
+div.more-info {
+	display: block;
+	font-size: 12px;
+}
+
+div.job-posting.is-published {
+	background: #cceecc;
+}
+
+div.job-posting.is-not-published {
+	background: #eecccc;
+}
+
+div.job-posting div.details {
+	margin: 1.0em 0;
+}
+
+div.job-posting span.contact-information {
+	background: #E3ECF5;
+	border: 1px solid #708aa2;
+	display: block;
+	margin: 0 0 1.0em 0;
+	padding: 0.25em;
+}
+
+#content div.menu-bar {
+	background: #E3ECF5;
+	border: 1px solid #708aa2;
+	margin: 0px 0px 1.1em;
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#content div.menu-bar div.menu-bar-section {
+	display: inline;
+	margin: 0 2.0em 0 0;
+}
+
+#content div.menu-bar div.menu-bar-section a {
+	margin: 0 0.5em 0 0;
+}
+.bannerimg {
+	border: 1px solid #8DAFCE;
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+}
+
+#new-job-posting {
+	display: block;
+}
+
+#new-job-posting input.error, #new-job-posting textarea.error {
+	background: #eeaaaa;
+}
+
+#new-job-posting label.error {
+	color: #eeaaaa;
+}
+
+div.errors {
+	background-color: #FFFF66;
+	border: 1px solid #000;
+	margin: 0 0 1.0em 0;
+	padding: 0.25em;
+}
+#new-job-posting fieldset {
+	margin: 0 0 1.0em 0;
+}
+
+#new-job-posting input.text-field {
+	width: 300px;
+}
+
+#new-job-posting input.submit-button {
+	margin-left: 250px;	
+}
+#new-job-posting textarea {
+	margin-left: 250px;
+}
+
+#new-job-posting label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#new-job-posting label.field-label {
+	float: left;
+	width: 250px;
+}
+
+#new-job-posting label.section-label {
+	display: block;
+}
+#apDiv1 {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:744px;
+	height:20px;
+	z-index:9;
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: right;
+	background-color: #6C889F;
+	border: 1px solid #708AA2;
+	padding-top: 3px;
+	padding-right: 7px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+.icon {
+	display: inline;
+	margin: 0px;
+	padding-top: 0px;
+	vertical-align: text-bottom;
+}
+
+#papernav {
+	list-style: none;
+	margin: 5;
+	padding: 0;
+	font-size: 11px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+#papernav li {
+	float: left;
+	padding: 5px;
+	margin: 0px;
+}
+#papernav li a {
+	display: block;
+	background: #CCC;
+	width: 250px;
+	padding: 5px;
+}
+#papernav li a:hover {
+   background: red;
+   color: yellow;
+}
+
+img {
+	border-style: none;
+}
+/* Localized */

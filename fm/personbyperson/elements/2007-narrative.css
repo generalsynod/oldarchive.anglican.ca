@@ -1,0 +1,68 @@
+#mainContent {
+	position:relative;
+	left:190px;
+	top:370px;
+	width:563px;
+	background-color: #FFFFFF;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	overflow: visible;
+	position: relative;
+	visibility: visible;
+	z-index: 10;
+	}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #666666;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16pt;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0px;
+	padding: 0px;
+
+}
+	
+body {
+	margin: 36px 5px 5px;
+	background-color: #ecf4fb;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-image: url(/Financial-Ministries/personbyperson/elements/bg.jpg);
+	background-repeat: no-repeat;
+	}
+
+/* footer text elements */
+
+.footer {
+	font-size: 9px;
+	color: #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.footer a:link {
+ 	text-decoration: none;
+}
+.footer a:visited {
+ 	text-decoration: none;
+}
+.footerblack {
+	font-size: 9px;
+	color: #000000;
+}
+.printonly { display:none; }.parts {
+	font-size: 12pt;
+}

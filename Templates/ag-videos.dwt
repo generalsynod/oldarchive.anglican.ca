@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Amazing Grace Project: Videos and stories</title>
+<!-- TemplateEndEditable -->
+<link href="/amazinggrace/images/main.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="container">
+	<div id="headcontent">
+    <img src="/amazinggrace/images/photo-sample.jpg" alt="photo" /><a href="/amazinggrace/index.htm"><img src="/amazinggrace/images/amazing-grace-project.gif" alt="Amazing Grace Project" border="0" /></a></div>
+    <div id="buttons"><a href="/amazinggrace/index.htm"><img src="/amazinggrace/images/about-button.gif" alt="About the project" width="253" height="30" border="0" /></a><a href="/amazinggrace/videos/index.htm"></a><a href="/amazinggrace/involve/index.htm"><img src="/amazinggrace/images/get-involved-button.gif" alt="Get involved" width="253" height="30" border="0" /></a><a href="/amazinggrace/videos/index.htm"><img src="/amazinggrace/images/videos-button.gif" alt="Videos and stories" width="254" height="30" border="0" /></a></div>
+<div id="buttoncolorPurple">
+      <div align="right"><img src="/amazinggrace/images/purple-videos-stories.gif" alt="Videos and stories" width="500" height="40" align="bottom" /></div>
+    </div>
+    <div id="contentwrapper">
+    	<div id="content"><!-- TemplateBeginEditable name="body" -->
+    	  <p>Click on the icons to see other Canadian Anglicans singing “Amazing Grace.”</p>
+    	  <p>For more options, <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=100185334466557966841.00044b8c541830b097944&amp;ll=63.860036,-100.898437&amp;spn=40.81325,112.5&amp;z=3&amp;source=embed">open this map in a new window</a>.</p>
+    	  <h2>Amazing Grace updates</h2>
+    	  <p><em>Coming soon:</em> check up on how other Canadian Anglicans are preparing for November 23.</p>
+    	  <h2>Background Stories</h2>
+    	  <ul>
+            <li><a href="/amazinggrace/faq.htm#8">Read the story</a> behind the hymn, “Amazing Grace.” </li>
+    	    <li>Read about <a href="/amazinggrace/faq.htm#6">where this amazing project first started</a>.</li>
+    	    <li><a href="/amazinggrace/faq.htm#7">Learn why</a> the Amazing Grace Project is happening on November 23.</li>
+  	    </ul>
+    	<!-- TemplateEndEditable --></div>
+<div id="footer">
+    	  <p><strong>The Amazing Grace Project</strong>, an initiative of the Anglican Church of Canada<br />
+   	      <a href="http://www.anglican.ca/help/contentpolicy/">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.anglican.ca/help/info">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.anglican.ca/help/webmanager/">technical standards &amp; support</a></p>
+   	  <p>© 2008 The General Synod of the Anglican Church of Canada</p>
+    	</div>
+    </div>
+</div>
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-191686-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

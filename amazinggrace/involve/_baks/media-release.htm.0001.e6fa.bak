@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/ag-involved.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Amazing Grace Project: Sample media release</title>
+<!-- InstanceEndEditable -->
+<link href="/amazinggrace/images/main.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.style2 {color: #FFFFFF}
+-->
+</style>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="container">
+	<div id="headcontent">
+    <img src="/amazinggrace/images/photo-sample.jpg" alt="photo" /><a href="/amazinggrace/index.htm"><img src="/amazinggrace/images/amazing-grace-project.gif" alt="Amazing Grace Project" border="0" /></a></div>
+    <div id="buttons"><a href="/amazinggrace/index.htm"><img src="/amazinggrace/images/about-button.gif" alt="About the project" width="253" height="30" border="0" /></a><a href="/amazinggrace/involve/index.htm"><img src="/amazinggrace/images/get-involved-button.gif" alt="Get involved" width="253" height="30" border="0" /></a><a href="/amazinggrace/videos/index.htm"><img src="/amazinggrace/images/videos-button.gif" alt="Videos and stories" width="254" height="30" border="0" /></a><a href="/amazinggrace/involve/index.htm"></a></div>
+<div id="buttoncolorBlue">
+      <div align="right"><img src="/amazinggrace/images/blue-get-involved.gif" alt="Get involved" width="500" height="40" align="bottom" /></div>
+  </div>
+<div id="contentwrapper">
+    	<div id="content"><!-- InstanceBeginEditable name="body" -->
+    	  <h1>Sample media release</h1>
+    	  <p>This is a sample Media Release prepared for Huron parishes to use in promoting Amazing Grace to their local media. Feel free to use it as a template for your own release!<br />
+    	    <br />
+    	    Hopefully this will help parishes engage the wider community</p>
+    	  <h2 align="center">MEDIA RELEASE</h2>
+    	  <h2 align="center">___________________ (Church Name)<br />
+  	        </h2>
+    	  <p> </p>
+    	  <p>Like all churches, the Anglican Church of Canada lives with the constant question, &quot;What does it mean to be church in today's world.&quot;  One of the key elements of answering that question is relationship building and it is therefore our pleasure to tell you of a wonderful celebration of who we are and what we do, in the simplest way, throughout Canada. Church is a place where people come together: to sing, to pray, to worship, to share, to help, to grow, to love.  As Anglicans, our &quot;church year&quot; comes to an end on Sunday, November 23rd (we begin our journey to Jesus' arrival into the world on the first Sunday of Advent on November 30th.  Some ingenious members of our church suggested that to show our unity and celebrate our ministry we should all sing the cherished hymn, Amazing Grace, on November 23rd.  And to show the nature of our love and commitment, each person who sings, as they are able, are invited to donate a &quot;twonie&quot; to the Council of the North, which represents the vast areas of Canada where geography and isolation makes ministry a difficult and expensive proposition. </p>
+    	  <p>We, the people of ___________________ are excited to tell you of our participation in this project and would be pleased to welcome your coverage of this special event.  To make our event unique, we plan to ___________________________________________.  We will be singing Amazing Grace at _______ on November 23rd, at __________________________ (address).  For further information, please contact _______________________________.</p>
+    	  <p> </p>
+    	  <p><em>(Each parish is invited to fill in the blanks and identify local media that might be interested.  In smaller communities this invitation might be delivered in person or followed up with a personal phone call.  In bigger communities, you might wish to work together to share some of the highlight events.  Remember, the visuals are important.  Create something that would make a stunning picture, a good sound bit, a welcoming clip of video.  If the media does come, make them part of the event, help them feel comfortable as they work on their story. Above all have fun, have faith and focus on showing who we are and the great ministry we do.)</em></p>
+    	<!-- InstanceEndEditable --></div>
+<div id="footer">
+    	  <p><strong>The Amazing Grace Project</strong>, a project of the Anglican Church of Canada<br />
+   	      <a href="http://www2.anglican.ca/search/contentpolicy.htm">website content policies</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www2.anglican.ca/contact/info.htm">information desk</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www2.anglican.ca/contact/webmanager.htm">technical standards &amp; support</a></p>
+    	  <p>© 2008 The General Synod of the Anglican Church of Canada</p>
+   	</div>
+  </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-191686-3");
+pageTracker._trackPageview();
+</script>
+</body>
+<!-- InstanceEnd --></html>

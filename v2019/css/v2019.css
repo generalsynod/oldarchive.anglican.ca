@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background-color: #233f70;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.twoColFixLtHdr #ctcontainer {
+	background-color: #FFF;
+	padding: 10px;
+}
+.twoColFixLtHdr #v2019banners {
+	margin: 0px;
+	padding: 0px;
+}
+.twoColFixLtHdr #container { 
+	width: 967px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColFixLtHdr #header {
+	background: #DDDDDD;
+	padding: 0;
+} 
+.twoColFixLtHdr #header img {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+}
+.twoColFixLtHdr #sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 204px;
+	background-image: url(../images/v2019-wp-sidebar.jpg);
+	background-repeat: no-repeat;
+	padding-top: 0px;
+	padding-right: 18px;
+	padding-bottom: 10px;
+	padding-left: 23px;
+	color: #FFF;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.twoColFixLtHdr #mainContent {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 245px;
+	padding-top: 0;
+	padding-right: 16px;
+	padding-bottom: 0;
+	padding-left: 0px;
+	background-color: #233F70;
+	border-right-width: 16px;
+	border-right-style: solid;
+	border-right-color: #121E6B;
+	border-bottom-width: 16px;
+	border-bottom-style: solid;
+	border-bottom-color: #121E6B;
+} 
+
+.twoColFixLtHdr #mainContent p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #A6DDFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 16px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+}
+.twoColFixLtHdr #mainContent ol,li {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #A6DDFF;
+}
+.twoColFixLtHdr #mainContent h2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	color: #A6DDFF;
+	padding-top: 20px;
+	padding-right: 16px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	margin: 0px;
+}
+.twoColFixLtHdr #mainContent h3 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	color: #A6DDFF;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 16px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+}
+.twoColFixLtHdr #footer {
+	background-color: #FFF;
+	padding: 10px;
+} 
+.twoColFixLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.twoColFixLtHdr #bodycont {
+	background-color: #121E6B;
+	background-image: url(../images/R1.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.twoColFixLtHdr .comment-author {color: #A6DDFF;}
+	
+.feedfootertext {
+	font-size: 10px;
+	color: #666;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+}
+/* Localized */

@@ -1,0 +1,30 @@
+#topbar {
+	background-image: url(/topbar/topbar.gif);
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	visibility: visible;
+	left: 0px;
+	top: 0px;
+	z-index: 19;
+}
+
+#searchbox {
+	position:absolute;
+	right:1%;
+	top:3px;
+	height:23px;
+	z-index:20;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: right;
+	vertical-align: middle;
+	margin-top: 2px;
+}
+.searchboxsize {
+	font-size: 10px;
+	border: 1px solid #999999;
+}

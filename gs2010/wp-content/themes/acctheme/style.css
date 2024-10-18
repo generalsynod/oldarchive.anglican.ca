@@ -1,0 +1,274 @@
+/*  
+Theme Name: Notes Anglican Canada
+Theme URI: http://www.anglican.ca/
+Description: Notes Anglican Canada is a 2 columns Wordpress theme.
+Version: 
+Author: General Synod 
+Author URI: http://www.anglican.ca/
+*/
+#bgg{margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image:url(images/background.gif);
+	background-repeat: repeat-y;
+	background-position:center;}
+#top{
+	width:756px;
+	padding:0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	}
+
+#content h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #708AA2;
+	padding-bottom: 1px;
+}
+#content h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+#content h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+#content p {
+	margin-top: 6px;
+	margin-bottom: 10px;
+	}
+a:link { text-decoration: none; color : #006699; border: none;}
+a:active { text-decoration: none; color : #006699; border: none;}
+a:visited { text-decoration: none; color : #006699; border: none;}
+a:hover	{ text-decoration: underline; color : #4192e5; border: none;} 
+#nav{background-color:#e7f9ff;height:35px;border-bottom:#bce1f4 2px solid;margin:0;padding:0;}
+#nav2{height:35px;width:757px;font-weight:700;margin:0 auto;padding:0;}
+ul.nav2{height:35px;line-height:35px;float:left;list-style:none;font-size:12px;font-weight:700;margin:0;padding:0;}
+ul.nav2 li{float:left !important;list-style-type:none;margin:0;padding:0;}
+ul.nav2 li a,ul.nav2 li a:link,ul.nav2 li a:visited{text-decoration:none;color:#113255;float:left;display:block;padding:0 10px;}
+ul.nav2 li a:hover{color:#4192e5;text-decoration:underline;}
+ul.nav2 li a:active{color:#4192e5;text-decoration:none;}
+ul.nav2 li.current_page_item a{text-decoration:none;color:#4192e5;}
+ul.nav2 li ul{float:left;margin:0;padding:0;}
+.postmetadata {
+	padding:5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	background-color: #ECECEC;
+}
+span.cmt{background:transparent url(images/comment.gif) no-repeat;border:0;margin:0;padding:0 0 5px 20px;}
+span.cty{background:transparent url(images/category.gif) no-repeat;border:0;margin:0;padding:0 0 5px 20px;}
+#main{
+	width:757px;
+	margin:0 auto;
+	padding:0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #708aa2;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #708aa2;
+	background-image: url(../../../../anglican/common_images/old-wp-bg.gif);
+	background-repeat: repeat-y;
+}
+#content{
+	float:right;
+	width:584px;
+	background-color: #FFF;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 100%;
+	padding: 5px 10px 10px;
+	line-height: 127%;
+}
+.entry{
+	float:left;
+	width:584px;
+	margin:0;
+	padding: 0;
+	overflow:hidden;
+}
+
+.dateline {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+}
+#sidebar{
+	float:left;
+	width:151px;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding: 0;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #708aa2;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #708aa2;
+	background-image: url(../../../../anglican/common_images/old-wp-bg.gif);
+	background-repeat: repeat-y;
+}
+#rsidebar{float:left;width:151px;margin:0;padding:0;}
+.navigation{width:580px;color:#666;margin:0 auto; padding:0;}
+.alignright{
+	float:right;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-left: 10px;
+}
+.alignleft{
+	float:left;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-right: 10px;
+}
+#searchform { height:35px; line-height:35px; float:right; margin: 0; padding: 0;  }
+input#s { color: #5188d2; width: 200px; border: 1px solid #cbcbcb; background:#fcfcfc;}
+#footer{background:#eafaff;clear:both;height:0px !important;margin:0;padding:0;}
+#footerbox{background:#fff;height:30px;line-height:30px !important;margin:0;padding:0;}
+.footer{
+	width:757px;
+	color:#6c889f;
+	height:30px;
+	line-height:30px !important;
+	margin:0 auto;
+	padding:0;
+}
+.footer a:hover{text-decoration:underline;color:#fff;border:none;}
+.footer a:link,.footer a:active,.footer a:visited{text-decoration:underline;color:#25aacd;border:none;}
+.boxcomments{border-top:5px solid #ddd;border-bottom:5px solid #ddd;margin-bottom:20px;width:540px;}
+#commentform{border-top:1px solid #eee;margin:0;padding:15px 15px 1px;}
+#commentform label{display:block;margin:0;}
+#commentform input{width:170px;margin:0 5px 10px 0;padding:1px;}
+#commentform textarea{width:400px;margin:0 0 10px;padding:0;}
+#commentform #submit{margin:0 0 20px;}
+#commentform p{margin:5px 0;}
+ol.commentlist{margin:0 0 1px;padding:0;}
+ol.commentlist :hover{background:#e7f9ff;}
+ol.commentlist li{border-top:1px solid #eee;display:block;list-style:none;margin:0;padding:15px 15px 1px;}
+ol.commentlist li :hover{background:none;}
+ol.commentlist li.commenthead{display:block;list-style:none;margin:0;padding:5px 15px;}
+ol.commentlist li.commenthead h2{margin:0;}
+ol.tblist{border-top:1px solid #fff;list-style:none;margin:0 0 1px;padding:15px;}
+ol.tblist li{display:block;list-style:none;background:#e7f9ff;padding-left:15px;margin:0 0 5px;}
+.wp-caption-text {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: #666;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	/*width: 262px;*/
+}
+.more-link {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.single-nav {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.pagetitle {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+a[href $='.pdf'] {
+	padding: 3px 18px 1px 0px;
+	background: url(../../../../common_images/page_white_acrobat.gif) bottom right no-repeat;
+}
+a[href $='.doc'] {
+	padding: 3px 18px 1px 0px;
+	background: url(../../../../common_images/page_white_word.gif) bottom right no-repeat;
+}
+a[href $='.docx'] {
+	padding: 3px 18px 1px 0px;
+	background: url(../../../../common_images/page_white_word.gif) bottom right no-repeat;
+}
+.downloadres {
+	padding: 5px;
+	border: 1px solid #86afce;
+	float: right;
+	width: 170px;
+	background-color: #cfe3fa;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+h6 {
+	padding: 5px;
+	border: 1px solid #86afce;
+	float: right;
+	width: 170px;
+	background-color: #cfe3fa;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-weight: normal;
+}
+.convening_circ {
+	background-color: #cfe3fa;
+	width: 570px;
+	border: 1px solid #86afce;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.category-description {
+	padding:5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	background-color: #FFC;
+}
+
+#latest {
+	padding:5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	background-color: #cfe3fa;
+	border: 1px solid #86afce;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+#latest ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+.yellow {background-color: #FFFF66;}
+.green {
+	background-color: #8EB900;
+}
+/* Localized */

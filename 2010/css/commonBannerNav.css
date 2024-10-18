@@ -1,0 +1,153 @@
+
+#navcontainer {
+	width:960px;
+	z-index: 1;}
+
+#topnav {float:left}
+#topnav, #topnav UL  {PADDING: 0px; MARGIN: 0px; LINE-HEIGHT: 1px; LIST-STYLE-TYPE: none; LIST-STYLE-image: none;z-index:1;}
+
+#topnav A {DISPLAY: block; }
+
+/*first level*/
+#topnav LI {FLOAT: left; LIST-STYLE-TYPE: none; LIST-STYLE-image: none;z-index:1;}
+
+div#universalnav {
+	font-size: 12px;
+	height: 40px;
+	_height: 45px;
+	background-image: url(http://archive.anglican.ca/2010/images/commonBannerBG.gif);
+	background-repeat: repeat-x;
+	width: 960px;
+	position: absolute;
+	z-index: 1;
+	border-top: 5px solid #FFF;
+	}
+
+
+div#universalnav ul li#home {
+	width: 150px;
+	height:40px;
+	padding-top:0px;
+	}
+
+div#universalnav ul li#sites {
+	width: 150px;
+	height:40px;
+	padding-top:0px
+	}
+
+div#universalnav ul li#clippings {
+	width: 78px;
+	height:40px;
+	padding-top:0px
+	}
+
+div#universalnav ul li#find {
+	width: 104px;
+	height:40px;
+	padding-top:0px
+	}
+div#universalnav ul li#vert1 {
+	width: 70px;
+	height:40px;
+	padding-top:0px
+	}
+div#universalnav ul li#vert2 {
+	width: 4px;
+	height:40px;
+	padding-top:0px
+	}
+div#universalnav ul li#vert3 {
+	width: 4px;
+	height:40px;
+	padding-top:0px
+	}
+div#universalnav ul li#faq {
+	width: 47px;
+	height:40px;
+	padding-top:0px
+	}
+div#universalnav ul li#vert4 {
+	width: 4px;
+	height:40px;
+	padding-top:0px
+	}
+div#universalnav ul li#searchgs {
+	width: 223px;
+	height:40px;
+	padding-top:0px
+	}
+/* form */
+div#universalnav ul li form {
+	padding: 0;
+	margin: 0;
+	}
+	
+div#universalnav ul li#search {
+	padding: 9px 0 0 0;
+	margin: 0;
+	}
+
+div#universalnav ul li#search table td{
+	padding:1px 2px;
+	_padding:0;
+}
+
+div#universalnav form input.textbox {
+	vertical-align: top;
+	font-size: 9px;
+	height: 12px;
+	padding: 1px;
+	width: 120px;
+	margin: 2px 5px 0 5px;
+	border: 1px solid #CCC;
+}
+
+
+div#universalnav form input.submitbutton {
+	margin: 1px 0 0 0;
+	padding: 0;
+}	
+
+	
+
+/* remove home link on home page */
+
+body.home div#universalnav ul li#home {
+	display:none;z-index: 1;
+}
+/* dropdown */
+	#topnav li.headlink ul {
+	display: none;
+	text-align: left;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	z-index: 1;
+}
+	#topnav li.headlink:hover ul { display: block;z-index: 1; }
+	#topnav li.headlink ul li a {
+	padding: 5px;
+	line-height: normal;
+	width: 138px;
+	font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #3b6584;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	z-index: 1;
+}
+	#topnav li.headlink ul li a:hover {
+	background-color: #4e8bba;z-index: 1;
+}
+

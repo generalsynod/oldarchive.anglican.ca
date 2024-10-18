@@ -1,0 +1,4 @@
+AuthUserFile "/home/accnews/.htpasswds/public_html/www2/mission/about/committee/files/passwd"
+AuthType Basic
+AuthName "PMEJ Committee Files"
+require valid-user

@@ -1,0 +1,77 @@
+/* CSS Document */
+body {
+}
+.noprint { display:none; }
+
+#globalNavBar { display:none; }
+	
+
+#bannerImage img { display:none; }
+
+#sighttools {
+	display: none;
+}
+
+.searchText { display:none; }
+.searchBox { display:none; }
+
+#bodyContent {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 100%;
+	top: 40px;
+	text-align: left;
+}
+#bodyContent h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #EEEEEE;
+	padding-bottom: 1px;
+}
+
+#footerContent {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #708AA2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	text-align: left;
+}
+
+
+
+
+#header { display:none; } 
+
+/* SIDE NAV */
+#box { display:none; }
+#item{ display:none; }
+
+/* END SIDE NAV */
+
+#bcText { display:none; }
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#pageTitle { font-family:Verdana, Arial, Helvetica, sans-serif;
+			 font-size: 130%;
+			 font-weight: bold;
+}
+/*GS2010*/
+#bannerImageGS { display:none; }
+#apDiv1 {font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	color: #000000;
+	padding-bottom: 1px;
+}
+.postmetadata { display:none; }
+.single-nav { display:none; }
+#sidebar { display:none; }
+h6  { display:none; }

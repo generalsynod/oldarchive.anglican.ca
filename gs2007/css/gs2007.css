@@ -1,0 +1,164 @@
+/* CSS Document */
+
+body {
+	margin-top: 15px;
+	margin-left: 5px;
+	background-color: #ecf4fb;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+	}
+a {text-decoration:none;}
+#AboutPhoto {
+	position:absolute;
+	left:625px;
+	top:147px;
+	width:150px;
+	height:16px;
+	z-index:1;
+	margin: 0px;
+	padding: 0px;
+}
+#content {
+	position:absolute;
+	left:264px;
+	top:180px;
+	width:489px;
+	z-index:2;
+	background-color: #ffffff;
+	overflow: visible;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 10px;
+	margin-top:0;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #8dafce;
+}
+#topCommonNav {
+	position:absolute;
+	left:5px;
+	top:0px;
+	width:769px;
+	height:15px;
+	z-index:3;
+	background-color: #e8e8e8;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #8dafce;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8dafce;
+
+
+}
+#topCommonNavElements {
+	position:absolute;
+	left:533px;
+	top:1px;
+	width:238px;
+	height:11px;
+	z-index:4;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+#navBar{
+	padding: 0px;
+	position:absolute;
+	background-color: #d2e2f9;
+	border-right: 1px solid #8dafce;
+	border-bottom: 1px solid #8dafce;
+    border-left: 1px solid #8dafce;
+	z-index: 3;
+	width: 243px;
+	left: 5px;
+	top: 267px;
+}
+#logo {
+	position:absolute;
+	left:5px;
+	top:180px;
+	width:243px;
+	height:86px;
+	z-index:5;
+	border-top: 1px solid #8dafce;
+	border-right: 1px solid #8dafce;
+	border-left: 1px solid #8dafce;
+}
+
+/*********** #navBar link styles ***********/
+
+#navBar ul a:link, #navBar ul a:visited {display: block;}
+#navBar ul {list-style: none; margin: 0; padding: 0;}
+
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#navBar li {border-bottom: 1px solid #8dafce;}
+
+/* fix for browsers that don't need the hack */
+html>body #navBar li {border-bottom: none;}
+
+
+
+/*********** #sectionLinks styles ***********/
+#sectionLinks{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	/* border-bottom: 1px solid #8dafce; */
+	font-size: 90%;
+	text-decoration: none;
+}
+
+#sectionLinks a:link{
+	padding: 2px 0px 2px 8px;
+	border-top: 1px solid #8dafce;
+	width: auto;
+	text-decoration: none;
+  voice-family: "\"}\""; 
+  voice-family:inherit;
+	width: auto;
+}
+
+#sectionLinks a:visited{
+	border-top: 1px solid #8dafce;
+	padding: 2px 0px 2px 8px;
+	text-decoration: none;
+}
+
+#sectionLinks a:hover{
+	border-top: 1px solid #8dafce;
+	background-color: #dddddd;
+	padding: 2px 0px 2px 8px;
+}
+
+#ss{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	background-color: #CCCCCC;
+}
+#ss a:link{
+	padding: 2px 0px 2px 8px;
+	border-top: 1px solid #8dafce;
+	width: 100%;
+	text-decoration: none;
+  voice-family: "\"}\""; 
+  voice-family:inherit;
+	width: auto;
+}
+
+#ss a:visited{
+	border-top: 1px solid #8dafce;
+	padding: 2px 0px 2px 8px;
+	text-decoration: none;
+}
+
+#ss a:hover{
+	border-top: 1px solid #8dafce;
+	background-color: #dddddd;
+	padding: 2px 0px 2px 8px;
+}
+#content p {
+	padding: 0px;
+	margin-top: 0px;
+}

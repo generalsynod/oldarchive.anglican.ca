@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainContent .post {}
+
+#mainContent a {
+	color: #FFF;
+	text-decoration: none;
+}
+#mainContent a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+#mainContent small {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 16px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	color: #999;
+}
+
+#mainContent hr {
+	padding-left: 16px;
+}
+#sidebar1 ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#sidebar1 li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#sidebar1 h2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #9BCFEF;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	font-weight: lighter;
+}
+#sidebar1 a {
+	color: #FFF;
+	text-decoration: none;
+}
+#sidebar1 a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+.primate {
+	font-size: 18px;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+#bth {
+	text-align: center;
+}
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+	
+.navigation {
+	display: block;
+	padding-left: 16px;
+	color: #9BCFEF;
+}
+.postmetadata {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+}
+.addthis_container {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 16px;
+}

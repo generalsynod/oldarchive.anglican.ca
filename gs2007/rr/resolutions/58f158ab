@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/gs2007-res.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>A224: House of Bishops Statement on Pastoral Care of Same-Sex Couples</title>
+<!-- InstanceEndEditable -->
+<link type="text/css" media="screen" rel="stylesheet" href="/gs2007/css/screen.css" />
+<link type="text/css" media="print" rel="stylesheet" href="/gs2007/css/print.css" />
+<link href="/topbar/topbar.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script src="/js/gs2007-pulldown.js" type="text/javascript" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/gs2007/gs2007whats_new.xml" />
+
+<script type="text/javascript">
+<!--
+//SuckerTree Vertical Menu (Aug 4th, 06)
+//By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+function buildsubmenus(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.display="none"
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+window.attachEvent("onload", buildsubmenus)
+-->
+</script>
+<script type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body  onload="MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
+<div id="header"><p><img src="/gs2007/images/gslogoprint.gif" width="289" height="92" alt=" " /></p></div>
+<div id="commonNav"><div class="noprint"><?php include("topbar-new.shtm");?></div></div>
+<div id="logotop"><a href="/gs2007/index.htm"><img src="/gs2007/images/logo.gif" alt="General Synod 2007" width="230" height="75" border="0" /></a><img src="/gs2007/images/gstitle.gif" alt=" " width="530" height="75" /></div>
+<div id="Layer2">
+  <div id="suckerdiv">
+<?php include("gs2007nav.seg");?>
+	</ul>
+</ul>
+</div></div>
+<div class="content">
+  <div class="noprint"><p>&nbsp;</p>
+  <p><em><a href="/gs2007/rr/index.htm">up to Convening Circular <br />
+  </a></em><em><a href="/gs2007/rr/resolutions/index.htm">^-- up to Resolutions </a></em></p></div>
+  <p align="right"><strong>Resolution Number: </strong><!-- InstanceBeginEditable name="Resolution Number" --><strong>A224</strong><!-- InstanceEndEditable -->&nbsp;</p>
+  <h1>Subject: <!-- InstanceBeginEditable name="Resolution Name" -->House of Bishops Statement on Pastoral Care of Same-Sex Couples<!-- InstanceEndEditable --></h1>
+  <p>Moved by:&nbsp;<!-- InstanceBeginEditable name="moved-by" -->The Rt. Rev. Michael Bedford-Jones from the Diocese of Toronto<!-- InstanceEndEditable --></p>
+  <p>Seconded By:&nbsp;<!-- InstanceBeginEditable name="seconded-by" -->Mrs. Suzanne Lawson from the Diocese of Toronto<!-- InstanceEndEditable --></p>
+  <p><strong>Note: The mover and the seconder must be members of the General Synod and be present in the House when the resolution is before the synod for debate.</strong></p>
+  <p><strong>BE IT RESOLVED:</strong></p>
+  <!-- InstanceBeginEditable name="Motion" -->
+  <p>That this General Synod welcome the statement of the House of Bishops of October, 2006 urging the church to show pastoral understanding and sensitivity to all same-sex couples, including those civilly married, and committing the House to develop pastoral strategies to give effect to the acceptance of gays and lesbians to whom we are already committed by previous General Synod and CoGS resolutions, House of Bishops guidelines, and Lambeth Conference statements. </p>
+  <!-- InstanceEndEditable -->
+  <p><strong>EXPLANATORY NOTE/BACKGROUND INFORMATION:</strong></p>
+  <!-- InstanceBeginEditable name="note" -->
+  <p>The House of Bishops statement is as follows:</p>
+  <p align="center"><strong>Statement of the National House of Bishops</strong><br />
+      <strong>Anglican Church of Canada</strong><br />
+      <strong>October 26, 2006</strong></p>
+  <p>We believe that as bishops we are called to exercise special responsibility in maintaining the unity of the church. We seek to provide leadership as we grapple with the issues posed by our continuing debate around human sexuality.</p>
+  <p>We believe that the Canadian Church will be looking for one or more significant decisions on these matters at General Synod 2007, and that further inaction, or the perception of stalling, may result in widespread disobedience in many parts of our Province and possibly further impair our relationship with the Anglican Communion.</p>
+  <p>We are aware that we occupy different places in the spectrum of convictions and hopes in the Canadian Church. We are happy to share the experience of affirming much that is common between us.</p>
+  <p>We welcome the work done by the St. Michael Report and the Windsor Report, particularly their identification of the nature of the doctrinal issues involved. We believe General Synod resolutions on these matters that engage their recommendations seriously will increase our credibility both within the church and within the communion. We believe the converse will also apply.</p>
+  <p>Our assessment of the current situation is that, doctrinally, there is no common mind in the church concerning the grounds for giving or withholding the blessing of same sex unions. Substantial numbers of our church, however, believe passionately that those doctrines have already been decided. We believe that further argument alone is unlikely to move people from their positions at this time. We believe the task of General Synod 2007 is to find an appropriate course of action for our situation. Paradoxically, if a way to live together as a church can be found, a theological consensus might develop within a framework of stability.</p>
+  <p>We advise against a change in the marriage canon at this time.</p>
+  <p>We believe that we should undertake intentional diplomacy in our international relationships within the Anglican Communion.</p>
+  <p>We urge the Church to show pastoral understanding and sensitivity to all same-sex couples, including those civilly married. As the National House of Bishops we agree to develop pastoral strategies to give effect to the acceptance of gays and lesbians to whom we are already committed by previous General Synod and COGS resolutions, House of Bishops guidelines, and Lambeth Conference statements. </p>
+  <p>We recommend the following processes for the consideration of the 2007 General Synod:</p>
+  <ul type="disc">
+    <li>We      believe that it is essential that there should be adequate time to consider      what will be on the table. To      assist in promoting useful discussion, we recommend substantial use of the      Synod sitting as Committee of the Whole.</li>
+  </ul>
+  <ul type="disc">
+    <li>We      share great wariness about the possibility of surprise motions, and urge      attention and sensitivity to energy levels and emotions around important      issues, and an avoidance of the passage of contradictory motions. </li>
+  </ul>
+  <!-- InstanceEndEditable -->
+  <p align="right">Source: <!-- InstanceBeginEditable name="source" -->Faith Worship and Ministry Committee<!-- InstanceEndEditable --><br />
+  (name of committee, diocese, etc.)</p>
+  <p align="right">Submitted by: <!-- InstanceBeginEditable name="sub-by" -->Michael Bedford-Jones (Chair)<!-- InstanceEndEditable --></p>
+  <p>A)	Does this motion contain within it any financial implications? </p>
+  <p>Yes ___<!-- InstanceBeginEditable name="fy" -->_<!-- InstanceEndEditable -->__   No ___<!-- InstanceBeginEditable name="fn" -->X<!-- InstanceEndEditable -->__</p>
+  <p>B)	If yes, has the General Synod Expenditures Committee considered the implications?</p>
+  <p>Yes ___<!-- InstanceBeginEditable name="ey" -->_<!-- InstanceEndEditable -->__   No ___<!-- InstanceBeginEditable name="en" -->_<!-- InstanceEndEditable -->__</p>
+  <div class="frompage"> <!-- InstanceBeginEditable name="frompage" -->
+    <ul>
+      <li><a href="/gs2007/rr/resolutions/a224.pdf">This document in PDF format</a></li>
+    </ul>
+    <!-- InstanceEndEditable --></div>
+  <hr />
+  <p class="footer">Last updated: <!-- InstanceBeginEditable name="Date" -->
+    <!-- #BeginDate format:acAm1 -->Tue, May 15, 2007<!-- #EndDate -->
+  <!-- InstanceEndEditable --><br />
+    &copy; 1998-2006 the General Synod of the Anglican Church of Canada<br />
+  <span class="printonly">The content on this website is for informational purposes only. In case of a discrepancy between the content of this website and printed material produced by General Synod, the printed version is to be considered correct.</span>
+  <span class="noprint"><a href="http://www.anglican.ca/search/contentpolicy.htm">website content policy</a> | <a href="xghttp://www.anglican.ca/search/contact-info.htm">information desk</a> | <a href="xhttp://www.anglican.ca/search/contact-wm.htm">technical support</a></span></p>
+  <p class="footerblack"><strong>The Anglican Church of Canada</strong><br />
+    80 Hayden Street<br />
+    Toronto, Ontario M4Y 3G2<br />
+  Main switchboard: 416-924-9192</p>
+</div>
+ 
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-191686-3";
+urchinTracker();
+</script>
+
+</body>
+<!-- InstanceEnd --></html>

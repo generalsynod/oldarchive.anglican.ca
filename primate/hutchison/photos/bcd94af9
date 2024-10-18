@@ -1,0 +1,162 @@
+<!-- InstanceBegin template="/Templates/primate.dwt" codeOutsideHTMLIsLocked="false" --><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Official Photographs</title>
+<!-- InstanceEndEditable --><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="../../master.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript">
+function breadCrumbs(base,delStr,defp,cStyle,tStyle,dStyle,nl) { // by Paul Davis - http://www.kaosweaver.com
+loc=window.location.toString();subs=loc.substr(loc.indexOf(base)+base.length+1).split("/");
+ document.write('<a href="'+getLoc(subs.length-1)+defp+'" class="'+cStyle+'">Home</a>  '+'<span class="'+dStyle+'">'+delStr+'</span> ');
+ a=(loc.indexOf(defp)==-1)?1:2;for (i=0;i<(subs.length-a);i++) { subs[i]=makeCaps(unescape(subs[i]));
+ document.write('<a href="'+getLoc(subs.length-i-2)+defp+'" class="'+cStyle+'">'+subs[i]+'</a>  '+'<span class="'+dStyle+'">'+delStr+'</span> ');}
+ if (nl==1) document.write("<br>");document.write('<span class="'+tStyle+'">'+document.title+'</span>');
+}
+function makeCaps(a) {
+  g=a.split(' ');for (l=0;l<g.length;l++) g[l]=g[l].toUpperCase().slice(0,1)+g[l].slice(1);
+  return g.join(" ");
+}
+function getLoc(c) {
+  var d="";if (c>0) for (k=0;k<c;k++) d=d+"../"; return d;
+}
+</script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<!-- TOP LINE STARTS -->
+<div id="mytop">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+	<tr>
+      	<td valign="middle"><div align="left"><a href="http://www.anglican.ca"><img src="../../stock-images/acc-logo-top-left.jpg" width="300" height="44" border="0" align="absmiddle"></a></div></td>
+   	  <td valign="middle"><div align="right" class="top-right"> <!-- InstanceBeginEditable name="page title" -->Office of the Primate <!-- InstanceEndEditable --></div>
+   	    <div align="right"><span class="smalltoprightlinks"><a href="/search/contactus.htm">our address / staff directory</a> | <a href="/search/sitemap.htm">site map</a> | <a href="/search/index.htm">search</a> </span></div></td>
+    </tr>
+    <tr>
+      <td height="50" colspan="2" background="../../stock-images/andrewbanner.gif">&nbsp;</td>
+    </tr>
+  </table>
+<!-- TOP LINE ENDS -->
+<!-- GLOBAL NAV BEGINS -->
+<div id="globalNav"> <?php include("navbar.seg")?>
+</div> 
+</div>
+<!-- GLOBAL NAV ENDS -->
+<!-- SIDEBAR BEGINS -->
+<div id="navBar">
+  <div id="sectionLinks"><ul>
+    <li><a href="/primate/index.htm">Introduction</a></li>
+    <li><a href="/primate/communications/index.htm">Communications</a></li>
+    <li><a href="/primate/communications/conversations.htm">Conversations with the Primate</a></li>
+    <li><a href="/primate/photos/index.htm">Official Photographs </a></li>
+    <li><a href="/primate/primacy.htm">The Primacy</a></li>
+    <li><a href="/primate/writing/index.htm">The Primate's Writing</a></li>
+    <li><a href="/primate/PEC/index.htm">Primate's Evangelism Commission</a></li>
+    <li><a href="/primate/tpo/index.htm">Primate's Task Force on Alternative Episcopal Oversight</a></li>
+    <li><a href="../ptc/index.htm">Primate's Theological Commission</a></li>
+    <li><a href="/primate/staff.htm">Staff Listing </a></li>
+    <li><a href="../peers/index.htm">Archive: Archbishop Michael Peers </a></li>
+  </ul>
+  </div> 
+</div>
+<!-- SIDEBAR ENDS -->
+<!-- CONTENT BEGINS -->
+<div id="content"> 
+	<!-- BREADCRUMB BEGINS -->
+ 	 <div id="breadcrumb">
+    	<script language="JavaScript">breadCrumbs("http://www.anglican.ca","&gt;&gt;","index.htm","None","None","None","0");</script>
+  	</div> 
+	<!-- BREADCRUMB ENDS -->
+	<!-- TITLE BEGINS -->
+   	<h1 id="pageName"><!-- InstanceBeginEditable name="TITLE" -->Official Photographs<!-- InstanceEndEditable --></h1> 
+	<!-- TITLE ENDS -->
+  <div class="content"><!-- InstanceBeginEditable name="BODY" --> Below are a number of images of the primate, Archbishop Andrew Hutchison.
+The photos are avaliable in three resolutions, Low, Medium, and High (suitable for print).  Please be aware that the high resolution photos are very large (2.5 Mb +).
+      <p><strong><em>Caption:</em></strong> Archbishop Andrew Hutchison<br />
+        <em><strong>Credit:</strong></em>        Michael Hudson for The Anglican Church of Canada <br />
+      </p>
+    <table border="1" align="center" cellpadding="5" cellspacing="0" bordercolor="#999999">
+      <tr bgcolor="#EFEFEF">
+        <td><img src="ah-2004-01-small.jpg" width="200" height="250" /></td>
+        <td><ul>
+            <li><a href="ah-2004-01-small.jpg"><strong>Low Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 200 x 250 pixels, 72 dpi, 6Kb)</font></li>
+            <li><a href="ah-2004-01-medium.jpg"><strong>Medium Resolution</strong></a><br />
+            <font size="-1">(JPEG format, 576 x 720 pixels, 72 dpi, 28Kb)</font></li>
+            <li><strong><a href="http://lists.national.anglican.ca:81primate/photo/ah-2004-01-large.jpg">High Resolution</a></strong><font size="-1"><br />
+              (JPEG format, 2400 x 3000 pixels, 300 dpi, <strong>2.8Mb</strong>) <img src="../../stock-images/alert.gif" alt="Large File Size" width="15" height="15" /></font></li>
+        </ul></td>
+      </tr>
+      <tr bgcolor="#EFEFEF">
+        <td><img src="ah-2004-02-small.jpg" width="200" height="250" /></td>
+        <td><ul>
+          <li><a href="ah-2004-02-small.jpg"><strong>Low Resolution</strong></a><br />
+            <font size="-1">(JPEG format, 200 x 250 pixels, 72 dpi, 10Kb)</font></li>
+          <li><a href="ah-2004-02-medium.jpg"><strong>Medium Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 576 x 720 pixels, 72 dpi, 59Kb)</font></li>
+          <li><strong><a href="http://lists.national.anglican.ca:81primate/photo/ah-2004-02-large.jpg">High Resolution</a></strong><font size="-1"><br />
+  (JPEG format, 2400 x 3000 pixels, 300 dpi, <strong>3.3</strong><strong>Mb</strong>) <img src="../../stock-images/alert.gif" alt="Large File Size" width="15" height="15" /></font></li>
+        </ul></td>
+      </tr>
+      <tr bgcolor="#EFEFEF">
+        <td><img src="ah-2004-03-small.jpg" width="200" height="250" /></td>
+        <td><ul>
+          <li><a href="ah-2004-03-small.jpg"><strong>Low Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 200 x 250 pixels, 72 dpi, 15Kb)</font></li>
+          <li><a href="ah-2004-03-medium.jpg"><strong>Medium Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 576 x 720 pixels, 72 dpi, 103Kb)</font></li>
+          <li>
+              <strong><a href="http://lists.national.anglican.ca:81primate/photo/ah-2004-03-large.jpg">High Resolution</a></strong><font size="-1"><br />
+        (JPEG format, 2400 x 3000 pixels, 300 dpi, <strong>3.2</strong><strong>Mb</strong>) <img src="../../stock-images/alert.gif" alt="Large File Size" width="15" height="15" /></font></li>
+        </ul></td>
+      </tr>
+      <tr bgcolor="#EFEFEF">
+        <td><img src="ah-2004-04-small.jpg" width="200" height="250" /></td>
+        <td><ul>
+          <li><a href="ah-2004-04-small.jpg"><strong>Low Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 200 x 250 pixels, 72 dpi, 14Kb)</font></li>
+          <li><a href="ah-2004-04-medium.jpg"><strong>Medium Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 576 x 720 pixels, 72 dpi, 79Kb)</font></li>
+          <li><strong><a href="http://lists.national.anglican.ca:81primate/photo/ah-2004-04-large.jpg">High Resolution</a></strong><font size="-1"><br />
+    </font><font size="-1">(JPEG format, 2400 x 3000 pixels, 300 dpi, <strong>2.8Mb</strong>) <img src="../../stock-images/alert.gif" alt="Large File Size" width="15" height="15" /></font></li>
+        </ul></td>
+      </tr>
+      <tr bgcolor="#EFEFEF">
+        <td><img src="ah-2004-05-small.jpg" width="200" height="300" /></td>
+        <td><ul>
+          <li><a href="ah-2004-05-small.jpg"><strong>Low Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 200 x 300 pixels, 72 dpi, 30Kb)</font></li>
+          <li><a href="ah-2004-05-medium.jpg"><strong>Medium Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 480 x 720 pixels, 72 dpi, 125Kb)</font></li>
+          <li><strong><a href="http://lists.national.anglican.ca:81primate/photo/ah-2004-05-large.jpg">High Resolution</a></strong><font size="-1"><br />
+    (JPEG format, 2048 x 3072 pixels, 300 dpi, <strong>2.1Mb</strong>) <img src="../../stock-images/alert.gif" alt="Large File Size" width="15" height="15" /></font></li>
+        </ul></td>
+      </tr>
+      <tr bgcolor="#EFEFEF">
+        <td><img src="ah-2004-06-small.jpg" width="200" height="250" /></td>
+        <td bordercolor="#999999"><ul>
+          <li><a href="ah-2004-06-small.jpg"><strong>Low Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 200 x 250 pixels, 72 dpi, 14Kb)</font></li>
+          <li><a href="ah-2004-06-medium.jpg"><strong>Medium Resolution</strong></a><br />
+              <font size="-1">(JPEG format, 576 x 720 pixels, 72 dpi, 87Kb)</font></li>
+          <li><strong><a href="http://lists.national.anglican.ca:81primate/photo/ah-2004-06-large.jpg">High Resolution</a></strong><font size="-1"><br />
+    (JPEG format, 2400 x 3000 pixels, 300 dpi, <strong>3.2</strong><strong>Mb</strong>) <img src="../../stock-images/alert.gif" alt="Large File Size" width="15" height="15" /></font></li>
+        </ul></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="Links" --><!-- InstanceEndEditable -->
+	
+  </div>
+</div>
+<div id="siteinfo">
+  <a href="/search/index.htm">search</a> | <a href="/search/sitemap.htm">site
+    map</a> | <a href="http://generalsynod.anglican.ca/ministries/departments/function_email.php?id=webmanager">web site corrections</a> | <a href="http://generalsynod.anglican.ca/ministries/departments/function_email.php?id=info">general website inquiries</a> | <!-- InstanceBeginEditable name="contact" --><a href="mailto:primate@national.anglican.ca">contact the Primate's Office </a><!-- InstanceEndEditable -->  
+    <p>Page managed by: <!-- InstanceBeginEditable name="page-author" -->General Synod Communications<!-- InstanceEndEditable --><br />
+	  Last updated: <!-- InstanceBeginEditable name="pub-date" -->January 2005 <!-- InstanceEndEditable --></p>
+		<p>&copy;1998 - <?php echo date("Y") ?>          The General Synod of the Anglican Church of Canada. While this is the official site of the Anglican Church of Canada, the material published here does not necessarily reflect official positions of the General Synod or any other body of the church. In cases where an official position is represented, that is indicated on the page or in the text in question.</p>
+</div>
+</body>
+<!-- InstanceEnd --></html>

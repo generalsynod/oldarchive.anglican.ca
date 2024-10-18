@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>jQuery UI Accordion</title>
+	<link rel="stylesheet" href="/v3/css/Ynav.css" />
+	<!--<link rel="stylesheet" href="../../zzz/demo/demo.css" />-->
+	
+	<script type="text/javascript" src="/zzz/lib/jquery.js"></script>
+	<script type="text/javascript" src="/zzz/lib/chili-1.7.pack.js"></script>
+	
+	<script type="text/javascript" src="/zzz/lib/jquery.easing.js"></script>
+	<script type="text/javascript" src="/zzz/lib/jquery.dimensions.js"></script>
+	<script type="text/javascript" src="/zzz/jquery.accordion.js"></script>
+
+	<script type="text/javascript">
+	jQuery().ready(function(){
+		
+		// second simple accordion with special markup
+		jQuery('#navigation').accordion({
+			active: false,
+			header: '.head',
+			navigation: true,
+			event: 'mouseover',
+			fillSpace: false,
+			animated: 'easeslide',
+			autoheight: false 
+		});
+		
+	
+	});
+	</script>
+
+</head>
+<body>
+
+<div id="main">
+
+<div id="vertNavContainer">
+<ul id="navigation">
+  <li><a href="/rs/index.htm" class="first">Residential Schools home</a></li>
+  <li><a href="/rs/history/index.htm" class="head">Our History</a>
+    <ul>
+      <li><a href="/rs/history/schools/index.htm">The Schools</a>
+        <ul>
+          <li><a href="/rs/history/schools/histories.htm">School histories</a></li>
+		</ul>
+      </li>
+      <li><a href="/rs/history/news/index.htm">Reports and news releases</a></li>
+	</ul>
+  </li>
+<li><a href="/rs/apology/index.htm" class="head">The Living Apology</a></li>
+<li><a href="/rs/ourwork/index.htm" class="head">Our Ongoing Work
+  </a>
+  <ul>
+    <li><a href="http://www.rememberingthechildren.ca">Remembering the Children tour</a></li>
+    <li><a href="/rs/ourwork/trc/index.htm">Truth and Reconciliation Commision</a></li>
+    <li><a href="/rs/healing/index.htm">Anglican Healing Fund</a>
+      <ul>
+        <li><a href="/rs/healing/forms.htm">Application forms</a></li>
+        <li><a href="/rs/healing/criteria.htm">Granting criteria</a></li>
+        <li><a href="/rs/healing/guideline.htm">Process guideline</a></li>
+        <li><a href="/rs/healing/surraries.htm">Project summaries</a></li>
+		</ul>
+    </li>
+    <li><a href="/rs/ourwork/adr/index.htm">Alternative dispute resolution</a></li>
+</ul>
+</li>
+
+
+
+</ul>
+</div></div>
+	</body>
+</html>

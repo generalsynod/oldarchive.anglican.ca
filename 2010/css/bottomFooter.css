@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+#bottomFooter {
+	overflow: hidden;
+	padding: 15px 15px;
+	background-image: url(http://archive.anglican.ca/2010/images/footerbg.png);
+	background-repeat: repeat-x;
+	background-color: #fff;
+}
+#bottomFooterLeft {
+	float: left;
+	width: 580px;
+	padding: 0px;
+}
+.bottomFooterACC {
+	background-image: url(http://archive.anglican.ca/2010/bottomFooter/img/bottomFooterAngCommunion.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+
+
+#bottomFooterRight {
+	float: right;
+	width: 350px;
+}
+
+.bottomFooterText {
+	margin-bottom: 1.8em;
+	font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #333;
+	line-height: 1.4em;
+}
+.bottomFooterLinks  {
+	margin-bottom: 0em;
+	font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #333;
+}
+.bottomFooterLinks a:hover {
+	text-decoration: underline;
+}
+.bottomFooterLinks a {
+	font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#bottomFooter strong {
+	font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000;
+}

@@ -1,0 +1,41 @@
+&story1vBtnText=Changing needs of youth ministry&
+&story2vBtnText=Split Lake&
+&story3vBtnText=Primate's Youth Network&
+&story4vBtnText=Ask and Imagine&
+&story5vBtnText=Join the conversation&
+&story6BtnText=This is all about Cuba6.&
+&story7BtnText=This is all about Cuba7.&
+&story8BtnText=This is all about Cuba8.&
+&story9BtnText=This is all about Cuba9.&
+
+//
+//
+&homeText=<font color="#FFFFFF" size="14" FACE="Arial"><p>Since his election as Primate in 2004, Archbishop Andrew Hutchison, has made it his priority to foster the development of ministry with young people across the country.</p><p>In this conversation, the Primate reflects on when he himself was a young Anglican and a member of the Anglican Young People's Organization.</p></font>&
+//
+//
+&story1vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><P ALIGN="LEFT">In this segment, Archbishop Hutchison reflects on the changing needs of youth ministry over the past few decades.  He highlights how he has asked each of General Synod's committees to make youth ministry a priority and underscores the work of the EcoJustice committee and its EcoJustice Youth Camps.</p></font>&
+//
+//
+&story2vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><P ALIGN="LEFT">Archbishop Hutchison makes a special request during each diocean visit to have at least one event with young people.  In this segment, he describes a visit to Split Lake, Man., during which he asked the Bishop of Keewatin met with more than 170 young people.</p><p>Links:</P><ul>
+  <li><u><a href="http://www.anglican.ca/about/committees/CN/index.htm" target="_blank">Council of the North</a></u></li>
+</ul></font>&
+//
+//
+&story3vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><P ALIGN="LEFT">Over the last year, Archbishop Hutchison worked at developing a Primate's Youth Network across the country. Using some money raised at a Primate's dinner last year, an online website for young Anglicans -- <u><a href="http://generation.anglican.ca" target="_blank">generation.anglican.ca</a></u> -- and a youth coordinator staff position have been created.</p><p>In the first part of this episode, Archbishop Hutchison describes the development of the  website, and introduces a blog he is contributing to the site.</p><p>In the second part, Brian Bukowski, web manager of the Anglican Church of Canada describes in more detail some of the features of <u><a href="http://generation.anglican.ca" target="_blank">generation.anglican.ca</a></u>.</p>
+<p>Links:</P><ul>
+  <li><u><a href="http://generation.anglican.ca" target="_blank">generation.anglican.ca</a></u></li>
+  <li><u><a href="http://www.anglican.ca/primate/writing/index.htm" target="_blank">Archbishop Hutchison's blogs on generation.anglican.ca</a></u></li>
+  <li><u><A HREF="/primate/hutchison/communications/youth/judy.htm" target="_blank">Audio blog from Judy Steers on the development of generation.anglican.ca</A>
+</ul></font>&
+//
+//
+&story4vText=<FONT FACE="Arial" SIZE="12" COLOR="#000000"><FONT FACE="Arial" SIZE="14" COLOR="#000000"><P ALIGN="LEFT">In this segment, Archbishop Hutchison describes the work of the Ask and Imagine youth program, and how funding for ministry with young people came from the Primate's dinner </p><p>Links:</P><ul>
+  <li><u><a href="http://www.askandimagine.org/" target="_blank">Ask and Imagine</a></li>
+</ul></font>&
+//
+//
+//
+//
+&story5vText=<FONT FACE="Arial" SIZE="14" COLOR="#000000"><p>Archbishop Hutchison invites you to join this conversation.</p><p><u><a href="mailto:andrew@national.anglican.ca">Email him</a></u> with your comments on this <i>Conversation</i> and with responses to his questions.</font>&
+//
+//

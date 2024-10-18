@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<style type="text/css"> 
+ 
+#topnav_dd ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+ 
+#topnav_dd li { /* all list items */
+	float: left;
+	position: relative;
+	width: 60px;
+	list-style: none;
+	font-family: Calibri;
+	font-size: 10px;
+	color: #FFF;
+	background-color: #3e5c7a;
+	height: 23px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+}
+ 
+#topnav_dd li ul { /* second-level lists */
+	display: none;
+	position: absolute;
+	top: 1em;
+	left: 0;
+}
+ 
+#topnav_dd li>ul { /* to override top and left in browsers other than IE, which will position to the top right of the containing li, rather than bottom left */
+	top: auto;
+	left: auto;
+}
+ 
+#topnav_dd li:hover ul, li.over ul { /* lists nested under hovered list items */
+	display: block;
+}
+#topnav_dd li li {
+	height: 23px;
+	width: 80px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+#topnav_dd a { color:#FFF;}
+#content {
+	clear: left;
+}
+ 
+</style> 
+ 
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+startList = function() {
+	if (document.all&&document.getElementById) {
+		navRoot = document.getElementById("topnav_dd");
+		for (i=0; i<navRoot.childNodes.length; i++) {
+			node = navRoot.childNodes[i];
+			if (node.nodeName=="LI") {
+				node.onmouseover=function() {
+					this.className+=" over";
+				}
+				node.onmouseout=function() {
+					this.className=this.className.replace(" over", "");
+				}
+			}
+		}
+	}
+}
+window.onload=startList;
+ 
+//--><!]]></script> 
+</head>
+
+<body>
+<ul id="topnav_dd">
+   <li>Sites
+    <ul>
+      <li><a href="http://www.anglican.ca">anglican.ca</a></li>
+      <li><a href="http://www.anglicanjournal.com">Anglican Journal</a></li>
+      <li><a href="http://www.anglicanpension.ca/">Anglican Pension Corporation</a></li>
+      <li><a href="http://cep.anglican.ca/">Continuing Education Plan</a></li>
+      <li><a href="http://generation.anglican.ca/">Young Canadian Anglicans</a></li>
+      <li><a href="http://www.clay2010.ca/">CLAY 2010</a></li>
+      <li><a href="http://www.pwrdf.org/">Primate World Relief and Development Fund</a></li>
+      <li><a href="http://www.anglicanfoundation.org/">Anglican Foundation</a></li>
+      <li><a href="http://www.anglican.ca/about/diocese.htm">Diocean websites</a></li>
+    </ul>
+  </li>
+  <li><a href="http://www.anglican.ca/search/faq/index.htm">FAQs</a></li>
+  <li>Search</li>
+</ul>
+</body>
+</html>

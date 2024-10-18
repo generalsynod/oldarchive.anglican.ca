@@ -1,0 +1,51 @@
+p {
+	font-family: "Trebuchet MS", "Times New Roman", serif;
+	text-align: justify;
+	text-indent: 20px;
+}
+.line {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-top-color: #009900;
+}
+body {
+	background-color: #6B8640;
+}
+h1 {
+	font-family: "Trebuchet MS", "Times New Roman", serif;
+	font-size: x-large;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: large;
+	top: 0px;
+}
+.next {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-indent: 0px;
+	font-style: italic;
+	text-align: center;
+}
+.grey {
+	color: #999999;
+}
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: smaller;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #009933;
+	padding-top: 20px;
+}
+.sidebar {
+	font-size: smaller;
+	text-align: left;
+	text-indent: 0px;
+}
+.pfirst {
+	text-indent: 0px;
+}
+.money {
+	text-align: right;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	background-image: url(/2009/dev/bg-grid.gif);
+	background-color:#3F0;
+}
+
+#leftnavcontainer {
+	background-color: #C90;	
+}
+#headcontentcontainer {
+	background-color: #6FF;	
+}
+#bodycontainer {
+	background-color: #9CF;
+}
+#footercontainer {
+	background-color: #FCF;
+}

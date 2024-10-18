@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/gs2007-res.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>A180: Merger of Partners in Mission &amp; Ecojustice Committees </title>
+<!-- InstanceEndEditable -->
+<link type="text/css" media="screen" rel="stylesheet" href="/gs2007/css/screen.css" />
+<link type="text/css" media="print" rel="stylesheet" href="/gs2007/css/print.css" />
+<link href="/topbar/topbar.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script src="/js/gs2007-pulldown.js" type="text/javascript" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/gs2007/gs2007whats_new.xml" />
+
+<script type="text/javascript">
+<!--
+//SuckerTree Vertical Menu (Aug 4th, 06)
+//By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+function buildsubmenus(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.display="none"
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+window.attachEvent("onload", buildsubmenus)
+-->
+</script>
+<script type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body  onload="MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
+<div id="header"><p><img src="/gs2007/images/gslogoprint.gif" width="289" height="92" alt=" " /></p></div>
+<div id="commonNav"><div class="noprint"><?php include("topbar-new.shtm");?></div></div>
+<div id="logotop"><a href="/gs2007/index.htm"><img src="/gs2007/images/logo.gif" alt="General Synod 2007" width="230" height="75" border="0" /></a><img src="/gs2007/images/gstitle.gif" alt=" " width="530" height="75" /></div>
+<div id="Layer2">
+  <div id="suckerdiv">
+<?php include("gs2007nav.seg");?>
+	</ul>
+</ul>
+</div></div>
+<div class="content">
+  <div class="noprint"><p>&nbsp;</p>
+  <p><em><a href="/gs2007/rr/index.htm">up to Convening Circular <br />
+  </a></em><em><a href="/gs2007/rr/resolutions/index.htm">^-- up to Resolutions </a></em></p></div>
+  <p align="right"><strong>Resolution Number: </strong><!-- InstanceBeginEditable name="Resolution Number" --><strong>A180</strong><!-- InstanceEndEditable -->&nbsp;</p>
+  <h1>Subject: <!-- InstanceBeginEditable name="Resolution Name" --><strong>Merger of Partners in Mission &amp; Ecojustice Committees </strong><!-- InstanceEndEditable --></h1>
+  <p>Moved by:&nbsp;<!-- InstanceBeginEditable name="moved-by" -->Bishop Sue Moxley, Diocese of Nova Scotia&nbsp; &amp; Prince Edward Island<!-- InstanceEndEditable --></p>
+  <p>Seconded By:&nbsp;<!-- InstanceBeginEditable name="seconded-by" -->Mr. Bill Mous, Diocese of Niagara <!-- InstanceEndEditable --></p>
+  <p><strong>Note: The mover and the seconder must be members of the General Synod and be present in the House when the resolution is before the synod for debate.</strong></p>
+  <p><strong>BE IT RESOLVED:</strong></p>
+  <!-- InstanceBeginEditable name="Motion" -->
+  <p>That this General Synod approve the merger of the Ecojustice Committee and the Partners in Mission Committee to create a new Standing Committee to be named the Partners in Mission &amp; Ecojustice Committee, effective at the beginning of the 2007 &ndash; 2010 Triennium.</p>
+  <!-- InstanceEndEditable -->
+  <p><strong>EXPLANATORY NOTE/BACKGROUND INFORMATION:</strong></p>
+  <!-- InstanceBeginEditable name="note" -->
+  <p><strong>1. Understanding of Mission</strong></p>
+  <p>The core mandate of the Partners in Mission Committee has been to support the mission priorities of partner churches in other parts of the world. Many of our partners have identified the impacts of global justice issues as being central to their mission work. The core mandate of the Ecojustice Committee has been to assist the Anglican Church of Canada in its mission to transform the unjust structures of society and guard the integrity of creation. There has been a growing understanding that both committees address issues that are global in scope and yet have consequences that are experienced locally, and both committees are concerned to work in respectful partnerships and to seek to build right relationships. Both committees understand their work to be about encouraging and enabling people to participate in God&rsquo;s mission to transform themselves and the world. Both committees strongly affirm that the General Synod&rsquo;s work of mission and Ecojustice needs to continue, and that it is best done in a partnership model.</p>
+  <p>The Five Marks of Mission were developed by The Anglican Consultative Council between 1984 and 1990. They continue to be accepted in the Anglican Communion as a summary statement of the work of mission. The Five Marks of Mission, listed below, also summarize much of the work of the Partners in Mission and the Ecojustice Committees:</p>
+  <ul>
+    <li>To proclaim the good news of the kingdom of God;</li>
+    <li>To teach, baptize and nurture new believers;</li>
+    <li>To respond to human need by loving service;</li>
+    <li>To seek to transform the unjust structures of society;</li>
+    <li>To strive to safeguard the integrity of creation, and sustain and renew the life of the earth.</li>
+  </ul>
+  
+  <p><strong>2. Areas of Convergence have been identified      as follows:</strong></p>
+    <p align="left"><em>Biblical and Theological Reflection</em> </p>
+    <ol start="2" type="1">
+    <ul type="disc">
+      <li>Reflection on the Biblical and theological       ground of our work is done by both committees.</li>
+    </ul>
+  </ol>
+  <p><em>Communication, Education and Resource Development</em> </p>
+  <ul>
+    <li>Both committees try to communicate with and educate church members across the country. </li>
+    <li>Both develop appropriate resources to assist in this task.</li>
+    <li>There is a need to resource and support networks of people interested and active in both areas of work.</li>
+  </ul>
+  <p align="left"><em>Advocacy Around Particular Issues</em> </p>
+  <ul>
+    <li>Both committees are interested in particular issues as they emerge in particular geographical locations, and both engage in advocacy around issues.</li>
+    <li>PIM tends to focus on how global issues impact the lives of partners outside of Canada, while ecojustice&rsquo;s focus also includes impacts experienced in Canada.</li>
+  </ul>
+  <p><em>Relational Aspects</em> </p>
+  <ul>
+    <li>Both committees are attentive to the need to build and maintain right relationships.</li>
+    <li>For PIM, the proposed merger will enhance the work of building relationships by focusing on issues experienced in Canada and in other parts of the communion, and by giving partners a common task to engage in together.</li>
+    <li>For Ecojustice, the proposed merger will expand the field of partners from whom we learn and with whom we build networks.</li>
+  </ul>
+  <p><em>Links with Partner Organizations</em></p>
+  <ul>
+    <li>Both committees work in partnership with other organizations, some of which are common to both, such as the ACC, WCC, CCC, KAIROS, and some of which only one committee relates to, such as The Churches&rsquo; Forum for Global Ministries or Project Ploughshares.</li>
+    <li>The proposed merger will provide new opportunities for working with partner organizations.</li>
+  </ul>
+  <strong>3. Rationale re name of new committee</strong>
+  <p>Both committees agreed on the importance of retaining the terms &ldquo;mission&rdquo; and &ldquo;Ecojustice&rdquo; to clearly identify the work being carried forward. They also wished to retain the term &ldquo;partners&rdquo; because of its wide use throughout the Anglican world to signal long-established and well-defined practices of relationship.</p>
+  <strong>4. Practical Concern</strong>
+  <p>The proposed merger is a response to current missiological thinking, and to the increasing convergence of the work of both committees. It also anticipates the direction of General Synod toward simplified structures, and the need to exercise responsible stewardship of the church&rsquo;s resources.</p>
+  <!-- InstanceEndEditable -->
+  <p align="right">Source: <!-- InstanceBeginEditable name="source" -->PIM &amp; ECJ Committees <!-- InstanceEndEditable --><br />
+  (name of committee, diocese, etc.)</p>
+  <p align="right">Submitted by: <!-- InstanceBeginEditable name="sub-by" -->Council of General Synod<strong> </strong><!-- InstanceEndEditable --></p>
+  <p>A)	Does this motion contain within it any financial implications? </p>
+  <p>Yes ___<!-- InstanceBeginEditable name="fy" -->_<!-- InstanceEndEditable -->__   No ___<!-- InstanceBeginEditable name="fn" -->X<!-- InstanceEndEditable -->__</p>
+  <p>B)	If yes, has the General Synod Expenditures Committee considered the implications?</p>
+  <p>Yes ___<!-- InstanceBeginEditable name="ey" -->_<!-- InstanceEndEditable -->__   No ___<!-- InstanceBeginEditable name="en" -->_<!-- InstanceEndEditable -->__</p>
+  <div class="frompage"> <!-- InstanceBeginEditable name="frompage" -->
+    <ul>
+      <li><a href="/gs2007/rr/resolutions/a180.pdf">This document in PDF format</a></li>
+    </ul>
+    <!-- InstanceEndEditable --></div>
+  <hr />
+  <p class="footer">Last updated: <!-- InstanceBeginEditable name="Date" -->
+    <!-- #BeginDate format:acAm1 -->Tue, May 15, 2007<!-- #EndDate -->
+  <!-- InstanceEndEditable --><br />
+    &copy; 1998-2006 the General Synod of the Anglican Church of Canada<br />
+  <span class="printonly">The content on this website is for informational purposes only. In case of a discrepancy between the content of this website and printed material produced by General Synod, the printed version is to be considered correct.</span>
+  <span class="noprint"><a href="http://www.anglican.ca/search/contentpolicy.htm">website content policy</a> | <a href="xghttp://www.anglican.ca/search/contact-info.htm">information desk</a> | <a href="xhttp://www.anglican.ca/search/contact-wm.htm">technical support</a></span></p>
+  <p class="footerblack"><strong>The Anglican Church of Canada</strong><br />
+    80 Hayden Street<br />
+    Toronto, Ontario M4Y 3G2<br />
+  Main switchboard: 416-924-9192</p>
+</div>
+ 
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-191686-3";
+urchinTracker();
+</script>
+
+</body>
+<!-- InstanceEnd --></html>

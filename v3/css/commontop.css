@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* commonTop */
+ #C_commonTop {
+	margin: 0px;
+	width: 946px;
+	padding: 0px;
+	font-family: Calibri, "Lucida Sans Unicode", "Lucida Grande", Arial, Helevetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+} 
+#C_commonTop table {
+	margin: 0px;
+}
+#C_commonTop td {
+	background-color:#FFF;
+}
+

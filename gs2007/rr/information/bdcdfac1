@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/gs2007.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>General Synod 2007: SESSIONAL COMMITTEES&nbsp; REVISED</title>
+<!-- InstanceEndEditable -->
+<link type="text/css" media="screen" rel="stylesheet" href="../../css/screen.css" />
+<link type="text/css" media="print" rel="stylesheet" href="../../css/print.css" />
+<link href="/topbar/topbar.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script src="/js/gs2007-pulldown.js" type="text/javascript" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/gs2007/gs2007whats_new.xml" />
+
+<script type="text/javascript">
+<!--
+//SuckerTree Vertical Menu (Aug 4th, 06)
+//By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+function buildsubmenus(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.display="none"
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+window.attachEvent("onload", buildsubmenus)
+-->
+</script>
+<script type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body  onload="MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
+<div id="header"><p><img src="/gs2007/images/gslogoprint.gif" width="289" height="92" alt=" " /></p></div>
+<div id="commonNav"><div class="noprint"><?php include("topbar-new.shtm");?></div></div>
+<div id="logotop"><a href="/gs2007/index.htm"><img src="/gs2007/images/logo.gif" alt="General Synod 2007" width="230" height="75" border="0" /></a><img src="/gs2007/images/gstitle.gif" alt=" " width="530" height="75" /></div>
+<div id="Layer2">
+  <div id="suckerdiv">
+<?php include("gs2007nav.seg");?>
+</div></div>
+<div class="content">
+  <h1><!-- InstanceBeginEditable name="Title" -->SESSIONAL COMMITTEES&nbsp; <u>REVISED</u><!-- InstanceEndEditable --></h1>
+  <!-- InstanceBeginEditable name="Content" -->
+  <p><em><a href="/gs2007/rr/index.htm">up to Convening Circular<br />
+  </a></em><em><a href="/gs2007/rr/information/index.htm">^-- up to Information</a></em></p>
+
+  <p>The Council of General Synod approved the appointment of the following members to sessional committees for General Synod 2007, with authority for the Prolocutor in consultation with the General Secretary, to fill any vacancies that may occur.</p>
+  <p><strong>Agenda Committee</strong>: shall consist of not more than eight members to be drawn from the members of the General Synod. It shall be the responsibility of the committee to prepare and publish the agenda for each day of the session.</p>
+  <table border="0" cellspacing="0" cellpadding="3">
+
+    <tr>
+      <td valign="top">Bishop</td>
+      <td valign="top">The Rt. Rev. Percy David Coffin</td>
+      <td valign="top">Canada</td>
+      <td valign="top">Western Nfld</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The Rev. Dr. Stephen Hopkins</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Niagara</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The Very Rev. Logan McMenamie</td>
+      <td valign="top">B.C. and Yukon</td>
+      <td valign="top">British Columbia</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The Rev. Canon Murray Still</td>
+      <td valign="top">Rupert's Land</td>
+      <td valign="top">Rupert's Land</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Mrs. Barbara Burrows (Chair)</td>
+      <td valign="top">Rupert's Land</td>
+      <td valign="top">Edmonton</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Mrs. Grace Delaney</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Moosonee</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Ms. Suzanne Lawson</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Toronto</td>
+    </tr>
+  </table>
+  <p><strong>Nominating Committee:</strong> shall consist of one bishop, one clerical member and one lay member from each ecclesiastical province. The committee shall be constituted not later than one month prior to the opening of the General Synod, to receive nominations for standing committees and the Council of the General Synod and to supervise the election process. </p>
+  <table border="0" cellspacing="0" cellpadding="3">
+    <tr>
+      <td valign="top">Bishop</td>
+      <td valign="top">The Rt. Rev. Susan Moxley (Chair)</td>
+      <td valign="top">Canada</td>
+      <td valign="top">Nova Scotia &amp; PEI</td>
+    </tr>
+    <tr>
+      <td valign="top">Bishop</td>
+      <td valign="top">The Rt. Rev. James Njegovan</td>
+      <td valign="top">Rupert's Land</td>
+      <td valign="top">Brandon</td>
+    </tr>
+    <tr>
+      <td valign="top">Bishop</td>
+      <td valign="top">The Rt. Rev. John E. Privett</td>
+      <td valign="top">B.C. and Yukon</td>
+      <td valign="top">Kootenay</td>
+    </tr>
+    <tr>
+      <td valign="top">Bishop</td>
+      <td valign="top">The Most Rev. Caleb Lawrence</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Moosonee</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The Rev. Lily Bell</td>
+      <td valign="top">B.C. and Yukon</td>
+      <td valign="top">Caledonia</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The Rev. Canon Maureen Crerar</td>
+      <td valign="top">Rupert's Land</td>
+      <td valign="top">Edmonton</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The Ven. Dennis Drainville</td>
+      <td valign="top">Canada</td>
+      <td valign="top">Quebec</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The Rev. Canon Pat Johnson</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Ottawa</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Ms. Kathy Derksen</td>
+      <td valign="top">B.C. and Yukon</td>
+      <td valign="top">New Westminster</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Dr. David Gould</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Algoma</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Mrs. Margaret Jenniex</td>
+      <td valign="top">Canada</td>
+      <td valign="top">Central Nfld</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Dr. John Rye</td>
+      <td valign="top">Rupert&rsquo;s Land</td>
+      <td valign="top">Saskatchewan</td>
+    </tr>
+  </table>
+  <p><strong>Resolutions Committee:</strong> shall consist of up to eight members, one of whom shall be an Assessor, and with at least one bishop, one clerical and one lay member. It shall be the responsibility of the committee to receive resolutions from members of the General Synod and prepare them for submission in accordance with guidelines approved from time to time by the Council of General Synod.  </p>
+  <table border="0" cellspacing="0" cellpadding="3">
+    <tr>
+      <td valign="top">Bishop</td>
+      <td valign="top">The   Rt. Rev. Anthony Burton</td>
+      <td valign="top">Rupert's   Land</td>
+      <td valign="top">Saskatchewan</td>
+    </tr>
+    <tr>
+      <td valign="top">Bishop</td>
+      <td valign="top">The   Rt. Rev. George Elliott</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Toronto</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The   L.Col. Rev. Canon John Fletcher</td>
+      <td valign="top">&nbsp;</td>
+      <td valign="top">Canadian   Forces</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The   Rev. Michael Thompson</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Niagara</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Mrs.   Dorothy Davies-Flindall</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Ontario</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Canon   Dr. C. Martin Hendy (Chair)</td>
+      <td valign="top">B.C.   and Yukon</td>
+      <td valign="top">British   Columbia</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Ms.   Lela Zimmer</td>
+      <td valign="top">B.C.   and Yukon</td>
+      <td valign="top">Cariboo</td>
+    </tr>
+  </table>
+  <p><strong>Expenditures Committee:</strong> shall consist of members appointed by the Primate and the Prolocutor in consultation with the chairperson of the Financial Management and Development Committee. It shall be the responsibility of the committee to implement Rule of Order 15 with respect to spending motions for which sources of funds have not been identified prior to the General Synod session. </p>
+  <table border="0" cellspacing="0" cellpadding="3">
+    <tr>
+      <td valign="top">Bishop</td>
+      <td valign="top">The Rt. Rev. Claude Miller</td>
+      <td valign="top">Canada</td>
+      <td valign="top">Fredericton</td>
+    </tr>
+    <tr>
+      <td valign="top">Clergy</td>
+      <td valign="top">The Ven. William (Bill) Clarke</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Ontario</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Ms. Judy Darling (Chair)</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Ottawa</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Ms. Bonnie Fulton</td>
+      <td valign="top">B.C. and Yukon</td>
+      <td valign="top">New Westminster</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Mr. Stephen Koning</td>
+      <td valign="top">Rupert's Land</td>
+      <td valign="top">Calgary</td>
+    </tr>
+    <tr>
+      <td valign="top">Lay</td>
+      <td valign="top">Mr. Paul Rathbone</td>
+      <td valign="top">Ontario</td>
+      <td valign="top">Huron</td>
+    </tr>
+  </table>
+  <p><strong>Certification of Minutes:</strong> shall consist of the General Secretary, the Prolocutor or Deputy Prolocutor, the Honorary Clerical and Lay Secretaries, and a member of the Resolutions Committee. It shall be the responsibility of the committee to certify the accuracy of the minutes of the session of the General Synod.</p>
+  <p>The General Secretary (Chair)<br />
+    The Prolocutor or Deputy Prolocutor<br />
+    The Honorary Lay Secretary<br />
+    The Honorary Clerical Secretary<br />
+    A member of the Resolutions Committee</p>
+  <p><strong>Credentials Committee:</strong> shall consist of the General Secretary, the Prolocutor or Deputy Prolocutor, and one Assessor. It shall be the responsibility of the committee to report to the General Synod on the standing of all persons who claim membership therein, and to advise the chairperson as to a quorum of each Order.</p>
+  <p>Chancellor Ronald Stevenson (Chair)<br />
+    The Prolocutor or Deputy Prolocutor<br />
+    The General Secretary</p>
+  <p><strong>Assessors:</strong> &nbsp;The Prolocutor shall appoint two or more Assessors to advise the chairperson in respect to points of order and the Constitution and Canons.</p>
+  <table border="0" cellspacing="0" cellpadding="3">
+    <tr>
+      <td>Mr. Justice Brian Burrows</td>
+      <td>Vice-Chancellor, General Synod</td>
+    </tr>
+    <tr>
+      <td>Chancellor Beth Bilson</td>
+      <td>Chancellor, Diocese of Saskatoon</td>
+    </tr>
+    <tr>
+      <td>Chancellor Bob Falby</td>
+      <td>Chancellor, Diocese of Toronto</td>
+    </tr>
+    <tr>
+      <td>Mr. Douglas MacAdams</td>
+      <td>Chancellor Province of British Columbia and Yukon</td>
+    </tr>
+    <tr>
+      <td>The Rev. Alan Perry</td>
+      <td>Diocese of Montreal</td>
+    </tr>
+  </table>
+  <p><strong>Secretaries: </strong>On nomination of the General Secretary, the Prolocutor shall appoint from the membership of the General Synod and Honorary Clerical Secretary, and Honorary Assistant Clerical Secretary, and Honorary Lay Secretary and an Honorary Assistant Lay Secretary, who shall assist the General Secretary in keeping minutes of the General Synod.</p>
+  <table border="0" cellspacing="0" cellpadding="3">
+    <tr>
+      <td>The Rev. Canon John A. Steele</td>
+      <td>Honorary Clerical Secretary </td>
+    </tr>
+    <tr>
+      <td>Mrs. Margaret Jenniex</td>
+      <td>Honorary Lay Secretary </td>
+    </tr>
+    <tr>
+      <td>The Rev. Karen Chalk</td>
+      <td>Honorary Assistant Clerical Secretary</td>
+    </tr>
+    <tr>
+      <td>Ms. Kathy Hartsook</td>
+      <td>Honorary Assistant Lay Secretary</td>
+    </tr>
+  </table>
+  <!-- InstanceEndEditable -->
+  <p>&nbsp;</p>
+  <div class="frompage"> <!-- InstanceBeginEditable name="frompage" -->
+    <ul>
+      <li><a href="/gs2007/rr/information/inf-07-17.pdf">This document in PDF format</a></li>
+    </ul>
+    <!-- InstanceEndEditable --></div>
+  <hr />
+  <p class="footer">Last updated: <!-- InstanceBeginEditable name="Date" -->
+    <!-- #BeginDate format:acAm1 -->Fri, May 18, 2007<!-- #EndDate -->
+  <!-- InstanceEndEditable --><br />
+    &copy; 1998-2006 the General Synod of the Anglican Church of Canada<br />
+  <span class="printonly">The content on this website is for informational purposes only. In case of a discrepancy between the content of this website and printed material produced by General Synod, the printed version is to be considered correct.</span>
+  <span class="noprint"><a href="http://www.anglican.ca/search/contentpolicy.htm">website content policy</a> | <a href="xghttp://www.anglican.ca/search/contact-info.htm">information desk</a> | <a href="xhttp://www.anglican.ca/search/contact-wm.htm">technical support</a></span></p>
+  <p class="footerblack"><strong>The Anglican Church of Canada</strong><br />
+    80 Hayden Street<br />
+    Toronto, Ontario M4Y 3G2<br />
+  Main switchboard: 416-924-9192</p>
+</div>
+ 
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-191686-3";
+urchinTracker();
+</script>
+
+</body>
+<!-- InstanceEnd --></html>

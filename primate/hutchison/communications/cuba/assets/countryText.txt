@@ -1,0 +1,39 @@
+&story1BtnText=Reflections of a friend&
+&story2BtnText=Canada in Cuba&
+&story3vBtnText=Cuban Innovation&
+&story4BtnText="To see how we are"&
+&story5vBtnText=A serving Church...&
+&story6BtnText=This is all about Cuba6.&
+&story7BtnText=This is all about Cuba7.&
+&story8BtnText=This is all about Cuba8.&
+&story9BtnText=This is all about Cuba9.&
+
+//
+//
+&homeText=<font color="#FFFFFF" size="14" FACE="Arial"><p>Archbishop Andrew Hutchison, Primate of the Anglican Church of Canada, visited Cuba and the Episcopal Church of Cuba Jan.31 to Feb.6. The Canadian primate has chaired the Metropolitan Council of Cuba (MCC) since its formation in 1967 with secretarial assistance from the Canadian church's Latin America/Caribbean Mission Coordinator. Archbishop Hutchison also visited several projects supported by the Primate's World Relief and Development Fund.</p><p>"Welcome to Cuba and especially to the Episcopal Church in Cuba. I've just returned with a delegation of eight people from the Canadian church visiting the Cuban Synod. There are some 10,000 Anglicans in Cuba organized into 45 parishes served by 25 clergy and with a very close and particular relationship with our church here in Canada.</p>
+<p>
+I would really like to hear from you. So please take note of the email address and write to me. I assure you that each message will be read and that you will receive a response."</p> 
+</font>&
+//
+//
+&story1Text=<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#FFFFFF">This was the last official visit to Cuba for Canon Philip Wadham, mission coordinator for Latin America and the Caribbean for the Partnerships department of General Synod. He is scheduled to retire in April, 2006. Canon Wadham served as secretary to the Metropolitan Council of Cuba, assisted by Cuban diocesan administrator Francisco de Arazosa. Canon Wadham was responsible for arranging council meetings, ensuring the participation of all members, and making sure that action items were carried out.</font></p>&
+//
+//
+&story2Text=<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#FFFFFF"> The Primate and the Canadian delegation which accompanied him to Cuba, visited the Christian Center for Reflection and Dialogue in Cardenas, and met Rev. Raimundo Garcia. The centre is a religious institution with profound social objectives. It is an inclusive, non-profit organization that serves Cuban society from a practical as well as theological perspective.</font></p>&
+//
+//
+&story3vText=<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#FFFFFF">Archbishop Andrew Hutchison describes an innovative use of an abundant resource by workers at a farm operated by the Christian Center for Reflection and Dialogue in Cardenas. The farm collects animal waste and turns it into methane gas that powers the center's facilities cheaply. The material that remains is rich fertilizer for fields and gardens</font></p>&
+//
+//
+&story4Text=<P ALIGN="LEFT"><FONT FACE="Arial" SIZE="14" COLOR="#FFFFFF">During their visit to the <em>Seminario Evangelico de Teologia</em> (Protestant Theological Seminary) in Mantazas, Canadians were welcomed by 91-year old Professor emeritus Rene Castillano. In his remarks in the seminary chapel, Professor Castillano, who teaches languages and dance, likened the Canadians' visit to St. Paul calling on Barnarbas to "go to those churches to see how they are." The Anglican Church of Canada has been supporting the seminary in Matanzas for more than 60 years.</font></p>&
+//
+//
+//
+//
+&story5vText=<FONT FACE="Arial" SIZE="14" COLOR="#FFFFFF"><p>"When the Anglican Congress was held here in Canada in 1963 the Archbishop of Canterbury said to us, among other things, the church must learn to be a serving church. The church in Cuba is a shining example of those who follow the servant Jesus in their ministry. 
+</p><p>
+Their social ministry is at the heart of everything they do and that they do with joy and with thanksgiving. What a privilege for us to have some insight into that and I hope some learning for the benefit of the church here in Canada. 
+</p><p>
+I invite you to reflect upon your ministry as followers of the servant Jesus in a church that is called to be a serving church."</p></font>&
+//
+//

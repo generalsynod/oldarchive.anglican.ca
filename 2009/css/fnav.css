@@ -1,0 +1,126 @@
+#fnav_container {
+	font-family: Calibri "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 0px;
+	width: 923px;
+	color: #FFF;
+	background-color: #435A7A;
+	text-align:left;
+	border: 10px solid #435A7A;
+	background-image: url(http://www.anglican.ca/2009/images/fnav_line.gif);
+	margin: 0 auto;
+	float: left;
+}
+#fnav_container ul {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 1em;
+	list-style-image: url(http://www.anglican.ca/2009/images/fnav_bullet.gif);
+	margin: 0px;	
+}
+#fnav_3box_container {
+	float: left;
+	width: 552px;
+	margin: 0px;
+}
+#fnav_container h3, h4 {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: .3333em;
+	padding-left: 0px;
+	font-family: Calibri "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#FFF;
+}
+#fnav_container h3 {
+	font-size: 1.4em;		
+	line-height: 1.4em;
+}
+#fnav_3box_1 h4 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: .3333em;
+	padding-left: 0px;
+	font-family: Calibri "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#FFF;
+}
+#fnav_3box_3 h4 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: .3333em;
+	padding-left: 0px;
+	font-family: Calibri "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#FFF;
+}
+#fnav_3box_2 h4 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: .3333em;
+	padding-left: 0px;
+	font-family: Calibri "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#FFF;
+}
+#fnav_3box_1 {
+	float: left;
+	width: 179px;
+	margin-right: 5px;
+}
+#fnav_3box_2 {
+	float: left;
+	width: 179px;
+	margin-right: 5px;
+}
+#fnav_3box_3 {
+	float: left;
+	width: 179px;
+	margin-right: 5px;
+}
+#fnav_4 {
+	float: left;
+	width: 179px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#fnav_5 {
+	float: right;
+	width: 179px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+#fnav_container ul ul {
+	font-size: 1.0em;
+}
+#fnav_container li {
+	font-size: 1.0em;
+	padding-bottom: 0.13em;
+	font-family: Calibri "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#fnav_container a {
+	color: #FFF;
+}
+#fnav_container a:link, a:visited, a:active {
+	text-decoration: none;
+}
+#fnav_container a:hover {
+	text-decoration: underline;
+}

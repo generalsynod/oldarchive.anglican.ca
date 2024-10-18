@@ -1,0 +1,53 @@
+/* CSS Document */
+
+
+body{
+	padding :0;
+	margin :0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.noprint { display:none; }
+
+/* new below */
+
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #666666;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16pt;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0px;
+	padding: 0px;
+
+}
+	
+
+/* footer text elements */
+
+.footer {
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,63 @@
+<ul id="MenuBar1" class="MenuBarVertical">
+  <li><a href="/mission/">Mission and Justice</a></li>
+  <li><a href="/mission/about/" class="MenuBarItemSubmenu">About 
+    </a>
+    <ul>
+      <li><a href="/mission/about/ourwork/">How we work</a></li>
+      <li><a href="/mission/about/wherewework/">Where we work</a></li>
+      <li><a href="/mission/about/partners/">Our Partners</a></li>
+      <li><a href="/mission/about/youcanhelp/">How you can help</a></li>
+      <li><a href="/mission/about/news/">Latest news</a></li>
+      <li><a href="/about/departments/pimej/">Partnerships department</a></li>
+      <li><a href="/about/committees/pmej.htm">Committee</a></li>
+      <li><a href="/about/departments/partnerships/staff.htm">Staff listing</a></li>
+    </ul>
+  </li>
+  <li><a href="/mission/programs/" class="MenuBarItemSubmenu">Programs</a>
+    <ul>
+      <li><a href="/mission/programs/justicecamps/">Justice Camps</a></li>
+      <li><a href="/mission/programs/tiii/" class="MenuBarItemSubmenu">Theological Students International Internship</a>
+        <ul>
+          <li><a href="/mission/programs/tiii/apply.htm">How to apply</a></li>
+          <li><a href="/mission/programs/tiii/students/">Current students</a></li>
+        </ul>
+      </li>
+      <li><a href="/mission/programs/vim/" class="MenuBarItemSubmenu">Volunteers in Mission</a>
+        <ul>
+          <li><a href="/mission/programs/vim/opportunities.htm">Opportunities</a></li>
+          <li><a href="/mission/programs/vim/vims/">Current VIMs</a></li>
+          <li><a href="/mission/programs/vim/vims/past.htm">Past VIMs</a></li>
+        </ul>
+      </li>
+      <li><a href="/mission/programs/globalrelations/" class="MenuBarItemSubmenu">Global Relations</a>
+        <ul>
+          <li><a href="/mission/programs/globalrelations/philosophy.htm">Program philospophy</a></li>
+          <li><a href="/mission/programs/globalrelations/reports/">Trip reports</a></li>
+        </ul>
+      </li>
+      <li><a href="/mission/programs/ccdp/">Canadian Companion Diocese Program</a></li>
+      <li><a href="/mission/programs/dov/">Decade to Overcome Violence</a></li>
+      <li><a href="/mission/programs/people/">Partnership Visits and People Exchange</a></li>
+    </ul>
+  </li>
+  <li><a href="/mission/resources/" class="MenuBarItemSubmenu">Resources</a>
+    <ul>
+      <li><a href="/mission/resources/pwop/">Praying with our Partners</a></li>
+      <li><a href="/mission/resources/jwjp/">Just War Just Peace</a></li>
+      <li><a href="/mission/resources/jhr/">A Justice that heals and restores</a></li>
+      <li><a href="/mission/resources/justliving/">Just living</a></li>
+      <li><a href="/mission/resources/links/">Links</a></li>
+    </ul>
+  </li>
+  <li><a href="/mission/action/" class="MenuBarItemSubmenu">Areas of action
+    </a>
+    <ul>
+      <li><a href="/mission/action/ecology/">Ecology &amp; Economy</a></li>
+      <li><a href="/mission/action/ij/">Indigenous Justice</a></li>
+      <li><a href="/mission/action/peace/">Peace &amp; Non-violence</a></li>
+      <li><a href="/mission/action/anglicancommunion/">Anglican Communion in Mission</a></li>
+      <li><a href="/mission/action/worship/">Worship and Theological reflection</a></li>
+      <li><a href="/mission/action/networking/">Education, Communications &amp; Networking</a></li>
+    </ul>
+  </li>
+</ul>

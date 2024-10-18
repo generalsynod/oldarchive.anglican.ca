@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "admin"
+AuthUserFile "/home/accnews/.htpasswds/public_html/www2/jobs/admin/passwd"
+require valid-user
