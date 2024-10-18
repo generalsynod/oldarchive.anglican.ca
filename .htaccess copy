@@ -1,0 +1,191 @@
+
+RewriteEngine on
+#php_value include_path .:/home/accnews/www/www2/includes/
+#AddType application/x-httpd-php .htm
+AddHandler application/x-httpd-php5 .htm
+AddHandler application/x-httpd-php5 .html
+RewriteRule ^(.*)\.php /$1.htm [R=301,L]
+
+Redirect permanent /windsor http://archive.anglican.ca/about/windsor
+Redirect permanent /about/index.htm http://www.anglican.ca/about/
+
+Redirect permanent /gs2010/index.php /gs2010/
+Redirect permanent /v2019/index.php /v2019/
+Redirect permanent /v2019/mm/2.php  /v2019/mm/2.htm
+
+Redirect permanent /rs/index.php http://www.anglican.ca/tr/
+Redirect permanent /rs/index.htm http://www.anglican.ca/tr/
+Redirect permanent /rs/apology/apology.htm http://www.anglican.ca/tr/apology/
+Redirect permanent /rs/apology/index.htm http://www.anglican.ca/tr/apology/
+Redirect permanent /rs/history/index.htm http://www.anglican.ca/tr/histories/
+Redirect permanent /rs/history/schools/index.htm http://www.anglican.ca/tr/schools/
+Redirect permanent /rs/history/schools/histories.htm http://www.anglican.ca/tr/histories/
+
+Redirect permanent /rs/history/news/rsupdate-2007-03.htm http://www.anglican.ca/tr/newsarchive/rsupdate-2007-03/
+Redirect permanent /rs/apology/qa-2005-11-23.htm http://www.anglican.ca/tr/newsarchive/qa-2005-11-23/
+
+Redirect permanent /rs/history/news/rsupdate16.htm http://www.anglican.ca/tr/newsarchive/rsupdate16/
+Redirect permanent /rs/history/news/rsupdate15.htm http://www.anglican.ca/tr/newsarchive/rsupdate15/
+Redirect permanent /rs/history/news/rsupdate14.htm http://www.anglican.ca/tr/newsarchive/rsupdate14/
+Redirect permanent /rs/history/news/rsupdate13.htm http://www.anglican.ca/tr/newsarchive/rsupdate13/
+Redirect permanent /rs/history/news/rsupdate12.htm http://www.anglican.ca/tr/newsarchive/rsupdate12/
+Redirect permanent /rs/history/news/rsupdate11.htm http://www.anglican.ca/tr/newsarchive/rsupdate11/
+Redirect permanent /rs/history/news/rsupdate10.htm http://www.anglican.ca/tr/newsarchive/rsupdate10/
+Redirect permanent /rs/history/news/rsupdate9.htm http://www.anglican.ca/tr/newsarchive/rsupdate9/
+Redirect permanent /rs/history/news/rsupdate8.htm http://www.anglican.ca/tr/newsarchive/rsupdate8/
+Redirect permanent /rs/history/news/rsupdate7.htm http://www.anglican.ca/tr/newsarchive/rsupdate7/
+Redirect permanent /rs/history/news/rsupdate6.htm http://www.anglican.ca/tr/newsarchive/rsupdate6/
+Redirect permanent /rs/history/news/rsupdate5.htm http://www.anglican.ca/tr/newsarchive/rsupdate5/
+Redirect permanent /rs/history/news/rsupdate4.htm http://www.anglican.ca/tr/newsarchive/rsupdate4/
+Redirect permanent /rs/history/news/rsupdate3.htm http://www.anglican.ca/tr/newsarchive/rsupdate3/
+Redirect permanent /rs/history/news/rsupdate2.htm http://www.anglican.ca/tr/newsarchive/rsupdate2/
+Redirect permanent /rs/history/news/rsupdate1.htm http://www.anglican.ca/tr/newsarchive/rsupdate1/
+
+Redirect permanent /rs/history/news/pr1.htm http://www.anglican.ca/tr/newsarchive/pr1/
+Redirect permanent /rs/history/news/pr2.htm http://www.anglican.ca/tr/newsarchive/pr2/
+Redirect permanent /rs/history/news/pr3.htm http://www.anglican.ca/tr/newsarchive/pr3/
+Redirect permanent /rs/history/news/pr4.htm http://www.anglican.ca/tr/newsarchive/pr4/
+Redirect permanent /rs/history/news/pr5.htm http://www.anglican.ca/tr/newsarchive/pr5/
+Redirect permanent /rs/history/news/pr6.htm http://www.anglican.ca/tr/newsarchive/pr6/
+Redirect permanent /rs/history/news/pr7.htm http://www.anglican.ca/tr/newsarchive/pr7/
+Redirect permanent /rs/history/news/pr8.htm http://www.anglican.ca/tr/newsarchive/pr8/
+Redirect permanent /rs/history/news/pr9.htm http://www.anglican.ca/tr/newsarchive/pr9/
+Redirect permanent /rs/history/news/pr10.htm http://www.anglican.ca/tr/newsarchive/pr10/
+Redirect permanent /rs/history/news/pr11.htm http://www.anglican.ca/tr/newsarchive/pr11/
+Redirect permanent /rs/history/news/pr12.htm http://www.anglican.ca/tr/newsarchive/pr12/
+Redirect permanent /rs/history/news/pr13.htm http://www.anglican.ca/tr/newsarchive/pr13/
+Redirect permanent /rs/history/news/pr14.htm http://www.anglican.ca/tr/newsarchive/pr14/
+Redirect permanent /rs/history/news/pr15.htm http://www.anglican.ca/tr/newsarchive/pr15/
+Redirect permanent /rs/history/news/pr16.htm http://www.anglican.ca/tr/newsarchive/pr16/
+
+Redirect permanent /rs/history/news/primer.htm http://www.anglican.ca/tr/newsarchive/primer/
+Redirect permanent /rs/history/news/QA-Feb4-02.htm http://www.anglican.ca/tr/newsarchive/qa-feb4-02/
+Redirect permanent /rs/history/news/letter2globe.htm http://www.anglican.ca/tr/newsarchive/letter2globe/
+Redirect permanent /rs/history/news/cruickshank2.htm http://www.anglican.ca/tr/newsarchive/cruickshank2/
+Redirect permanent /rs/history/news/cruickshank.htm http://www.anglican.ca/tr/newsarchive/cruickshank/
+Redirect permanent /rs/history/news/stewards.htm http://www.anglican.ca/tr/newsarchive/stewards/
+Redirect permanent /rs/history/news/rcap_summary.htm http://www.anglican.ca/tr/newsarchive/rcap_summary/
+
+Redirect permanent /rs/history/schools/st-georges-school-lytton.htm http://www.anglican.ca/tr/histories/st-georges-school-lytton/
+Redirect permanent /rs/history/schools/all-saints-school-sk.htm http://www.anglican.ca/tr/histories/all-saints-school-sk/
+Redirect permanent /rs/history/schools/all-saints-aklavik.htm http://www.anglican.ca/tr/histories/all-saints-aklavik/
+Redirect permanent /rs/history/schools/bishop-horden.htm http://www.anglican.ca/tr/histories/bishop-horden/
+Redirect permanent /rs/history/schools/ft-simpson-nwt.htm http://www.anglican.ca/tr/histories/ft-simpson-nwt/
+Redirect permanent /rs/history/schools/chooutla-carcross.htm http://www.anglican.ca/tr/histories/chooutla-carcross/
+Redirect permanent /rs/history/schools/coppermine.htm http://www.anglican.ca/tr/histories/coppermine/
+Redirect permanent /rs/history/schools/elkhorn.htm http://www.anglican.ca/tr/histories/elkhorn/
+Redirect permanent /rs/history/schools/ft-mcpherson-nwt.htm http://www.anglican.ca/tr/histories/ft-mcpherson-nwt/
+Redirect permanent /rs/history/schools/gordons-school-punnichy.htm http://www.anglican.ca/tr/histories/gordons-school-punnichy/
+Redirect permanent /rs/history/schools/la-tuque-quebec.htm http://www.anglican.ca/tr/histories/la-tuque-quebec/
+Redirect permanent /rs/history/schools/mackay.htm http://www.anglican.ca/tr/histories/mackay/
+Redirect permanent /rs/history/schools/mohawk-institute.htm http://www.anglican.ca/tr/histories/mohawk-institute/
+Redirect permanent /rs/history/schools/old-sun.htm http://www.anglican.ca/tr/histories/old-sun/
+Redirect permanent /rs/history/schools/pelican-lake.htm http://www.anglican.ca/tr/histories/pelican-lake/
+Redirect permanent /rs/history/schools/prince-albert.htm http://www.anglican.ca/tr/histories/prince-albert/
+Redirect permanent /rs/history/schools/shingle-point-yukon.htm http://www.anglican.ca/tr/histories/shingle-point-yukon/
+Redirect permanent /rs/history/schools/shingwauk.htm http://www.anglican.ca/tr/histories/shingwauk/
+Redirect permanent /rs/history/schools/yukon-hostels.htm http://www.anglican.ca/tr/histories/yukon-hostels/
+Redirect permanent /rs/history/schools/st-andrews-whitefish.htm http://www.anglican.ca/tr/histories/st-andrews-whitefish/
+Redirect permanent /rs/history/schools/st-barnabas-onion-lake.htm http://www.anglican.ca/tr/histories/st-barnabas-onion-lake/
+Redirect permanent /rs/history/schools/st-barnabas-sarcee.htm http://www.anglican.ca/tr/histories/st-barnabas-sarcee/
+Redirect permanent /rs/history/schools/st-cyprian-brockel.htm http://www.anglican.ca/tr/histories/st-cyprian-brockel/
+Redirect permanent /rs/history/schools/st-johns-chapleau.htm http://www.anglican.ca/tr/histories/st-johns-chapleau/
+Redirect permanent /rs/history/schools/st-johns-wabasca.htm http://www.anglican.ca/tr/histories/st-johns-wabasca/
+Redirect permanent /rs/history/schools/st-michaels-alert-bay.htm http://www.anglican.ca/tr/histories/st-michaels-alert-bay/
+Redirect permanent /rs/history/schools/st-pauls-cardston.htm http://www.anglican.ca/tr/histories/st-pauls-cardston/
+Redirect permanent /rs/history/schools/st-perters-hay-river.htm http://www.anglican.ca/tr/histories/st-perters-hay-river/
+Redirect permanent /rs/history/schools/st-peters-lesser-slave-lake.htm http://www.anglican.ca/tr/histories/st-peters-lesser-slave-lake/
+Redirect permanent /rs/history/schools/st-philips-ftgeorge.htm http://www.anglican.ca/tr/histories/st-philips-ftgeorge/
+Redirect permanent /rs/history/schools/stringer-hall-inuvik.htm http://www.anglican.ca/tr/histories/stringer-hall-inuvik/
+
+Redirect permanent /rs/trc/001-May-10-2010.htm http://www.anglican.ca/tr/newsarchive/001-may-10-2010/
+Redirect permanent /rs/trc/002-May-18-2010.htm http://www.anglican.ca/tr/newsarchive/002-may-18-2010/
+Redirect permanent /rs/trc/003-May-25-2010.htm http://www.anglican.ca/tr/newsarchive/003-may-25-2010/
+Redirect permanent /rs/trc/005-Aug-19-2010.htm http://www.anglican.ca/tr/newsarchive/005-aug-19-2010/ 
+
+
+Redirect permanent /rs/history/news/index.htm http://www.anglican.ca/tr/newsarchive/
+Redirect permanent /rs/trc/index.htm http://www.anglican.cc/tr/
+
+Redirect permanent /rs/apology/apology.php http://www.anglican.ca/tr/apology/
+
+Redirect permanent /rs/ourwork/missingchildren.htm http://www.anglican.ca/tr/missing-children/
+
+Redirect permanent /rs/healingfund/ http://www.anglican.ca/healingfund/
+Redirect permanent /rs/healing/ http://www.anglican.ca/healingfund/
+Redirect permanent /rs/healing/criteria.htm http://www.anglican.ca/healingfund/criteria/
+Redirect permanent /rs/healing/guideline.htm http://www.anglican.ca/healingfund/process-guideline/
+Redirect permanent /rs/healing/projects.htm http://www.anglican.ca/healingfund/projects/
+Redirect permanent /rs/healing/forms.htm http://www.anglican.ca/healingfund/forms/
+
+Redirect permanent /index.htm http://www.anglican.ca/
+Redirect permanent /index.html http://www.anglican.ca/
+Redirect permanent /index.php http://www.anglican.ca/
+Redirect permanent /search/contactus.htm http://www.anglican.ca/search/contactus.htm
+Redirect permanent /appeal/index.htm http://www.anglican.ca/appeal/index.htm
+Redirect permanent /search/faq/index.htm http://www.anglican.ca/search/faq/index.htm
+Redirect permanent /search/sitemap.htm http://www.anglican.ca/search/sitemap.htm
+Redirect permanent /search/sites.htm http://www.anglican.ca/search/sites.htm
+Redirect permanent /search/index.htm http://www.anglican.ca/search/index.htm
+Redirect permanent /primate/index.htm http://www.anglican.ca/primate/index.htm
+Redirect permanent /about/departments/cir/index.htm http://www.anglican.ca/about/departments/cir/index.htm
+Redirect permanent /about/departments/fwm/index.htm http://www.anglican.ca/about/departments/fwm/index.htm
+Redirect permanent /about/departments/fmd/index.htm http://www.anglican.ca/about/departments/fmd/index.htm
+Redirect permanent /im/index.htm http://www.anglican.ca/im/index.htm
+Redirect permanent /about/departments/gso/index.htm http://www.anglican.ca/about/departments/gso/index.htm
+Redirect permanent /about/departments/partnerships/index.htm http://www.anglican.ca/about/departments/partnerships/index.htm
+Redirect permanent /about/cogs/index.htm http://www.anglican.ca/about/cogs/index.htm	
+Redirect permanent /about/committees/index.htm http://www.anglican.ca/about/committees/index.htm
+Redirect permanent /about/committees/acip/index.htm http://www.anglican.ca/about/committees/acip/index.htm
+Redirect permanent /amo/index.html http://www.anglican.ca/amo/
+Redirect permanent /cn/index.html http://www.anglican.ca/cn
+Redirect permanent /primate/ptc/index.htm http://www.anglican.ca/primate/ptc/index.htm
+Redirect permanent /resources/index.htm http://www.anglican.ca/resources/index.htm
+Redirect permanent /mission/resources/pwop/index.htm http://www.anglican.ca/mission/resources/pwop/index.htm
+Redirect permanent /about/handbook/index.htm http://www.anglican.ca/about/handbook/index.htm
+Redirect permanent /faith/hs/index.htm http://www.anglican.ca/faith/hs/index.htm
+Redirect permanent /faith/hs/index.htm http://www.anglican.ca/faith/hs/index.htm
+Redirect permanent /news/otherlists.htm http://www.anglican.ca/news/otherlists.htm
+Redirect permanent /faith/worship/resources.htm http://www.anglican.ca/faith/worship/resources.htm
+Redirect permanent /search/databases.htm http://www.anglican.ca/search/databases.htm
+Redirect permanent /about/diocese.htm http://www.anglican.ca/about/diocese.htm
+Redirect permanent /search/contentpolicy.htm http://www.anglican.ca/search/contentpolicy.htm
+Redirect permanent /contact/webmanager.htm http://www.anglican.ca/contact/webmanager.htm
+Redirect permanent /contact/info.htm http://www.anglican.ca/contact/info.htm
+Redirect permanent /search/map.htm http://www.anglican.ca/search/map.htm
+
+Redirect permanent /fm/Planned-Giving http://www.anglican.ca/gifts/planned-giving
+Redirect permanent /fm/giftplanning/index.php http://www.anglican.ca/gifts/planned-giving
+
+Redirect permanent /faith/index.htm http://www.anglican.ca/faith/
+Redirect permanent /news/index.htm http://www.anglican.ca/news/
+Redirect permanent /primate/primacy.htm http://www.anglican.ca/primate/ministry/
+Redirect permanent /primate/biography.htm http://www.anglican.ca/primate/bio/
+Redirect permanent /primate/communications/index.htm http://www.anglican.ca/primate/communications/
+Redirect permanent /primate/photos/index.htm http://www.anglican.ca/primate/photos/
+Redirect permanent /primate/tpo/index.htm http://www.anglican.ca/primate/tfc/tpo/
+Redirect permanent /primate/staff.htm http://www.anglican.ca/help/contactus/
+Redirect permanent /search/contentpolicy.htm http://www.anglican.ca/help/colophon/contentinfo/
+Redirect permanent /gs2010/index.htm http://archive.anglican.ca/gs2010/index.html
+
+Redirect permanent /mission http://www.anglican.ca/relationships
+
+#GS2007#
+
+Redirect permanent /gs2007/about/ip.php http://archive.anglican.ca/gs2007/about/ip.htm
+
+#JOBS
+
+Redirect permanent /jobs/index.htm?action=AddJobPosting http://jobs.anglican.ca/submit-a-job-posting/
+Redirect permanent /jobs/index.htm http://jobs.anglican.ca/
+
+
+AddType application/vnd.openxmlformats-officedocument.wordprocessingml.document docx
+AddType video/mp4 mp4
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php81” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
