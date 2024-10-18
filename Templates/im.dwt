@@ -26,18 +26,18 @@ function selfURL() { $s = empty($_SERVER["HTTPS"]) ? '' : ($_SERVER["HTTPS"] == 
 <body>
 <div class="printonly"><img src="/anglican/common_images/acc-logo-print.gif" alt=" " width="263" height="50" /><br /><hr size="1" noshade="noshade" /></div>
 <div align="center">
-	<div id="background"><?php include '/home/accnews/public_html/www2/includes/topwhiteheaderwsearch.html' ?>
+	<div id="background"><?php include '/home/accnews/public_html/oldarchive.anglican.ca/includes/topwhiteheaderwsearch.html' ?>
 <div id="bannerImage"><table class="noprint" width="100%" height="200" cellpadding="7" cellspacing="0">
   <tr>
     <td valign="bottom">&nbsp;</td>
   </tr></table></div>
   <div id="apDiv1"><!-- TemplateBeginEditable name="page title" -->Indigenous Ministries<!-- TemplateEndEditable --></div>
   
-  <?php include '/home/accnews/public_html/www2/includes/horizontal-nav.shtml' ?>
+  <?php include '/home/accnews/public_html/oldarchive.anglican.ca/includes/horizontal-nav.shtml' ?>
 		<div id="bodyContainer">
 		<table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="151" valign="top" class="noprint"><?php include '/home/accnews/public_html/www2/includes/im-sidebar.html' ?></td>
+    <td width="151" valign="top" class="noprint"><?php include '/home/accnews/public_html/oldarchive.anglican.ca/includes/im-sidebar.html' ?></td>
     <td valign="top"><div id="bodyContent">
 			  <div class="bcText" id="bcText">
 			  <p>You are here: <script type="text/javascript">KW_breadcrumbs("Home",">",0,1,"index.htm",3,4)</script></p></div>

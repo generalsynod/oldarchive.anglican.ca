@@ -53,9 +53,9 @@ function MM_swapImage() { //v3.0
 <div id="containerV2019">
 <div id="container">
 	<div id="CT2019"></div>
-	<div id="CT"><?php include '/home/accnews/public_html/www2/v3/commontop.html' ?></div>
+	<div id="CT"><?php include '/home/accnews/public_html/oldarchive.anglican.ca/v3/commontop.html' ?></div>
 </div>
-<div id="horzNav"><?php include '/home/accnews/public_html/www2/v2019/horznavspry.html' ?></div>
+<div id="horzNav"><?php include '/home/accnews/public_html/oldarchive.anglican.ca/v2019/horznavspry.html' ?></div>
    	<div id="homeTop"><img src="/v2019/images/01L.jpg" width="300" height="102" alt=" " /><img src="/v2019/images/01R.jpg" alt="VISION 2019 logo" width="667" height="102" /></div>
    	<div id="leftC1">
 	  <div id="side"><!-- TemplateBeginEditable name="sidepullquote" -->
@@ -95,7 +95,7 @@ var addthis_header_background = "#0b1e6b";
 
 <div id="CB">
   
-  <div id="CB2019"><?php include '/home/accnews/public_html/www2/v3/footer.html' ?></div>
+  <div id="CB2019"><?php include '/home/accnews/public_html/oldarchive.anglican.ca/v3/footer.html' ?></div>
 
 </div></div></div>
 <style type='text/css'>@import url('http://s3.amazonaws.com/getsatisfaction.com/feedback/feedback.css');</style>

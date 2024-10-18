@@ -88,11 +88,11 @@ function MM_CheckFlashVersion(reqVerStr,msg){
 
 <body  onload="MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
 <div id="header"><p><img src="/gs2007/images/gslogoprint.gif" width="289" height="92" alt=" " /></p></div>
-<div id="commonNav"><div class="noprint"><?php include("/home/accnews/public_html/www2/includes/topbar-new.shtm");?></div></div>
+<div id="commonNav"><div class="noprint"><?php include("/home/accnews/public_html/oldarchive.anglican.ca/includes/topbar-new.shtm");?></div></div>
 <div id="logotop"><a href="/gs2007/index.htm"><img src="/gs2007/images/logo.gif" alt="General Synod 2007" width="230" height="75" border="0" /></a><img src="/gs2007/images/gstitle.gif" alt=" " width="530" height="75" /></div>
 <div id="Layer2">
   <div id="suckerdiv">
-<?php include("/home/accnews/public_html/www2/includes/gs2007nav.seg");?>
+<?php include("/home/accnews/public_html/oldarchive.anglican.ca/includes/gs2007nav.seg");?>
 </div></div>
 <div class="content">
   <h1><!-- TemplateBeginEditable name="Title" -->General Synod 2007<!-- TemplateEndEditable --></h1>

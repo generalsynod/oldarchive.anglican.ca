@@ -1,6 +1,6 @@
 
 RewriteEngine on
-#php_value include_path .:/home/accnews/www/www2/includes/
+#php_value include_path .:/home/accnews/www/oldarchive.anglican.ca/includes/
 #AddType application/x-httpd-php .htm
 AddHandler application/x-httpd-php5 .htm
 AddHandler application/x-httpd-php5 .html

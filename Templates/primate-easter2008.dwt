@@ -24,7 +24,7 @@ function selfURL() { $s = empty($_SERVER["HTTPS"]) ? '' : ($_SERVER["HTTPS"] == 
 <body>
 <div class="printonly"><img src="/anglican/common_images/acc-logo-print.gif" alt=" " width="263" height="50" /><br /><hr size="1" noshade="noshade" /></div>
 <div align="center">
-	<div id="background"><?php include '/home/accnews/public_html/www2/includes/topwhiteheaderwsearch.html' ?>
+	<div id="background"><?php include '/home/accnews/public_html/oldarchive.anglican.ca/includes/topwhiteheaderwsearch.html' ?>
 <div id="primateBannerImage-easter2008"></div>
   <div id="primatebodyContainer">
   <div id="primatebodyText"><!-- TemplateBeginEditable name="Text" -->

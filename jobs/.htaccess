@@ -1,6 +1,6 @@
 <Files admin.php>
      AuthType Basic
      AuthName "admin"
-     AuthUserFile "/home/accnews/.htpasswds/public_html/www2/jobs/admin/passwd"
+     AuthUserFile "/home/accnews/.htpasswds/public_html/oldarchive.anglican.ca/jobs/admin/passwd"
      Require valid-user
 </Files>
